@@ -1,6 +1,5 @@
 ---
 title: 'Voices of Race'
-subtitle: 'January 11 to Feburary 28, 2015'
 type: homepage
 ---
 <!DOCTYPE html>
@@ -87,8 +86,8 @@ type: homepage
     <div class="page-header">
       <div class="page-title">
         <h1 {% if page.type == 'homepage' %}class="home-title"{% endif %}>{{ page.title }}</h1>
-      {% if page.subtitle %}
-        <p>{{ page.subtitle }}</p>
+      {% if page.type == 'homepage' %}
+        <p>{{ site.series_dates }}</p>
       {% endif %}
       </div>
     </div>
@@ -132,7 +131,7 @@ type: homepage
     <div class="row">
       <div class="small-6 columns">
         <a href=" {{ site.baseurl }}/" class="brand">{{ site.title }} {{ site.subtitle }}</a>
-        <p class="event-dates">{{ site.event_dates }}</p>
+        <p class="event-dates">{{ site.series_dates }}</p>
       </div>
       <div class="small-6 columns contact-info">
         <p>Questions? Get in touch with us</p>
