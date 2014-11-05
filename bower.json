@@ -1,0 +1,6 @@
+{
+    "name": "Coming Together in Skokie and Niles Township",
+    "dependencies": {
+       "foundation": "~5.1.0"
+    }
+}

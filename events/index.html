@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <!--<ul class="post-list">
+    {% for post in site.posts reversed | group_by:"date" %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.content }}</p>
+        <p>{{ post.times }}</p>
+        <p>{{ post.location }}</p>
+      </li>
+    {% endfor %}
+  </ul>-->
+  {% for post in site.posts reversed %}
+    {% capture currentdate %}{{post.date | date: "%A, %B %d"}}{% endcapture %}
+      {% if currentdate != date %}
+        {% unless forloop.first %}</div>{% endunless %}
+        <div class="events-list single-day {{ post.date | date: "%Y-%d-%m"}}">
+        <h2>{{ currentdate }}</h2>
+        {% capture date %}{{currentdate}}{% endcapture %}
+      {% endif %}
+        <div class="event">
+          <h3>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <p><small>{{ post.times }}, {{ post.location }}</small></p>
+          <p>{{ post.content }}</p>
+        </div>
+        <hr>
+{% endfor %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
