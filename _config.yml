@@ -4,7 +4,7 @@ subtitle: 'in Skokie & Niles Township'
 email: your-email@domain.com
 series_title: 'Voices of Race'
 description: 'A cultural and literary series exploring race and how it affects us and our community.'
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/comingtogether" # the subpath of your site, e.g. /blog/
 url: "http://comingtogether.in" # the base hostname & protocol for your site
 permalink: /events/:year/:month/:day/:title
 exclude: [README.md, bower.json, bower_components, scss, node_modules, gulpfile.js]
