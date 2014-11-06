@@ -455,7 +455,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem;
+  max-width: 80rem;
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -4221,7 +4221,7 @@ meta.foundation-mq-topbar {
       background: #333333; }
 
   .contain-to-grid .top-bar {
-    max-width: 62.5rem;
+    max-width: 80rem;
     margin: 0 auto;
     margin-bottom: 0; }
 
@@ -5568,7 +5568,7 @@ th.hide-for-touch {
 
 /*purple: #9e1e62*/
 body {
-  background: url(../img/hands.jpg) no-repeat top center fixed;
+  background: #9e1e62 url(../img/hands.jpg) no-repeat top center fixed;
   font: 300 18px/1.4 'Open Sans', sans-serif;
   color: #303030; }
 
@@ -5692,23 +5692,23 @@ h1.home-title {
   background-size: cover;
   overflow: hidden; }
 
-.quote-section > blockquote {
+.featured-quote {
   width: 60%;
   margin: 0 auto;
   padding: 0;
   border: 0;
   color: #fff; }
 
-.quote-section > blockquote > p {
+.featured-quote p {
   margin-bottom: .5rem;
   font-size: 2rem;
   color: #fff; }
 
-.quote-section > blockquote > footer {
+.featured-quote footer {
   text-align: right;
   text-transform: uppercase; }
 
-.quote-section > blockquote cite {
+.featured-quote cite {
   font-style: normal;
   color: #fff; }
 

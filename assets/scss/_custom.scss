@@ -1,5 +1,5 @@
 /*purple: #9e1e62*/
-body{background: url(../img/hands.jpg) no-repeat top center fixed; font: 300 18px/1.4 'Open Sans', sans-serif; color: #303030;}
+body{background: #9e1e62 url(../img/hands.jpg) no-repeat top center fixed; font: 300 18px/1.4 'Open Sans', sans-serif; color: #303030;}
 h1,h2,h3,h4,h5,h6{font-weight: 300;}
 p, blockquote, li{font-weight: 300;}
 a{color: #9e1e62;}
@@ -29,10 +29,10 @@ h1.home-title{font-family: 'Meddon', cursive; text-transform: none;}
 .events-section p:last-of-type, .books-section p:last-of-type{margin-bottom: 2rem;}
 .books-section{background-color: #cbcbcb;}
 .quote-section{max-height: 400px; background: url(../img/man-abnormal-man-14777464755.jpg) no-repeat center center; background-size: cover; overflow: hidden;}
-.quote-section > blockquote{width: 60%; margin: 0 auto; padding: 0; border: 0; color: #fff; }
-.quote-section > blockquote > p{margin-bottom: .5rem; font-size: 2rem; color: #fff;}
-.quote-section > blockquote > footer{text-align: right; text-transform: uppercase;}
-.quote-section > blockquote cite{font-style: normal; color: #fff;}
+.featured-quote{width: 60%; margin: 0 auto; padding: 0; border: 0; color: #fff; }
+.featured-quote p{margin-bottom: .5rem; font-size: 2rem; color: #fff;}
+.featured-quote footer{text-align: right; text-transform: uppercase;}
+.featured-quote cite{font-style: normal; color: #fff;}
 .social-cta{padding: 20px 0; background-color: #efefef; text-align: center;}
 .social-cta a{ text-transform: uppercase; text-decoration: none; color: #9e1e62;}
 .social-cta p{height: 48px; margin: 0; line-height: 48px; font-size: 1.5rem;}

@@ -16,10 +16,10 @@ layout: base
 </style>
 <section class="page-section events-schedule-section">
   <div class="row">
-    <div class="medium-3 push-9 columns">
+    <div class="medium-4 push-8 columns">
       <h3>Filters</h3>
     </div>
-    <div class="medium-9 pull-3 columns">
+    <div class="medium-8 pull-4 columns">
     {% for post in site.posts reversed %}
       {% capture currentdate %}{{post.date | date: "%A, %B %d"}}{% endcapture %}
         {% if currentdate != date %}
