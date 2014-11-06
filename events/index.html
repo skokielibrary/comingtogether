@@ -1,43 +1,77 @@
 ---
-layout: default
+title: Attend events
+layout: base
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <!--<ul class="post-list">
-    {% for post in site.posts reversed | group_by:"date" %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <p>{{ post.content }}</p>
-        <p>{{ post.times }}</p>
-        <p>{{ post.location }}</p>
-      </li>
-    {% endfor %}
-  </ul>-->
-  {% for post in site.posts reversed %}
-    {% capture currentdate %}{{post.date | date: "%A, %B %d"}}{% endcapture %}
-      {% if currentdate != date %}
-        {% unless forloop.first %}</div>{% endunless %}
-        <div class="events-list single-day {{ post.date | date: "%Y-%d-%m"}}">
-        <h2>{{ currentdate }}</h2>
-        {% capture date %}{{currentdate}}{% endcapture %}
-      {% endif %}
-        <div class="event">
-          <h3>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h3>
-          <p><small>{{ post.times }}, {{ post.location }}</small></p>
-          <p>{{ post.content }}</p>
-        </div>
-        <hr>
-{% endfor %}
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<style>
+  .page-section{padding: 20px 0;}
+  .events-list h2{font-weight: 400; font-size: 1.6rem; text-transform: none; color: #9e1e62;}
+  .event{margin-top: 1rem;}
+  .event-meta{padding-bottom: 6px; border-bottom: 1px solid #cbcbcb;}
+  .event-meta h3{margin: 0; font-size: 1rem; font-weight: 400;}
+  .event-meta p{margin-bottom: 0;}
+  .event-details{margin-top: 6px;}
+  .event-audiences-list, .event-types-list{list-style: none; margin-left: 0;}
+  .event-audiences-list li{display: inline; font-size: .9em; text-transform: uppercase;}
+</style>
+<section class="page-section events-schedule-section">
+  <div class="row">
+    <div class="medium-3 push-9 columns">
+      <h3>Filters</h3>
+    </div>
+    <div class="medium-9 pull-3 columns">
+    {% for post in site.posts reversed %}
+      {% capture currentdate %}{{post.date | date: "%A, %B %d"}}{% endcapture %}
+        {% if currentdate != date %}
+          {% unless forloop.first %}</div>{% endunless %}
+          <div class="events-list single-day {{ post.date | date: "%Y-%d-%m"}}">
+            <h2>{{ currentdate }}</h2>
+          {% capture date %}{{currentdate}}{% endcapture %}
+        {% endif %}
+            <div class="event">
+              <div class="event-meta">
+                <div class="row">
+                  <div class="medium-3 columns">
+                    <p>{{ post.times }}</p>
+                  </div>
+                  <div class="medium-6 columns">
+                    <h3>
+                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h3>
+                  </div>
+                  <div class="medium-3 columns">
+                    <p>{{ post.location }}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="event-details">
+                <div class="row">
+                  <div class="medium-3 columns">
+                    <!--audiences-->
+                    <ul class="event-audiences-list">
+                    {% for c in post.audiences %}
+                      <li>{{ c }}</li>
+                    {% endfor %}
+                    </ul>
+                    <!--event types-->
+                    <ul class="event-types-list">
+                    {% for t in post.types %}
+                      <li>{{ t }}</li>
+                    {% endfor %}
+                    </ul>
+                  </div>
+                  <div class="medium-9 columns">
+                    {{ post.content }}
+                  </div>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          {% endfor %}
+        </div><!--end of a day-->
+    </div>
+  </div>
+</section>
+<section class="page-section locations-section">
+  <div class="row">
+    <h2>Locations</h2>
+  </div>
+</section>
