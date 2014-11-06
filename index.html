@@ -1,150 +1,35 @@
 ---
 title: 'Voices of Race'
 type: homepage
+layout: base
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Coming Together</title>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Meddon' rel='stylesheet' type='text/css'>
-  <link href="{{ site.baseurl }}/assets/css/styles.css" rel="stylesheet">
-  <style>
-    /*purple: #9e1e62*/
-    body{background: url({{ site.baseurl }}/assets/img/hands.jpg) no-repeat top center fixed; font: 300 18px/1.4 'Open Sans', sans-serif; color: #303030;}
-    h1,h2,h3,h4,h5,h6{font-weight: 300;}
-    p, blockquote, li{font-weight: 300;}
-    .site-header{position: absolute; top: .5rem; left: 0; width: 100%; height: 64px; z-index: 5000;}
-    .site-header a{color: #fff; text-decoration: none; text-transform: uppercase;}
-    .brand{font-size: 1.333rem; text-transform: uppercase; font-weight: 400;}
-    .site-header .brand{float: left; padding-top: .7rem;}
-    .brand small{display: block; font-size: .6rem; }
-    .site-nav{float: right; text-align: right; }
-    .nav{list-style: none; margin: 0; padding 0;}
-    .nav li{display: inline-block;}
-    .nav li a{display: block; padding: 1rem;}
-    .nav li a:hover{background-color: #711448;}
-    .page-header{position: relative; height: 360px; text-align: center;}
-    .page-title{position: absolute; bottom: 30%; width: 100%; z-index: 1000;}
-    .page-title h1, .page-title p{margin: 0; color: #fff;}
-    .page-title h1{font-size: 3rem;}
-    h1.home-title{font-family: 'Meddon', cursive; }
-    .page-title p{font-size: 1.5rem;}
-    .page-content{background-color: #efefef;}
-    .page-content h2{margin-top: 0;}
-    .feature-section{padding: 80px 120px;}
-    .feature-section h2{font-size: 2.666rem; font-weight: 400; color: #9e1e62;}
-    .feature-section h2 > small{display: block; font-size: .666rem; text-transform: uppercase;}
-    .feature-section p{font-size: 1.2rem;}
-    .feature-section p:last-of-type{margin-bottom: 2rem;}
-    .books-section{background-color: #cbcbcb;}
-    .quote-section{max-height: 400px; background: url({{ site.baseurl }}/assets/img/man-abnormal-man-14777464755.jpg) no-repeat center center; background-size: cover; overflow: hidden;}
-    .quote-section > blockquote{width: 60%; margin: 0 auto; padding: 0; border: 0; color: #fff; }
-    .quote-section > blockquote > p{font-size: 2rem; color: #fff;}
-    .quote-section > blockquote > footer{text-align: right; text-transform: uppercase;}
-    .quote-section > blockquote cite{font-style: normal; color: #fff;}
-    .social-cta{padding: 20px 0; background-color: #efefef; text-align: center;}
-    .social-cta a{ text-transform: uppercase; text-decoration: none; color: #9e1e62;}
-    .social-cta p{height: 48px; margin: 0; line-height: 48px; font-size: 2rem;}
-    .facebook-icon{display: inline-block; width: 48px; height: 48px; margin-right: 1rem; background: url({{ site.baseurl }}/assets/img/facebook-icon.png) no-repeat center center; vertical-align: bottom;}
-    .site-footer{padding: 40px 0 20px 0; background-color: #808080;}
-    .site-footer .brand{font-size: 1em; }
-    .site-footer a{color: #fff; text-decoration: none;}
-    .event-dates{margin-top: 3px; color: #fff;}
-    .supporting-orgs{margin-top: 4rem; font-size: .9rem;}
-    .supporting-orgs h3{margin: 0; font-size: 1rem; text-transform: uppercase; }
-    .supporting-orgs p{margin-top: 3px;}
-    .contact-info{text-align: right; color: #fff;}
-    .button{text-transform: uppercase;}
-    .line-button{background: transparent; border: 1px solid #9e1e62; color: #9e1e62;}
-    .line-button:hover{ border-color: #711448; background: #711448; color: #fff;}
-    </style>
-</head>
-<body>
-  <!--header-->
-  <header class="site-header" role="banner" >
-    <div class="row">
-      <div class="medium-12 columns">
-      <a href="{{ site.baseurl }}/" class="brand">{{ site.title }} <small> {{ site.subtitle }}</small></a>
-      <!--navigation-->
-      <nav role="navigation" class="site-nav">
-        <ul class="nav">
-          <li><a href="{{ site.baseurl }}/books">Read a book</a></li>
-          <li><a href="{{ site.baseurl }}/programs">Attend a program</a></li>
-          <li><a href="{{ site.baseurl }}/resources">Get resources</a></li>
-          <li><a href="{{ site.baseurl }}/about">Learn more</a></li>
-        </ul>
-      </nav>
-    <!--end of navigation-->
+<div class="feature-section events-section">
+  <div class="row">
+    <div class="medium-5 columns">
+      <img src="{{ site.baseurl }}/assets/img/race-exhibit-faces.jpg" style="float: left; margin-right: 4rem;">
+    </div>
+    <div class="medium-7 columns">
+      <h2><small>Coming Together <em>in</em></small> Events</h2>
+      <p>Every year we pick a selection of books for adults, teens, and kids that stimulate conversation and post challeninging questions about race, ethnicity, identity, and community. </p>
+      <a href="{{ site.baseurl}}/events" class="button line-button">View upcoming events</a>
+    </div>
   </div>
+</div>
+<div class="feature-section books-section">
+  <div class="row">
+    <div class="medium-5 medium-push-7 columns">
+      <img src="{{ site.baseurl }}/assets/img/supremes-book-cover.jpg" style="float: right; margin-left: 4rem;">
     </div>
-  </header>
-  <!--end of header-->
-  <!--main content-->
-  <main class="page-group" role="main">
-    <div class="page-header">
-      <div class="page-title">
-        <h1 {% if page.type == 'homepage' %}class="home-title"{% endif %}>{{ page.title }}</h1>
-      {% if page.type == 'homepage' %}
-        <p>{{ site.series_dates }}</p>
-      {% endif %}
-      </div>
+    <div class="medium-7 medium-pull-5 columns">
+      <h2><small>Coming Together <em>in</em></small> Books</h2>
+      <p>Every year we pick a selection of books for adults, teens, and kids that stimulate conversation and post challeninging questions about race, ethnicity, identity, and community. </p>
+      <a href="#" class="button line-button">Find a book</a>
     </div>
-    <!--end of page-header-->
-    <div class="page-content">
-      <div class="feature-section events-section">
-        <div class="row">
-          <div class="medium-12 columns">
-            <img src="{{ site.baseurl }}/assets/img/race-exhibit-faces.jpg" style="float: left; margin-right: 4rem;">
-            <h2><small>Coming Together <em>in</em></small> Events</h2>
-            <p>Every year we pick a selection of books for adults, teens, and kids that stimulate conversation and post challeninging questions about race, ethnicity, identity, and community. </p>
-            <a href="{{ site.baseurl}}/events" class="button line-button">View upcoming events</a>
-          </div>
-        </div>
-      </div>
-      <div class="feature-section books-section">
-        <div class="row">
-          <div class="medium-12 columns">
-            <img src="{{ site.baseurl }}/assets/img/supremes-book-cover.jpg" style="float: right; margin-left: 4rem;">
-            <h2><small>Coming Together <em>in</em></small> Books</h2>
-            <p>Every year we pick a selection of books for adults, teens, and kids that stimulate conversation and post challeninging questions about race, ethnicity, identity, and community. </p>
-            <a href="#" class="button line-button">Find a book</a>
-          </div>
-        </div>
-      </div>
-      <div class="feature-section quote-section">
-        <blockquote>
-          <p>"The idea of race has been used historically to describe these differences and justify mistreatment of people and even genocide."<p>
-          <footer><cite>Race: Are We So Different?</cite></footer>
-        </blockquote>
-      </div>
-    </div>
-    <!--end of page content-->
-  </main>
-  </!--end of main content-->
-  <!--footer-->
-  <div class="social-cta">
-    <p><a href="#"><i class="facebook-icon"></i>Keep the conversation going. Join us on Facebook.</a></p>
   </div>
-  <footer class="site-footer" role="contentinfo">
-    <div class="row">
-      <div class="small-6 columns">
-        <a href=" {{ site.baseurl }}/" class="brand">{{ site.title }} {{ site.subtitle }}</a>
-        <p class="event-dates">{{ site.series_dates }}</p>
-      </div>
-      <div class="small-6 columns contact-info">
-        <p>Questions? Get in touch with us</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="small-12 columns">
-        <div class="supporting-orgs">
-          <h3>Supporting Organizations</h3>
-          <p>Skokie Public Library, Niles Township High School District 219, Village of Skokie, Holiday Inn North Shore/Skokie, Indian Community of Niles Township. , Skokie Park District, Skokie elementary and middle schools, Niles Township Schools ELL Parent Center, Skokie business community, Lincolnwood Public Library, Niles Public Library, Morton Grove Public Library</p>
-        </div>
-        <p>&copy; 2014</p>
-      </div>
-  </footer>
-</body>
-</html>
+</div>
+<div class="feature-section quote-section">
+  <blockquote>
+    <p>"The idea of race has been used historically to describe these differences and justify mistreatment of people and even genocide."</p>
+    <footer><cite>Race: Are We So Different?</cite></footer>
+  </blockquote>
+</div>
