@@ -11,8 +11,17 @@ layout: base
   .event-meta p{margin-bottom: 0;}
   .event-location{text-align: right;}
   .event-details{margin-top: 6px;}
-  .event-audiences-list, .event-types-list{list-style: none; margin-left: 0;}
+  .event-audiences-list, .event-types-list{list-style: none; margin: 0 0 4px 0;}
   .event-audiences-list li{display: inline; font-size: .9em; text-transform: uppercase;}
+  .event-audiences-list li:after{ content:",";}
+  .event-audiences-list li:last-of-type:after{content: "";}
+  .event-type{float: left; height: 24px; width: 24px; margin-right: .3rem; background: url(../assets/img/event-type-sprite.png); text-indent: -9999px;}
+  .event-type-performance{background-position: 0 0;}
+  .event-type-film{background-position: -24px 0;}
+  .event-type-book-author{background-position: -48px 0;}
+  .event-type-workshop{background-position: -72px 0;}
+  .event-type-kid-family{background-position: -96px 0;}
+  .event-type-lecture{background-position: -120px 0;}
 </style>
 <section class="page-section events-schedule-section">
   <div class="row">
@@ -56,7 +65,7 @@ layout: base
                     <!--event types-->
                     <ul class="event-types-list">
                     {% for t in post.types %}
-                      <li>{{ t }}</li>
+                      <li class="event-type event-type-{{ t }}">{{ t }}</li>
                     {% endfor %}
                     </ul>
                   </div>
