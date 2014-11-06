@@ -1,0 +1,52 @@
+/*purple: #9e1e62*/
+body{background: url(../img/hands.jpg) no-repeat top center fixed; font: 300 18px/1.4 'Open Sans', sans-serif; color: #303030;}
+h1,h2,h3,h4,h5,h6{font-weight: 300;}
+p, blockquote, li{font-weight: 300;}
+a{color: #9e1e62;}
+.site-header{position: absolute; top: .5rem; left: 0; width: 100%; height: 64px; z-index: 5000;}
+.site-header a{color: #fff; text-decoration: none; text-transform: uppercase;}
+.brand{font-size: 1.333rem; text-transform: uppercase; font-weight: 400;}
+.site-header .brand{float: left; padding-top: .7rem;}
+.brand small{display: block; font-size: .6rem; }
+.site-nav{float: right; text-align: right; }
+.nav{list-style: none; margin: 0; padding: 0;}
+.nav li{display: inline-block;}
+.nav li a{display: block; padding: 1rem;}
+.nav li a:hover{background-color: #711448;}
+.page-header{position: relative; height: 360px; text-align: center;}
+.page-title{position: absolute; bottom: 30%; width: 100%; z-index: 1000;}
+.page-title h1, .page-title p{margin: 0; color: #fff;}
+.page-title h1{font-size: 3rem; text-transform: uppercase;}
+h1.home-title{font-family: 'Meddon', cursive; text-transform: none;}
+.page-title p{font-size: 1.5rem;}
+.page-content{background-color: #efefef;}
+.page-content h2{margin-top: 0;}
+.feature-section{padding: 80px 120px;}
+.feature-section h2{margin-top: .4rem; font-size: 2.666rem; font-weight: 400; color: #9e1e62; text-transform: uppercase;}
+.feature-section h2 > small{display: block; font-weight: 300; font-size: .666rem;}
+.feature-section h2 > small > em{font-style: normal; text-transform: none;}
+.feature-section p{font-size: 1.2rem;}
+.events-section p:last-of-type, .books-section p:last-of-type{margin-bottom: 2rem;}
+.books-section{background-color: #cbcbcb;}
+.quote-section{max-height: 400px; background: url(../img/man-abnormal-man-14777464755.jpg) no-repeat center center; background-size: cover; overflow: hidden;}
+.quote-section > blockquote{width: 60%; margin: 0 auto; padding: 0; border: 0; color: #fff; }
+.quote-section > blockquote > p{margin-bottom: .5rem; font-size: 2rem; color: #fff;}
+.quote-section > blockquote > footer{text-align: right; text-transform: uppercase;}
+.quote-section > blockquote cite{font-style: normal; color: #fff;}
+.social-cta{padding: 20px 0; background-color: #efefef; text-align: center;}
+.social-cta a{ text-transform: uppercase; text-decoration: none; color: #9e1e62;}
+.social-cta p{height: 48px; margin: 0; line-height: 48px; font-size: 1.5rem;}
+.facebook-icon{display: inline-block; width: 48px; height: 48px; margin-right: 1rem; background: url(../img/facebook-icon.png) no-repeat center center; vertical-align: bottom;}
+.site-footer{padding: 40px 0 20px 0; background-color: #808080;}
+.site-footer .brand{font-size: 1em; }
+.site-footer a{color: #fff; text-decoration: none;}
+.event-dates{margin-top: 3px; color: #fff;}
+.supporting-orgs{margin-top: 4rem; font-size: .9rem;}
+.supporting-orgs h3{margin: 0; font-size: 1rem; text-transform: uppercase; }
+.supporting-orgs p{margin-top: 3px;}
+.contact-info{text-align: right; color: #fff;}
+.button{text-transform: uppercase;}
+.line-button{background: transparent; border: 1px solid #9e1e62; color: #9e1e62;}
+.line-button:hover{ border-color: #711448; background: #711448; color: #fff;}
+/*events page*/
+.locations-section{padding: 20px 0; background-color: #cbcbcb;}
