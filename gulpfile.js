@@ -18,9 +18,9 @@ var minifycss = require('gulp-minify-css');
 
 // Compile Sass
 gulp.task('sass', function() {
-    gulp.src(['assets/scss/*.scss', '!assets/scss/_variables.scss'])
+    gulp.src(['assets/scss/*.scss'])
         .pipe(sass({
-            loadPath: ['assets/scss', 'bower_components/foundation/scss/', 'bower_components/foundation/scss/foundation']
+            loadPath: ['assets/scss', 'bower_components/foundation/scss', 'bower_components/foundation/scss/foundation']
           }))
         //.pipe(minifycss())
         .pipe(gulp.dest('assets/css'))
