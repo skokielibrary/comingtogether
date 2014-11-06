@@ -9,6 +9,7 @@ layout: base
   .event-meta{padding-bottom: 6px; border-bottom: 1px solid #cbcbcb;}
   .event-meta h3{margin: 0; font-size: 1rem; font-weight: 400;}
   .event-meta p{margin-bottom: 0;}
+  .event-times{text-align: right;}
   .event-details{margin-top: 6px;}
   .event-audiences-list, .event-types-list{list-style: none; margin-left: 0;}
   .event-audiences-list li{display: inline; font-size: .9em; text-transform: uppercase;}
@@ -30,15 +31,15 @@ layout: base
             <div class="event">
               <div class="event-meta">
                 <div class="row">
-                  <div class="medium-3 columns">
+                  <div class="event-times medium-3 columns">
                     <p>{{ post.times }}</p>
                   </div>
                   <div class="medium-6 columns">
                     <h3>
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                      <a class="event-title post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </h3>
                   </div>
-                  <div class="medium-3 columns">
+                  <div class="event-location medium-3 columns">
                     <p>{{ post.location }}</p>
                   </div>
                 </div>
