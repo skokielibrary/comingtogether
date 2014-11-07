@@ -4,26 +4,72 @@ layout: base
 ---
 <style>
   .page-section{padding: 40px 0;}
+  h2{font-size: 1.5rem; text-transform: uppercase; color: #9e1e62;}
+  .book{margin-bottom: 2rem;}
+  .book h3{margin-bottom: 2rem; line-height: 1.2; font-size: 1.2rem; font-weight: 400;}
+  .book h3 > small{display: block; margin-top: .7rem; font-size: 1rem; font-weight: 300;}
+  .book h4{font-size: 1rem;}
   .book-cover{float: right; margin: 0 0 2rem 2rem;}
-  .author-highlight{background-color: #cbcbcb;}
+  .find-book{list-style: none; margin-left: 0; padding-left: 1em; text-indent: -1em;}
+  .find-book li a:before {content: "\0BB \020";}
+  .author-visit{margin-bottom: 2rem; padding: 2rem 2rem 1rem 2rem; background-color: #cbcbcb;}
+  img.portrait{border-radius: 50%;}
+  .author-visit h3{font-size: 1.2rem;}
+  .author-visit h3 > small{display: block; margin-bottom: .5rem; font-size: .8rem; text-transform: uppercase;}
+  .unstyled-list{list-style: none; margin: 0;}
 </style>
 <section class="page-section">
   <div class="row">
     <div class="small-7 small-centered columns">
-      <p>Coming Together in Skokie & Niles Township offers an opportunity to build awareness of and appreciation for all of our neighbors. This year, Coming Together provides opportunities for us all to explore race through reading selected books, discussing the myriad topics involved with race and racism, and working together to build a stronger community.</p>
       <h2>For Adults</h2>
-      <img src="{{ site.baseurl }}/assets/img/supremes-book-cover.jpg" class="book-cover">
-      <h3>The Supreme at Earl's All-You-Can-Eat <small>by Edward Kelsey Moore</small></h3>
-      <p>Odette, Clarice, and Barbara Jean have seen their friendship endure through bullies, love affairs and great tragedies. But can they survive a tumultuous year when they are forced to face their past mistakes? The world of Plainview, Indiana and its sometimes quirky inhabitants is vividly brought to life in this funny and touching book.</p>
-      <h4>Where to find it</h4>
-      <ul>
-        <li><a href="http://encore.skokielibrary.info/iii/encore/search/C__Sthe%20supremes%20at%20earls%20all%20you%20can%20eat__Orightresult;jsessionid=13C7D935D92C0EB477791314EEEB1CD0?lang=eng&suite=beta">Skokie Public Library</a><li>
-      </ul>
+      <div class="book">
+        <img src="{{ site.baseurl }}/assets/img/supremes-book-cover.jpg" class="book-cover">
+        <h3><em>The Supreme at Earl's All-You-Can-Eat</em> <small>by Edward Kelsey Moore</small></h3>
+        <p>Odette, Clarice, and Barbara Jean have seen their friendship endure through bullies, love affairs and great tragedies. But can they survive a tumultuous year when they are forced to face their past mistakes? The world of Plainview, Indiana and its sometimes quirky inhabitants is vividly brought to life in this funny and touching book.</p>
+        <p>Learn more about <a href="http://www.edwardkelseymoore.com/">Edward Kelsey Moore</a></p>
+        <h4>Where to find it</h4>
+        <ul class="find-book">
+          <li><a href="http://encore.skokielibrary.info/iii/encore/search/C__Sthe%20supremes%20at%20earls%20all%20you%20can%20eat__Orightresult;jsessionid=13C7D935D92C0EB477791314EEEB1CD0?lang=eng&suite=beta">Skokie Public Library</a></li>
+          <li><a href="#">Morton Grove Public Library</a></li>
+          <li><a href="#">Niles Public Library</a></li>
+          <li><a href="#">Lincolnwood Public Library</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="author-highlight">
+  </div>
+  <div class="row">
+    <div class="author-visit small-7 small-centered columns">
       <div class="row">
-        <div class="small-7 small-centered columns">
+        <div class="medium-3 columns">
+          <img src="{{ site.baseurl }}/assets/img/edward-moore.jpg" class="portrait">
         </div>
+        <div class="medium-9 columns">
+          <h3><small>Book Discussion &amp; Author Visit</small> <em>The Supremes at Earl’s All You Can Eat</em></h3>
+          <p>Join author Edward Kelsey Moore as we discuss his <em>The Supremes at Earl's All-You-Can-Eat</em>. Odette, Clarice, and Barbara Jean have seen their friendship endure through bullies, love affairs, and great tragedies. But can they survive a tumultuous year when they are forced to face their past mistakes? The world of Plainview, Indiana and its sometimes quirky inhabitants is vividly brought to life in this funny and touching book.</p>
+          <ul class="unstyled-list">
+            <li>Wednesday, February 4 at 7 pm</li>
+            <li>Wednesday, February 18 at 10 am </li>
+          <ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-7 small-centered columns">
+      <h2>For Teens</h2>
+      <div class="book">
+        <img src="{{ site.baseurl }}/assets/img/black-white-other-book-cover.jpg" class="book-cover">
+        <h3><em>Black, White, Other: In Search of Nina Armstrong</em> <small>by Joan Steinau Lester</small></h3>
+        <p>Nina, a biracial teen, feels her life turn to struggle as her parents get divorced. Now everything in her life feels like a stark push-and-pull between black and white, with the tensions in her family and in her community echoing her own hurt, confusion, and search for identity. Nina spends more and more time learning about her great-great-grandmother, who escaped from slavery, in the hopes that her ancestor’s story might hold a key to figuring out her own life.</p>
+        <p>Learn more about <a href="http://www.joanlester.com/">Joan Steinau Lester</a></p>
+        <h4>Where to find it</h4>
+        <ul class="find-book">
+          <li><a href="#">Skokie Public Library</a></li>
+          <li><a href="#">Morton Grove Public Library</a></li>
+          <li><a href="#">Niles Public Library</a></li>
+          <li><a href="#">Lincolnwood Public Library</a></li>
+        </ul>
     </div>
   </div>
 </section
