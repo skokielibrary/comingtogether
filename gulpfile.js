@@ -18,12 +18,17 @@ var minifycss = require('gulp-minify-css');
 
 // Compile Sass
 gulp.task('sass', function() {
-    gulp.src(['assets/scss/*.scss'])
-        .pipe(sass({
-            loadPath: ['assets/scss', 'bower_components/foundation/scss', 'bower_components/foundation/scss/foundation']
-          }))
-        //.pipe(minifycss())
-        .pipe(gulp.dest('assets/css'))
+  gulp.src(['assets/scss/*.scss'])
+    .pipe(sass({
+        loadPath: ['assets/scss', 'bower_components/foundation/scss', 'bower_components/foundation/scss/foundation']
+      }))
+    //.pipe(minifycss())
+    .pipe(gulp.dest('assets/css'))
 });
 
-gulp.task('default', ['sass']);
+gulp.task('js', function(){
+  gulp.src('bower_components/mixitup/build/*.js')
+    .pipe(gulp.dest('assets/js'))
+})
+
+gulp.task('default', ['sass', 'js']);
