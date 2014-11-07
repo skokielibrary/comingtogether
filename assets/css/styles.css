@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -5567,12 +5568,19 @@ th.hide-for-touch {
   display: table-cell !important; }
 
 /*purple: #9e1e62*/
+/*Cheddar Jack font from http://www.dafont.com/cheddar-jack.font*/
+@font-face {
+  font-family: 'CheddarJack';
+  src: url("../fonts/cheddar-jack.woff") format("woff"), url("../fonts/cheddar-jack.ttf") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
+
 body {
   background: #9e1e62 url(../img/hands.jpg) no-repeat top center fixed;
-  font: 300 18px/1.4 'Open Sans', sans-serif;
+  font: 300 18px/1.4 'Lato', sans-serif;
   color: #303030; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
 p, blockquote, li {
@@ -5597,7 +5605,7 @@ a {
 .brand {
   font-size: 1.333rem;
   text-transform: uppercase;
-  font-weight: 400; }
+  font-weight: 300; }
 
 .site-header .brand {
   float: left;
@@ -5646,7 +5654,10 @@ a {
   text-transform: uppercase; }
 
 h1.home-title {
-  font-family: 'Meddon', cursive;
+  font-size: 5rem;
+  font-family: 'CheddarJack', Fallback, cursive;
+  font-weight: 300;
+  line-height: 1;
   text-transform: none; }
 
 .page-title p {
