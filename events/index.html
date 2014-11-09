@@ -12,17 +12,15 @@ layout: base
   .location{text-align: right;}
   .event-details{margin-top: 6px;}
   .event-audiences-list, .event-types-list{list-style: none; margin: 0 0 6px 0;}
-  .event-audiences-list li{display: inline; font-size: .9rem; text-transform: uppercase;}
-  .event-audiences-list li:after{ content:",";}
-  .event-audiences-list li:last-of-type:after{content: "";}
+  .event-audiences-list li{font-size: .9rem; text-transform: uppercase;}
   .event-types-list li{margin-bottom: .5rem; font-size: .8rem;}
-  .event-type{display: inline-block; height: 24px; width: 24px; margin-right: 5px; background: url(../assets/img/event-type-sprite.png); vertical-align: middle;}
-  .type-performance{background-position: 0 0;}
-  .type-film{background-position: -24px 0;}
-  .type-books-authors{background-position: -48px 0;}
-  .type-workshop{background-position: -72px 0;}
-  .type-kids-family{background-position: -96px 0;}
-  .type-lecture{background-position: -120px 0;}
+  .type-icon{display: inline-block; height: 24px; width: 24px; margin-right: 5px; background: url(../assets/img/event-type-sprite.png); vertical-align: middle;}
+  .type-icon-performance{background-position: 0 0;}
+  .type-icon-film{background-position: -24px 0;}
+  .type-icon-books-authors{background-position: -48px 0;}
+  .type-icon-workshop{background-position: -72px 0;}
+  .type-icon-kids-family{background-position: -96px 0;}
+  .type-icon-lecture{background-position: -120px 0;}
   .filters h3{border-bottom: 1px solid #cbcbcb; font-size: 1rem; text-transform: uppercase;}
   .filters h4{margin-top: 1rem; font-size: .9rem; text-transform: uppercase;}
   .filters ul{list-style: none; margin: 0 0 1rem 0;}
@@ -46,12 +44,12 @@ layout: base
         </div>
         <h4>Event type</h4>
         <div class="type-filters">
-          <button class="filter" data-filter=".type-books-authors"><i class="event-type type-books-authors"></i>Books/Authors</button>
-          <button class="filter" data-filter=".type-film"><i class="event-type type-film"></i>Films</button>
-          <button class="filter" data-filter=".type-kids-family"><i class="event-type type-kids-family"></i>Kids/Family</button>
-          <button class="filter" data-filter=".type-lecture"><i class="event-type type-lecture"></i>Lectures</button>
-          <button class="filter" data-filter=".type-performance"><i class="event-type type-performance"></i>Performance</button>
-          <button class="filter" data-filter=".type-workshop"><i class="event-type type-workshop"></i>Workshops</button>
+          <button class="filter" data-filter=".type-books-authors"><i class="type-icon type-icon-books-authors"></i>Books/Authors</button>
+          <button class="filter" data-filter=".type-film"><i class="type-icon type-icon-film"></i>Films</button>
+          <button class="filter" data-filter=".type-kids-family"><i class="type-icon type-icon-kids-family"></i>Kids/Family</button>
+          <button class="filter" data-filter=".type-lecture"><i class="type-icon type-icon-lecture"></i>Lectures</button>
+          <button class="filter" data-filter=".type-performance"><i class="type-icon type-icon-performance"></i>Performance</button>
+          <button class="filter" data-filter=".type-workshop"><i class="type-icon type-icon-workshop"></i>Workshops</button>
         </div>
         <h4>Locations</h4>
           <div class="location-filters">
@@ -92,13 +90,13 @@ layout: base
                     <!--audiences-->
                     <ul class="event-audiences-list">
                     {% for a in post.audiences %}
-                      <li>{{ a }}</li>
+                      <li><i class="audience-icon audience-icon-{{ a | slugify }}"></i>{{ a }}</li>
                     {% endfor %}
                     </ul>
                     <!--event types-->
                     <ul class="event-types-list">
                     {% for t in post.types %}
-                      <li><i class="event-type type-{{ t | slugify }}"></i>{{ t }}</li>
+                      <li><i class="type-icon type-icon-{{ t | slugify }}"></i>{{ t }}</li>
                     {% endfor %}
                     </ul>
                   </div>
