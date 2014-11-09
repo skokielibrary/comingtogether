@@ -5576,7 +5576,7 @@ th.hide-for-touch {
 
 body {
   background: #9e1e62 url(../img/hands.jpg) no-repeat top center fixed;
-  font: 300 18px/1.4 'Lato', sans-serif;
+  font: 300 16px/1.4 'Lato', sans-serif;
   color: #303030; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -5724,7 +5724,7 @@ h1.home-title {
   color: #fff; }
 
 .social-cta {
-  padding: 20px 0;
+  padding: 20px;
   background-color: #fff;
   text-align: center; }
 
@@ -5734,18 +5734,17 @@ h1.home-title {
   color: #9e1e62; }
 
 .social-cta p {
-  height: 48px;
   margin: 0;
-  line-height: 48px;
   font-size: 1.5rem; }
 
 .facebook-icon {
   display: inline-block;
   width: 48px;
   height: 48px;
+  margin-top: -4px;
   margin-right: 1rem;
   background: url(../img/facebook-icon.png) no-repeat center center;
-  vertical-align: bottom; }
+  vertical-align: middle; }
 
 .site-footer {
   padding: 40px 0 20px 0;

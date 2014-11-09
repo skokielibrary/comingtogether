@@ -5,7 +5,7 @@
   src: url('../fonts/cheddar-jack.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
        url('../fonts/cheddar-jack.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
-body{background: #9e1e62 url(../img/hands.jpg) no-repeat top center fixed; font: 300 18px/1.4 'Lato', sans-serif; color: #303030;}
+body{background: #9e1e62 url(../img/hands.jpg) no-repeat top center fixed; font: 300 16px/1.4 'Lato', sans-serif; color: #303030;}
 h1,h2,h3,h4,h5,h6{font-family: 'Lato', sans-serif; font-weight: 300;}
 p, blockquote, li{font-weight: 300;}
 a{color: #9e1e62;}
@@ -39,10 +39,10 @@ h1.home-title{font-size: 6rem; font-family: 'CheddarJack', Fallback, cursive; fo
 .featured-quote p{margin-bottom: .5rem; font-size: 2rem; color: #fff;}
 .featured-quote footer{text-align: right; text-transform: uppercase;}
 .featured-quote cite{font-style: normal; color: #fff;}
-.social-cta{padding: 20px 0; background-color: #fff; text-align: center;}
+.social-cta{padding: 20px; background-color: #fff; text-align: center;}
 .social-cta a{ text-transform: uppercase; text-decoration: none; color: #9e1e62;}
-.social-cta p{height: 48px; margin: 0; line-height: 48px; font-size: 1.5rem;}
-.facebook-icon{display: inline-block; width: 48px; height: 48px; margin-right: 1rem; background: url(../img/facebook-icon.png) no-repeat center center; vertical-align: bottom;}
+.social-cta p{margin: 0; font-size: 1.5rem;}
+.facebook-icon{display: inline-block; width: 48px; height: 48px; margin-top: -4px; margin-right: 1rem; background: url(../img/facebook-icon.png) no-repeat center center; vertical-align: middle;}
 .site-footer{padding: 40px 0 20px 0; background-color: #808080;}
 .site-footer .brand{font-size: 1em; }
 .site-footer a{color: #fff; text-decoration: none;}
