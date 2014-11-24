@@ -32,91 +32,15 @@ layout: base
 </style>
 <section class="page-section events-schedule-section">
   <div class="row">
-    <div class="medium-3 medium-offset-1 push-8 columns">
-      <div class="filters">
-        <h3>Filter by</h3>
-        <button class="filter" data-filter="all">Reset</button>
-        <h4>Audience</h4>
-        <div class="audience-filters">
-          <button class="filter" data-filter=".audience-kids">Kids</button>
-          <button class="filter" data-filter=".audience-teens">Teens</button>
-          <button class="filter" data-filter=".audience-adults">Adults</button>
-        </div>
-        <h4>Event type</h4>
-        <div class="type-filters">
-          <button class="filter" data-filter=".type-books-authors"><i class="type-icon type-icon-books-authors"></i>Books/Authors</button>
-          <button class="filter" data-filter=".type-film"><i class="type-icon type-icon-film"></i>Films</button>
-          <button class="filter" data-filter=".type-kids-family"><i class="type-icon type-icon-kids-family"></i>Kids/Family</button>
-          <button class="filter" data-filter=".type-lecture"><i class="type-icon type-icon-lecture"></i>Lectures</button>
-          <button class="filter" data-filter=".type-performance"><i class="type-icon type-icon-performance"></i>Performance</button>
-          <button class="filter" data-filter=".type-workshop"><i class="type-icon type-icon-workshop"></i>Workshops</button>
-        </div>
-        <h4>Locations</h4>
-          <div class="location-filters">
-            <button class="filter" data-filter=".location-another-place">Another Place</button>
-            <button class="filter" data-filter=".location-skokie-park-district">Skokie Park District</button>
-            <button class="filter" data-filter=".location-skokie-public-library">Skokie Public Library</button>
-          </div>
-      </div>
-    </div>
-    <div class="medium-8 pull-4 columns" id="events-schedule">
-    {% for post in site.posts reversed %}
-      {% capture currentdate %}{{post.date | date: "%A, %B %d"}}{% endcapture %}
-        {% if currentdate != date %}
-          {% unless forloop.first %}</div>{% endunless %}
-          <div class="events-list single-day {{ post.date | date: "%Y-%d-%m"}}">
-            <h2>{{ currentdate }}</h2>
-          {% capture date %}{{currentdate}}{% endcapture %}
-        {% endif %}
-            <div class="event {% for a in post.audiences %}audience-{{ a | slugify }} {% endfor %}{% for t in post.types %}type-{{ t | slugify }} {% endfor %} {{ post.location | slugify }}">
-              <div class="event-meta">
-                <div class="row">
-                  <div class="event-times medium-3 columns">
-                    <p>{{ post.times }}</p>
-                  </div>
-                  <div class="medium-6 columns">
-                    <h3>
-                      <a class="event-title post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h3>
-                  </div>
-                  <div class="location medium-3 columns">
-                    <p>{{ post.location }}</p>
-                  </div>
-                </div>
-              </div>
-              <div class="event-details">
-                <div class="row">
-                  <div class="medium-3 columns">
-                    <!--audiences-->
-                    <ul class="event-audiences-list">
-                    {% for a in post.audiences %}
-                      <li><i class="audience-icon audience-icon-{{ a | slugify }}"></i>{{ a }}</li>
-                    {% endfor %}
-                    </ul>
-                    <!--event types-->
-                    <ul class="event-types-list">
-                    {% for t in post.types %}
-                      <li><i class="type-icon type-icon-{{ t | slugify }}"></i>{{ t }}</li>
-                    {% endfor %}
-                    </ul>
-                  </div>
-                  <div class="medium-9 columns">
-                    {{ post.content }}
-                  </div>
-                </div>
-              </div>
-            </div><!--end of single event-->
-          {% endfor %}
-        </div><!--end of a day-->
-    </div>
+      <p style="text-align: center;">We're working on this year's schedule right now. Check back for more details.</p>
   </div>
 </section>
-<section class="page-section locations-section">
+<!--<section class="page-section locations-section">
   <div class="row">
     <h2>Locations</h2>
   </div>
-</section>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</section>-->
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/jquery.mixitup.min.js"></script>
 <script>
   $(function(){
@@ -130,4 +54,4 @@ layout: base
         }
       });
   });
-</script>
+</script>-->
