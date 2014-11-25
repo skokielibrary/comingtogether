@@ -14,45 +14,61 @@ a{color: #9e1e62;}
 .brand{font-size: 1.333rem; text-transform: uppercase; font-weight: 300;}
 .site-header .brand{float: left; padding-top: .7rem;}
 .brand small{display: block; font-size: .6rem; }
-.site-nav{float: right; text-align: right; }
-.nav{list-style: none; margin: 0; padding: 0;}
-.nav li{display: inline-block;}
+.menu-link{float: right; padding: .3rem .5rem .4rem .5rem; font-size: 1.5rem; }
+.menu-open{background-color: #711448;}
+.site-nav{position: fixed; right: -15.625em; width: 15.625em; background-color: #9e1e62; border: 0;}
+.nav{list-style: none; margin: 0; padding: 0; }
+.nav li{display: block;}
 .nav li a{display: block; padding: 1rem;}
 .nav li a:hover{background-color: #711448;}
 .page-header{position: relative; height: 360px; text-align: center;}
-.page-title{position: absolute; bottom: 30%; width: 100%; z-index: 1000;}
+.page-title{position: absolute; bottom: 12%; width: 100%; z-index: 1000;}
 .page-title h1, .page-title p{margin: 0; color: #fff;}
 .page-title h1{font-size: 3rem; text-transform: uppercase;}
 h1.home-title{font-size: 6rem; font-family: 'CheddarJack', Fallback, cursive; font-weight: 300; line-height: 1; text-transform: none;}
 .page-title p{font-size: 1.5rem;}
 .page-content{background-color: #efefef;}
 .page-content h2{margin-top: 0;}
-.feature-section{padding: 80px 120px;}
+.feature-section{padding: 80px 20px;}
 .feature-section h2{margin-top: .4rem; font-size: 2.666rem; font-weight: 400; color: #9e1e62; text-transform: uppercase;}
 .feature-section h2 > small{display: block; font-weight: 300; font-size: .666rem;}
 .feature-section h2 > small > em{font-style: normal; text-transform: none;}
 .feature-section p{font-size: 1.2rem;}
+.feature-image{margin-bottom: 2rem;}
 .events-section p:last-of-type, .books-section p:last-of-type{margin-bottom: 2rem;}
 .books-section{background-color: #cbcbcb;}
-.quote-section{max-height: 400px; background: url(../img/man-abnormal-man-14777464755.jpg) no-repeat center center; background-size: cover; overflow: hidden;}
-.featured-quote{width: 60%; margin: 0 auto; padding: 0; border: 0; color: #fff; }
+.quote-section{background: url(../img/man-abnormal-man-14777464755.jpg) no-repeat center center; background-size: cover; overflow: hidden;}
+.featured-quote{margin: 0; padding: 0; border: 0; color: #fff; }
 .featured-quote p{margin-bottom: .5rem; font-size: 2rem; color: #fff;}
 .featured-quote footer{text-align: right; text-transform: uppercase;}
 .featured-quote cite{font-style: normal; color: #fff;}
 .social-cta{padding: 20px; background-color: #fff; text-align: center;}
 .social-cta a{ text-transform: uppercase; text-decoration: none; color: #9e1e62;}
 .social-cta p{margin: 0; font-size: 1.5rem;}
+.social-cta em{display: block; font-style: normal; font-weight: 400;}
 .facebook-icon{display: inline-block; width: 48px; height: 48px; margin-top: -4px; margin-right: 1rem; background: url(../img/facebook-icon.png) no-repeat center center; vertical-align: middle;}
 .site-footer{padding: 40px 0 20px 0; background-color: #808080;}
 .site-footer .brand{font-size: 1em; }
 .site-footer a{color: #fff; text-decoration: none;}
 .event-dates{margin-top: 3px; color: #fff;}
-.supporting-orgs{margin-top: 4rem; font-size: .9rem;}
-.supporting-orgs h3{margin: 0; font-size: 1rem; text-transform: uppercase; }
+.supporting-orgs{margin: 1rem 0; padding: 1rem 0 2rem 0; font-size: .9rem;}
+.supporting-orgs h3{padding-top: 1rem; font-size: 1rem; text-transform: uppercase; }
 .supporting-orgs p{margin-top: 3px;}
-.contact-info{text-align: right; color: #fff;}
+.supporting-orgs ul{list-style: none; margin: 0; padding: 0;}
+.contact-info{color: #fff;}
 .button{text-transform: uppercase;}
 .line-button{background: transparent; border: 1px solid #9e1e62; color: #9e1e62;}
 .line-button:hover{ border-color: #711448; background: #711448; color: #fff;}
 /*events page*/
 .locations-section{padding: 20px 0; background-color: #cbcbcb;}
+@media only screen and (min-width: 64.063em){
+  .menu-link{position: absolute; clip: rect(0px 0px 0px 0px);}
+  .site-nav{position: static; float: right; width: auto; background-color: transparent; text-align: right; }
+  .nav li{display: inline-block;}
+  .feature-section{padding: 80px 120px;}
+  .feature-image-left{float: left; margin-right: 4rem;}
+  .feature-image-right{float: right; margin-left: 4rem;}
+  .quote-section{max-height: 400px;}
+  .contact-info{text-align: right; }
+  .social-cta em{display: inline;}
+}
