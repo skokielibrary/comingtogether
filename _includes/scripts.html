@@ -1,0 +1,22 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+<script>
+$(function(){
+
+  console.log(window.innerWidth)
+  if (window.innerWidth < 900){
+    //$('#menu').addClass('panel');
+    $('.menu-link').bigSlide({side: 'right'});
+  }
+
+  $('.event').addClass('hide');
+  $('#events-schedule').mixItUp({
+    animation: {
+      enable: false
+    },
+    selectors: {
+      target: '.event'
+    }
+  });
+});
+</script>

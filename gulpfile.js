@@ -4,12 +4,13 @@
 var gulp = require('gulp');
 
 // Plugins
-//var sass = require('gulp-sass');
 var sass = require('gulp-ruby-sass');
+var minifycss = require('gulp-minify-css');
+var concat = require('gulp-concat');
+
 
 //var plumber = require('gulp-plumber');
 //var prefix = require('gulp-autoprefixer');
-var minifycss = require('gulp-minify-css');
 //var uglify = require('gulp-uglify');
 //var imagemin = require('gulp-imagemin');
 //var livereload = require('gulp-livereload');
@@ -27,7 +28,8 @@ gulp.task('sass', function() {
 });
 
 gulp.task('js', function(){
-  gulp.src('bower_components/mixitup/build/*.js')
+  gulp.src(['bower_components/bigSlide/dist/bigSlide.min.js', 'bower_components/mixitup/build/*.js'])
+    .pipe(concat('scripts.js'))
     .pipe(gulp.dest('assets/js'))
 })
 

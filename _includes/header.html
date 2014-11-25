@@ -3,7 +3,10 @@
     <div class="medium-12 columns">
     <a href="{{ site.baseurl }}/" class="brand">Coming <b>Together</b> <small> {{ site.subtitle }}</small></a>
     <!--navigation-->
-    <nav role="navigation" class="site-nav">
+    <div class="push" style="position: relative;">
+      <a href="#menu" class="menu-link">&#9776; <small>Menu</small></a>
+    </div>
+    <nav id="menu" class="site-nav" role="navigation" >
       <ul class="nav">
         <li><a href="{{ site.baseurl }}/books">Read books</a></li>
         <li><a href="{{ site.baseurl }}/events">Attend events</a></li>
