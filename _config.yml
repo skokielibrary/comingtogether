@@ -20,7 +20,7 @@ prose:
     rooturl: "events/_posts"
     siteurl: "http://comingtogether.in"
     metadata:
-        _posts:
+        events/_posts:
             - name: "layout"
               field:
                 element: "hidden"
