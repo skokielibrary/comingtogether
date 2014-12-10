@@ -1,22 +1,55 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
 <script>
-$(function(){
-
-  console.log(window.innerWidth)
-  if (window.innerWidth < 900){
-    //$('#menu').addClass('panel');
-    $('.menu-link').bigSlide({side: 'right'});
-  }
-
-  $('.event').addClass('hide');
-  $('#events-schedule').mixItUp({
-    animation: {
-      enable: false
-    },
-    selectors: {
-      target: '.event'
+  $(function(){
+    if (window.innerWidth < 900){
+      //$('#menu').addClass('panel');
+      $('.menu-link').bigSlide({side: 'right'});
     }
+
+  {% if page.title == 'Attend events' %}
+
+    $('.event').addClass('hide');
+    $('#events-schedule').mixItUp({
+      animation: {
+        enable: false
+      },
+      selectors: {
+        target: '.event'
+      },
+      layout: {
+        display: 'block',
+        containerClassFail: 'no-events'
+      },
+      controls: {
+        toggleFilterButtons: true,
+        toggleLogic: 'and'
+      }
+    });
+
+    var today = new Date();
+    var today_year = today.getFullYear();
+    var today_month = today.getMonth() > 9 ? today.getMonth() : "0" + today.getMonth();
+    var today_date = today.getDate() > 9 ? today.getDate() : "0" + today.getDate();
+
+    console.log(today_date)
+    var start_today = today_year + today_month + today_date
+
+    console.log(start_today);
+
+    $('#filter-toggle').click(function(){
+      $('.filters').slideToggle();
+    })
+
+    var single_days = $('.single-day');
+
+    /*$.each(single_days, function(i){
+      if (single_days[i].id < today){
+      $(single_days[i]).hide();
+    }
+    });*/
+
+  {% endif %}
+
   });
-});
 </script>
