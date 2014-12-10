@@ -1,0 +1,43 @@
+---
+layout: base
+type: event-detail
+---
+<section class="page-section events-schedule-section">
+  <div class="row">
+    <div class="large-7 large-centered columns">
+      <!--event-->
+      <div class="event {% for a in page.audiences %}audience-{{ a | slugify }} {% endfor %}{% for t in page.types %}type-{{ t | slugify }} {% endfor %} location-{{ page.location | slugify }}">
+        <div cldass="row">
+          <div class="medium-3 show-for-medium-up columns">
+            <!--event types-->
+            <ul class="event-types-list">
+              {% for t in page.types %}
+              <li><i class="type-icon type-icon-{{ t | slugify }}"></i>{{ t }}</li>
+              {% endfor %}
+            </ul>
+            <!--audiences-->
+            <ul class="event-audiences-list">
+              {% for a in page.audiences %}
+              <li>{{ a }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="medium-9 columns">
+            <div class="event-date">{{ page.date | date: "%A, %B %-d, %Y" }}</div>
+            <h3>
+              <a class="event-title post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title | markdownify }}</a>
+            </h3>
+            <div class="event-description">
+              {{ page.content }}
+            </div>
+            <ul class="event-meta">
+              <li>{{ page.times }}</li>
+              <li>{{ page.location }}</li>
+              <li>{% if page.registration %}<a href="{{ page.registration }}" class="registration-link">Register now&rarr;</a>{% endif %}</li>
+            </ul>
+          </div>
+        </div>
+      </div><!--end of single event-->
+    </div>
+  </div>
+</section>

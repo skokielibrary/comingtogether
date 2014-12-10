@@ -1,0 +1,10 @@
+<div class="page-header">
+  <div class="page-title">
+    <h1 {% if page.type == 'homepage' %}class="home-title"{% endif %}>{% if page.type == 'event-detail' %}Event{% else %}{{ page.title }}{% endif %}</h1>
+  {% if page.type == 'homepage' %}
+    <p>{{ site.series_dates }}</p>
+  {% elsif page.subtitle %}
+    <p>{{ page.subtitle }}</p>
+  {% endif %}
+  </div>
+</div>

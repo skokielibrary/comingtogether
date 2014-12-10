@@ -1,0 +1,27 @@
+{
+  "name": "comingtogether",
+  "version": "0.0.1",
+  "description": "Coming Together website",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-ruby-sass": "~0.7.1",
+    "gulp-minify-css": "~0.3.11",
+    "gulp-sass": "~1.2.2",
+    "gulp-concat": "^2.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skokielibrary/comingtogether.git"
+  },
+  "author": "Skokie Public Library",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skokielibrary/comingtogether/issues"
+  },
+  "homepage": "https://github.com/skokielibrary/comingtogether"
+}
