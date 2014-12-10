@@ -83,20 +83,18 @@ layout: base
 <section class="page-section locations-section">
   <div class="row">
     <div class="medium-12 columns">
-      <div class="row">
-        <h2>Locations</h2>
-        <ul class="medium-block-grid-4">
-          {% for location in site.data.locations %}
-          <li class="location">
-            <h3>{{ location.place }}</h3>
-            <ul class="location-details">
-              <li>{{ location.street }}</li>
-              <li>{{ location.city }}, {{ location.state }} {{ location.zipcode }}</li>
-            </ul>
-            <p><a href="https://www.google.com/maps/search/{{ location.place }} {{ location.street }} {{ location.city }} {{ location.zipcode }}">&raquo; Get directions</a></p>
-            {% endfor %}
+      <h2>Locations</h2>
+      <ul class="medium-block-grid-4">
+        {% for location in site.data.locations %}
+        <li class="location">
+          <h3>{{ location.place }}</h3>
+          <ul class="location-details">
+            <li>{{ location.street }}</li>
+            <li>{{ location.city }}, {{ location.state }} {{ location.zipcode }}</li>
           </ul>
-        </div>
+          <p><a href="https://www.google.com/maps/search/{{ location.place }} {{ location.street }} {{ location.city }} {{ location.zipcode }}">&raquo; Get directions</a></p>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </section>
