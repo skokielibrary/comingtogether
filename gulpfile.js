@@ -19,7 +19,7 @@ var concat = require('gulp-concat');
 
 // Compile Sass
 gulp.task('sass', function() {
-  gulp.src(['assets/scss/*.scss'])
+  gulp.src(['assets/scss/styles.scss'])
     .pipe(sass({
         loadPath: ['assets/scss', 'bower_components/foundation/scss', 'bower_components/foundation/scss/foundation']
       }))
@@ -33,4 +33,8 @@ gulp.task('js', function(){
     .pipe(gulp.dest('assets/js'))
 })
 
-gulp.task('default', ['sass', 'js']);
+gulp.task('watch', function() {
+  gulp.watch('assets/scss/*', ['sass'])
+});
+
+gulp.task('default', ['watch', 'sass', 'js']);
