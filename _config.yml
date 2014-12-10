@@ -8,7 +8,7 @@ description: 'A cultural and literary series exploring race and how it affects u
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://comingtogether.in" # the base hostname & protocol for your site
 permalink: /events/:year/:month/:day/:title
-exclude: [README.md, bower.json, bower_components, scss, node_modules, gulpfile.js, working]
+exclude: [README.md, bower.json, bower_components, scss, node_modules, gulpfile.js, working, events/working]
 defaults:
   -
     scope:
@@ -16,6 +16,66 @@ defaults:
       type: 'posts'
     values:
       layout: 'post'
-
+prose:
+    rooturl: "events/_posts"
+    siteurl: "http://comingtogether.in"
+    metadata:
+        _posts:
+            - name: "layout"
+              field:
+                element: "hidden"
+            - name: "title"
+              field:
+                element: "text"
+                label: "Title"
+            - name: "subtitle"
+              field:
+                element: "hidden"
+            - name: "location"
+              field:
+                element: "text"
+                label: "Location"
+            - name: "date"
+              field:
+                element: "text"
+                label: "Date"
+                help: "Must be yyyy-mm-dd hh:mm:ss -0600"
+            - name: "times"
+              field:
+                element: "text"
+                label: "Times"
+            - name: "audiences"
+              field:
+                element: "multiselect"
+                label: "Audience"
+                alterable: true
+                options:
+                  - name: "Adults"
+                    value: "Adults"
+                  - name: "Teens"
+                    value: "Teens"
+                  - name: "Kids/Family"
+                    value: "Kids/Family"
+            - name: "types"
+              field:
+                element: "select"
+                label: "Event type"
+                options:
+                  - name: "Books/Authors"
+                    value: "Books/Authors"
+                  - name: "Film"
+                    value: "Film"
+                  - name: "Kids/Family"
+                    value: "Kids/Family"
+                  - name: "Lecture"
+                    value: "Lecture"
+                  - name: "Performance"
+                    value: "Performance"
+                  - name: "Workshop"
+                    value: "Workshop"
+            - name: "registration"
+              field:
+                element: "text"
+                label: "Registration URL"
 # Build settings
 markdown: kramdown
