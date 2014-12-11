@@ -45,7 +45,7 @@ layout: base
         {% endif %}
             <div class="event {% for a in post.audiences %}audience-{{ a | slugify }} {% endfor %}{% for t in post.types %}type-{{ t | slugify }} {% endfor %} location-{{ post.location | slugify }}">
               <div class="row">
-                <div class="medium-3 show-for-medium-up columns">
+                <div class="small-3 small-push-9 medium-reset-order columns">
                   <!--event types-->
                   <ul class="event-types-list">
                     {% for t in post.types %}
@@ -59,7 +59,7 @@ layout: base
                     {% endfor %}
                   </ul>
                 </div>
-                <div class="medium-9 columns">
+                <div class="small-9 small-pull-3 medium-reset-order columns">
                   <div class="event-date">{{ post.date | date: "%A, %B %-d, %Y" }}</div>
                   <h3>
                     <a class="event-title post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify }}</a>
