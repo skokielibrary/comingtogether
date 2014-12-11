@@ -30,7 +30,10 @@ Now you're ready to:
 ## Working on the site
 
 1. Get Jeykll up and running with `jekyll serve --baseurl ""`
-2. Run gulp to watch SASS files `gulp`
+2. Run gulp to watch SASS files `gulp`.
+3. Push changes with `git push origin gh-pages`
+
+Remember that you must push to gh-pages for the site to rebuild itself on Github's end.
 
 ## Rebuilding site
 
