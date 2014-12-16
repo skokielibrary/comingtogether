@@ -8,8 +8,8 @@ times: Through May 30
 audiences: 
   - All ages
 types: 
-  - Performance
-registration: ""
+  
+registration: null
 canceled: "No"
 published: true
 ---
