@@ -15,4 +15,4 @@ canceled: "No"
 published: true
 ---
 
-Skeeter, a southern society girl, is determined to become a writer, but turns her friends' lives, and a small Mississippi town upside down when she interviews the black women in the community. PG-13.
+Skeeter, a southern society girl, is determined to become a writer, but turns her friends' lives, and a small Mississippi town upside down when she interviews the black women in the community. Rated PG-13.
