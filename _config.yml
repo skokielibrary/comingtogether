@@ -56,6 +56,8 @@ prose:
                     value: "Teens"
                   - name: "Kids/Family"
                     value: "Kids/Family"
+                  - name: "All ages"
+                    value: "All ages"
             - name: "types"
               field:
                 element: "select"
@@ -77,5 +79,14 @@ prose:
               field:
                 element: "text"
                 label: "Registration URL"
+            - name: "canceled"
+              field:
+                element: "select"
+                label: "Canceled?"
+                options:
+                  - name: "No"
+                    value: "No"
+                  - name: "Yes"
+                    value: "Yes"
 # Build settings
 markdown: kramdown
