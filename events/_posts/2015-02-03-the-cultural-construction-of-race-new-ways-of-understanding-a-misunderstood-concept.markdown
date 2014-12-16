@@ -4,7 +4,7 @@ title: The Cultural Construction of "Race": New Ways of Understanding a Misunder
 subtitle: "Voices of Race, 2015"
 location: Oakton Community College, Des Plaines Campus, Room 1606
 date: 2015-02-03 00:00:00 -0600
-times: 4 p.m.
+times: 4:00 p.m
 audiences: ['Adults']
 types: ['Lecture']
 registration: 
