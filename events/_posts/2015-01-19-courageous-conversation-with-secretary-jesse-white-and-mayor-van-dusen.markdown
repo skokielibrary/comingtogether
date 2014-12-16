@@ -9,7 +9,7 @@ audiences:
   - Adults
 types: 
   - Lecture
-registration: null
+registration: "http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=23399"
 canceled: "No"
 published: true
 ---
