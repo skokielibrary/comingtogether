@@ -4,7 +4,7 @@ layout: event
 title: "Film: *Snow Falling on Cedars*"
 location: Lincolnwood Public Library
 date: "2015-02-05 00:00:00 -0600"
-times: "10:30 a.m."
+times: "10:30 a.m"
 audiences: 
   - Adults
 types: 
