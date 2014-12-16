@@ -3,7 +3,7 @@ subtitle: "Voices of Race, 2015"
 layout: event
 title: "Panda-monium"
 location: Morton Grove Public Library
-date: "2015-01-14 00:00:00 -0600"
+date: "2015-01-14 01:00:00 -0600"
 times: "6:00 p.m."
 audiences: 
   - Kids/Family
