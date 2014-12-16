@@ -4,11 +4,12 @@ layout: event
 title: "Skokie's Journey Toward Cultural Diversity"
 location: Skokie Heritage Museum
 date: "2015-01-16 00:00:00 -0600"
-times: Through May 30
+times: ""
 audiences: 
   - All ages
 types: 
-  
+  - null
+  - Books/Authors
 registration: null
 canceled: "No"
 published: true
