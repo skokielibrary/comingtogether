@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Race&#58; The Power of an Illusion - Film Series & Discussion; Part 2 - "The Story We Tell"
+title: Race&#58; The Power of an Illusion - Film Series & Discussion; Part 2 - The Story We Tell
 subtitle: "Voices of Race, 2015"
 location: Oakton Community College, Skokie Campus, Room A145-152
 date: 2015-04-02 00:00:00 -0600
