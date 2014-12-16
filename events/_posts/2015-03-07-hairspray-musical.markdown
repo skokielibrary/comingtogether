@@ -4,7 +4,7 @@ layout: event
 title: "Hairspray, The Broadway Musical"
 location: Niles North High School Auditorium
 date: "2015-03-07 00:00:00 -0600"
-times: "2 p.m. & 7 p.m."
+times: "2:00 p.m & 7:00 p.m"
 audiences: 
   - All ages
 types: 
