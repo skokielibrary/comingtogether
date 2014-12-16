@@ -3,7 +3,7 @@ subtitle: "Voices of Race, 2015"
 layout: event
 title: "My Country 'Tis of Me"
 location: Morton Grove Public Library
-date: "2015-02-07 00:00:00 -0600"
+date: "2015-02-07 02:00:00 -0600"
 times: "9 a.m. - 5 p.m."
 audiences: 
   - Kids/Family
