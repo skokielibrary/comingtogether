@@ -2,7 +2,7 @@
 subtitle: "Voices of Race, 2015"
 layout: event
 title: Opening Ceremony
-location: Morton Grove Public Library
+location: "Illinois Holocaust Museum & Education Center"
 date: "2015-01-11 00:00:00 -0600"
 times: "6:00 p.m."
 audiences: 
