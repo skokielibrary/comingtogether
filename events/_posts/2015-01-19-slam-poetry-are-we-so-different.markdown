@@ -20,8 +20,8 @@ published: true
 
 Write. Speak. Create. Join an artist from Chicago Slam Works, a spoken word performance and teaching group, to learn about slam poetry and poets' abilities to tell moving personal stories. Participants will spend an hour and a half learning about and crafting their own slam poems, and all creations will be recorded at the end of the event.
 
-10:00am for 4th and 5th grade - [Register](http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22318) 
+10:00 a.m for 4th and 5th grade - [Register](http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22318) 
 
-1:00pm for 6th through 8th grade - [Register](http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22319)
+1:00 p.m for 6th through 8th grade - [Register](http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22319)
 
-3:30pm for 9th through 12th grade - [Register](http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22320)
+3:30 p.m for 9th through 12th grade - [Register](http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22320)
