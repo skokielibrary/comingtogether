@@ -15,4 +15,4 @@ canceled: "No"
 published: true
 ---
 
-The Kadam family leaves India for France where they open a restaurant directly across the road from Madame Mallory's Michelin-starred eatery (IMDb). PG.
+The Kadam family leaves India for France where they open a restaurant directly across the road from Madame Mallory's Michelin-starred eatery (IMDb). Rated PG.
