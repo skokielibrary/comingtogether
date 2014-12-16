@@ -4,7 +4,7 @@ layout: event
 title: Make a Statement
 location: Lincolnwood Public Library
 date: "2015-03-05 03:00:00 -0600"
-times: "7:00 p.m."
+times: "7:00 p.m"
 audiences: 
   - Kids/Family
 types: 
