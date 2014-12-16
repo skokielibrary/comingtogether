@@ -7,6 +7,8 @@ date: "2015-01-19 01:00:00 -0600"
 times: ""
 audiences: 
   - Teens
+  - "4th - 5th grades"
+  - "6th - 8th grades"
   - "9th - 12th grades"
 types: 
   - "Workshop "
