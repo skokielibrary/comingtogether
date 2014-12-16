@@ -4,7 +4,7 @@ layout: event
 title: "*The Long March to Montgomery* by Susan Van Dusen"
 location: Skokie Heritage Museum
 date: "2015-01-25 00:00:00 -0600"
-times: "1:30 P.M."
+times: "1:30 p.m"
 audiences: 
   - Adults
 types: 
