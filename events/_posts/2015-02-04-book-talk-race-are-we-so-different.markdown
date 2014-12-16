@@ -3,7 +3,7 @@ subtitle: "Voices of Race, 2015"
 layout: event
 title: "Book talk:  Race: Are We So Different?"
 location: Civic Center of Morton Grove
-date: "2015-02-04 13:00:00 -0600"
+date: "2015-02-04 1:00:00 -0600"
 times: "1:00 PM"
 audiences: 
   - Adults
