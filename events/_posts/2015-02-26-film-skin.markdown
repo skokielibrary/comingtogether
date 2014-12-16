@@ -1,13 +1,17 @@
 ---
-layout: event
-title: Film&#58; *Skin*
 subtitle: "Voices of Race, 2015"
+layout: event
+title: "Film: *Skin*"
 location: Lincolnwood Public Library
-date: 2015-02-26 00:00:00 -0600
-times: 10:30 a.m.
-audiences: ['Adults']
-types: ['Film']
-registration: 
+date: "2015-02-26 00:00:00 -0600"
+times: "10:30 a.m."
+audiences: 
+  - Adults
+types: 
+  - Film
+registration: null
 canceled: "No"
+published: true
 ---
-Based on the true story of a black girl who was born to two white Afrikaner parents in South Africa during apartheid era (IMDb).
+
+Based on the true story of a black girl who was born to two white Afrikaner parents in South Africa during apartheid era (IMDb). Rated PG-13.
