@@ -4,7 +4,7 @@ layout: event
 title: "What's Your Story: Stories of Race Project"
 location: "Niles North High School, Black Box Theatre"
 date: "2015-01-14 02:00:00 -0600"
-times: "6:00 p.m."
+times: "4:00 p.m."
 audiences: 
   - All ages
 types: 
