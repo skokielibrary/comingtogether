@@ -1,13 +1,19 @@
 ---
+subtitle: "Voices of Race, 2015"
 layout: event
 title: Student Art Exhibit
-subtitle: "Voices of Race, 2015"
-location: Oakton Community College, Skokie Campus and Des Plaines Campus
-date: 2015-02-20 00:00:00 -0600
+location: "Oakton Community College, Skokie Campus and Des Plaines Campus"
+date: "2015-02-20 00:00:00 -0600"
 times: Through May 15
-audiences: 
+audiences: null
 types: 
-registration: 
+  - null
+  - Books/Authors
+registration: null
 canceled: "No"
+published: true
 ---
-Artworks created by students.
+
+Artwork by students and creative works about race will be on display at Oakton Community College's Skokie and Des Plaines campuses.
+
+February 20 - May 15
