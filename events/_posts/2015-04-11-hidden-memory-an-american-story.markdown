@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Presentation&#58; "Hidden Memory&#58; an American Story"
+title: Hidden Memory&#58; an American Story
 subtitle: Voices of Race, 2015
 location: Morton Grove Public Library
 date: 2015-04-11 00:00:00 -0600

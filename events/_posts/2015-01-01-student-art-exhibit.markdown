@@ -9,4 +9,4 @@ audiences:
 types: 
 registration: 
 ---
-Artworks created by students
+Artworks created by students.

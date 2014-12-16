@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Moving Targets&#58; Lives & Legacies of Emmett Till, Trayvon Martin, & Mike Brown.
+title: Moving Targets&#58; Lives & Legacies of Emmett Till, Trayvon Martin, & Mike Brown
 subtitle: Voices of Race, 2015
 location: Skokie Public Library
 date: 2015-02-11 00:00:00 -0600

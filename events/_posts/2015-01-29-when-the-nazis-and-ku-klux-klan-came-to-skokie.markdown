@@ -9,4 +9,4 @@ audiences: ['Adult']
 types: ['Lecture']
 registration: 
 ---
-Lessons learned: Skokie Mayor George Van Dusen and Illinois NAACP Director George Mitchell lead a panel discussing how the Village of Skokie reacted to the Nazi and Klan threats. Featuring a clip from a new documentary with never-before-seen footage.
+Skokie Mayor George Van Dusen and Illinois NAACP Director George Mitchell lead a panel discussing how the Village of Skokie reacted to the Nazi and Klan threats. Featuring a clip from a new documentary with never-before-seen footage.

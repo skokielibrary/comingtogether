@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Family Storytime&#58;  All About Differences.
+title: Family Storytime&#58;  All About Differences
 subtitle: Voices of Race, 2015
 location: Skokie Public Library
 date: 2015-02-04 00:00:00 -0600

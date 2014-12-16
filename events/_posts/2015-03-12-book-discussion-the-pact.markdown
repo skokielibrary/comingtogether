@@ -7,6 +7,6 @@ date: 2015-03-12 00:00:00 -0600
 times: 11:30 a.m.
 audiences: ['Adult']
 types: ['Books/Authors']
-registration:
+registration: 
 ---
 Book Discussion

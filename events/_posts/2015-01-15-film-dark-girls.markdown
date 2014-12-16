@@ -5,7 +5,7 @@ subtitle: Voices of Race, 2015
 location: Lincolnwood Public Library
 date: 2015-01-15 00:00:00 -0600
 times: 10:30 a.m.
-audiences: ['Adults', ' Teens']
+audiences: ['Adult']
 types: ['Film']
 registration: 
 ---

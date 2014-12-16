@@ -1,11 +1,11 @@
 ---
 layout: event
-title: Unveiled a one woman show by Rohina Malik, Racism.
+title: Unveiled 
 subtitle: Voices of Race, 2015
 location: Skokie Public Library
 date: 2015-01-30 00:00:00 -0600
 times: 6:00 PM
-audiences: ['Adults', ' Teens']
+audiences: ['Adults', 'Teens']
 types: ['Performance']
 registration: http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22116
 ---

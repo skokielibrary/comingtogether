@@ -9,4 +9,4 @@ audiences: ['Adult']
 types: ['Books/Authors']
 registration: 
 ---
-Odette, Clarice, and Barbara Jean have seen their friendship endure through bullies, love affairs, and great tragedies. But can they survive a tumultuous year when they are forced to face their past mistakes? The world of Plainview, Indiana and its sometimes quirky inhabitants is vividly brought to life in this funny and touching book.
+Odette, Clarice, and Barbara Jean have seen their friendship endure through bullies, love affairs and great tragedies. But can they survive a tumultuous year when they are forced to face their past mistakes? This funny and touching book sheds light on what it was like to live through the Civil Rights era and how those struggles continue to shape modern day communities and lives.

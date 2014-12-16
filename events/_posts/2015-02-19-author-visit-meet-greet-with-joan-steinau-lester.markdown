@@ -6,7 +6,7 @@ location: Niles Township Schools ELL Parent Center
 date: 2015-02-19 00:00:00 -0600
 times: 6:00 p.m.
 audiences: ['All ages']
-types: 
+types: ['Books/Authors']
 registration: 
 ---
-A visit with Joan Steinau Lester, the author of Black, White, Other: In Search of Nina Armstrong
+A visit with Joan Steinau Lester, the author of *Black, White, Other: In Search of Nina Armstrong.*

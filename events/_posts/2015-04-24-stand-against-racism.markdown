@@ -9,4 +9,4 @@ audiences: ['All ages']
 types: 
 registration: 
 ---
-check out website at http://www.ywca.org/site/c.ewK0LoO8LmK6F/b.8080931/k.73B4/Stand_Against_Racism.htm
+"Stand Against Racism" is a movement of the YWCA that aims to eliminate racism by raising awareness through its annual event. We invite individuals and groups to participate in a public stand throughout Evanston and Niles Township.

@@ -9,4 +9,4 @@ audiences: ['Adult']
 types: ['Film']
 registration: http://www.eventkeeper.com/code/popevent.cfm?curOrg=MGPL&curApp=events&eID=3794546&thisDate=NO_DATE
 ---
-A predominently Jewish suburb is forced to confront its deepest fears about American rights and freedom when a Nazi organizer selects it as the location for his next rally
+A predominantly Jewish suburb is forced to confront its deepest fears about American rights and freedom when a Nazi organizer selects it as the location for his next rally.

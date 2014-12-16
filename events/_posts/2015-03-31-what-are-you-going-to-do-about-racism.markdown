@@ -6,7 +6,7 @@ location: Holiday Inn Chicago North Shore, Skokie
 date: 2015-03-31 00:00:00 -0600
 times: 7 p.m.
 audiences: ['Adult']
-types: 
+types: ['Workshop']
 registration: 
 ---
-A discussion led by the past CTISNT participants - Indian, Filipino, Assyrian, Greek and Korean Communities
+A discussion led by the past Coming Together in Skokie and Niles Township participants - Indian, Filipino, Assyrian, Greek, and Korean Communities.

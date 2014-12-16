@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Film&#58; *Bridge to the Sun" (1961)
+title: Film&#58; *Bridge to the Sun* 
 subtitle: Voices of Race, 2015
 location: Lincolnwood Public Library
 date: 2015-02-12 00:00:00 -0600
