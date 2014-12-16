@@ -4,7 +4,7 @@ layout: event
 title: "Film: *Men of Honor*"
 location: Morton Grove Public Library
 date: "2015-02-03 00:00:00 -0600"
-times: "11:30 AM"
+times: "11:30 a.m"
 audiences: 
   - Adults
 types: 
