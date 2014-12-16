@@ -4,7 +4,7 @@ layout: event
 title: "Panda-monium"
 location: Morton Grove Public Library
 date: "2015-01-14 01:00:00 -0600"
-times: "9:30am, 11:00am, and 6:00pm"
+times: "9:30 a.m, 11:00 a.m, and 6:00 p.m"
 audiences: 
   - Kids/Family
 types: 
