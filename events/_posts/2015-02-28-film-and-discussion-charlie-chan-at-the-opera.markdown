@@ -9,4 +9,4 @@ audiences: ['Adult']
 types: ['Film', 'Lecture']
 registration: http://www.eventkeeper.com/code/popevent.cfm?curOrg=MGPL&curApp=events&eID=3794540&thisDate=NO_DATE
 ---
-Film and discussion of issues of race in Film moderated by author and film historian Doug Deuchler. A dangerous amnesiac escapes from an asylum, hides in an opera house, and is suspected of getting revenge on those who tried to murder him 13 years ago.
+Film and discussion of issues of race in film moderated by author and film historian Doug Deuchler. A dangerous amnesiac escapes from an asylum, hides in an opera house, and is suspected of getting revenge on those who tried to murder him 13 years ago.

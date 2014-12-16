@@ -9,4 +9,4 @@ audiences: ['Adult']
 types: ['Lecture']
 registration: http://www.eventkeeper.com/code/popevent.cfm?curOrg=MGPL&curApp=events&eID=3804416&thisDate=NO_DATE
 ---
-Dr. Sherwin Bryant, PhD, Director of the Center for African American History at Norhwestern University, will discuss the history of slavery in the  Americas,  and current events pertaining to race.
+Dr. Sherwin Bryant, PhD, Director of the Center for African American History at Norhwestern University, will discuss the history of slavery in the  Americas, and current events pertaining to race.

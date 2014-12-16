@@ -9,4 +9,4 @@ audiences: ['Adult']
 types: ['Books/Authors']
 registration: http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=21100
 ---
-Join author Edward Kelsey Moore as we discuss The Supremes at Earl's All-You-Can-Eat by Edward Kelsey Moore.Odette, Clarice, and Barbara Jean have seen their friendship endure through bullies, love affairs and great tragedies. But can they survive a tumultuous year when they are forced to face their past mistakes? This funny and touching book sheds light on what it was like to live through the Civil Rights era and how those struggles continue to shape modern day communities and lives.
+Join author Edward Kelsey Moore as we discuss *The Supremes at Earl's All-You-Can-Eat* by Edward Kelsey Moore. Odette, Clarice, and Barbara Jean have seen their friendship endure through bullies, love affairs and great tragedies. But can they survive a tumultuous year when they are forced to face their past mistakes? This funny and touching book sheds light on what it was like to live through the Civil Rights era and how those struggles continue to shape modern day communities and lives.
