@@ -1,6 +1,6 @@
 ---
 layout: event
-title: The Cultural Construction of "Race" New Ways of Understanding a Misunderstood Concept  
+title: The Cultural Construction of "Race": New Ways of Understanding a Misunderstood Concept  
 subtitle: "Voices of Race, 2015"
 location: Oakton Community College, Des Plaines Campus, Room 1606
 date: 2015-02-03 00:00:00 -0600
