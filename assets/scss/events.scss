@@ -1,4 +1,4 @@
-.page-section{padding: 40px 0;}
+/*events styles*/
 .events-list h2{font-weight: 400; font-size: 1.6rem; text-transform: none; color: #9e1e62;}
 .event{margin-bottom: 2rem; padding-bottom: 1rem;}
 .event-meta{list-style: none; margin: 0; padding: 0;}
@@ -33,6 +33,7 @@
 .no-events > .no-events-alert{display: block;}
 .registration-link{font-weight: 400;}
 .registration-link:after{content:'\2192'; font-size: 90%; vertical-align: middle;}
+.locations-section{padding: 20px 0; background-color: #cbcbcb;}
 .locations-section h2{font-size: 1.5rem;}
 .location h3{margin-bottom: 0; font-size: 1rem; font-weight: 400;}
 .location-details{list-style: none; margin: 0; padding: 0;}

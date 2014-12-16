@@ -1,0 +1,21 @@
+/*footer styles*/
+.social-cta{padding: 20px; background-color: #fff; text-align: center;}
+.social-cta a{ text-transform: uppercase; text-decoration: none; color: #9e1e62;}
+.social-cta p{margin: 0; font-size: 1.5rem;}
+.social-cta em{display: block; font-style: normal; font-weight: 400;}
+.facebook-icon{display: block; width: 48px; height: 48px; margin: 1rem auto .5rem auto; background: url(../img/facebook-icon.png) no-repeat center center; vertical-align: middle;}
+.site-footer{padding: 40px 0 20px 0; background-color: #808080;}
+.site-footer .brand{font-size: 1em; }
+.site-footer a{color: #fff; text-decoration: none;}
+.event-dates{margin-top: 3px; color: #fff;}
+.supporting-orgs{margin: 1rem 0; padding: 1rem 0 2rem 0; font-size: .9rem;}
+.supporting-orgs h3{padding-top: 1rem; font-size: 1rem; text-transform: uppercase; }
+.supporting-orgs p{margin-top: 3px;}
+.supporting-orgs ul{list-style: none; margin: 0; padding: 0;}
+.contact-info{color: #fff;}
+
+@media only screen and (min-width: $desktop-break){
+  .contact-info{text-align: right; }
+  .social-cta em{display: inline;}
+  .facebook-icon{display: inline-block; margin-top: -4px; margin-right: 1rem}
+}
