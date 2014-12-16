@@ -4,7 +4,7 @@ layout: event
 title: "How Do We Talk about Race in Skokie?"
 location: Devonshire Cultural Center
 date: "2015-03-09 00:00:00 -0600"
-times: "7 - 8:30 p.m."
+times: "7:00 - 8:30 p.m"
 audiences: 
   - All ages
 types: 
