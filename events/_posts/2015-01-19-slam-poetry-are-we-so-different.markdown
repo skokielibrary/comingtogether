@@ -4,7 +4,7 @@ layout: event
 title: "Slam Poetry:  Are We So Different?"
 location: Skokie Public Library
 date: "2015-01-19 10:00:00 -0600"
-times: "10:00 am, 1:00pm and 3:30pm"
+times: ""
 audiences: 
   - Teens
   - "9th - 12th grades"
