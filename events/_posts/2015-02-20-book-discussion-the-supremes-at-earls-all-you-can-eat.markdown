@@ -2,7 +2,7 @@
 layout: event
 title: Book Discussion&#58; *The Supremes at Earl's All You Can Eat*
 subtitle: Voices of Race, 2015
-location: Civic Center of Morton Grove. 6140 Demster Street, Morton Grove
+location: Civic Center of Morton Grove
 date: 2015-02-20 00:00:00 -0600
 times: 10:00 AM
 audiences: ['Adult']
