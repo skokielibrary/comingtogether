@@ -4,7 +4,7 @@ layout: event
 title: "Film: *Belle*"
 location: Morton Grove Public Library
 date: "2015-02-10 00:00:00 -0600"
-times: "11:30 a.m."
+times: "11:30 a.m"
 audiences: 
   - Adults
 types: 
