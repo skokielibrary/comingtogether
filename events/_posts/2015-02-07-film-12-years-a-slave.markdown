@@ -3,7 +3,7 @@ subtitle: "Voices of Race, 2015"
 layout: event
 title: "Film: *12 Years a Slave*"
 location: Niles Public Library
-date: "2015-02-07 01:00:00 -0600"
+date: "2015-02-07 02:00:00 -0600"
 times: 2 p.m.
 audiences: 
   - Adults
