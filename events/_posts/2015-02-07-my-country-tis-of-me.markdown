@@ -4,7 +4,7 @@ layout: event
 title: "My Country 'Tis of Me"
 location: Morton Grove Public Library
 date: "2015-02-07 01:00:00 -0600"
-times: "9 a.m. - 5 p.m."
+times: "9:00 a.m - 5:00 p.m"
 audiences: 
   - Kids/Family
 types: 
