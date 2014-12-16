@@ -13,7 +13,7 @@ audiences:
 types: 
   - "Workshop "
   - Books/Authors
-registration: ""
+registration: null
 canceled: "No"
 published: true
 ---
