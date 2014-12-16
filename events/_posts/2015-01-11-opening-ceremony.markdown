@@ -4,7 +4,7 @@ layout: event
 title: Opening Ceremony
 location: "Illinois Holocaust Museum & Education Center"
 date: "2015-01-11 00:00:00 -0600"
-times: "6:00 p.m."
+times: "12:00 p.m."
 audiences: 
   - All ages
 types: 
