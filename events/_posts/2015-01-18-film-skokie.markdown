@@ -3,7 +3,7 @@ subtitle: "Voices of Race, 2015"
 layout: event
 title: "Film: *Skokie: Invaded But Not Conquered*"
 location: Morton Grove Public Library
-date: "2015-01-18 00:00:00 -0600"
+date: "2015-01-18 14:00:00 -0600"
 times: "2:00 PM"
 audiences: 
   - Adults
