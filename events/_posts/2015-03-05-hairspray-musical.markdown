@@ -3,7 +3,7 @@ subtitle: "Voices of Race, 2015"
 layout: event
 title: "Hairspray, The Broadway Musical"
 location: Niles North High School Auditorium
-date: "2015-03-05 00:00:00 -0600"
+date: "2015-03-05 01:00:00 -0600"
 times: "10 a.m.- FREE community performance"
 audiences: 
   - All ages
