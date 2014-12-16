@@ -4,7 +4,7 @@ layout: event
 title: "Film: *The Hundred Foot Journey*"
 location: Morton Grove Public Library
 date: "2015-01-15 00:00:00 -0600"
-times: "2 pm & 6:30 pm"
+times: "2:00 p.m, 6:30 p.m"
 audiences: 
   - Adults
   - Kids/Family
