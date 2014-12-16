@@ -2692,6 +2692,19 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
+h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #9e1e62; }
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 400; }
+
+h4 {
+  font-size: 1rem;
+  margin-bottom: 2px; }
+
 p, blockquote, li {
   font-weight: 300; }
 
@@ -2707,6 +2720,42 @@ button, .button {
 button:focus, .button:focus {
   background-color: #711448; }
 
+.button {
+  text-transform: uppercase; }
+
+.line-button {
+  background: transparent;
+  border: 1px solid #9e1e62;
+  color: #9e1e62; }
+
+.line-button:hover {
+  border-color: #711448;
+  background: #711448;
+  color: #fff; }
+
+.video figcaption {
+  margin-bottom: .5rem;
+  font-size: .8rem; }
+
+img.portrait {
+  border-radius: 50%; }
+
+/*page stuff*/
+.video {
+  margin-bottom: 1.5rem;
+  padding: 6px 0 3px 0;
+  border-top: 1px solid #cbcbcb; }
+
+.page-content {
+  background-color: #efefef; }
+
+.page-content h2 {
+  margin-top: 0; }
+
+.page-section {
+  padding: 40px 0; }
+
+/*header and nav styles*/
 .site-header {
   position: absolute;
   top: .5rem;
@@ -2800,67 +2849,24 @@ h1.home-title {
 .page-title p {
   font-size: 1.5rem; }
 
-.page-content {
-  background-color: #efefef; }
+@media only screen and (min-width: 64.063em) {
+  .menu-link {
+    position: absolute;
+    clip: rect(0px 0px 0px 0px); }
 
-.page-content h2 {
-  margin-top: 0; }
+  .site-nav {
+    position: static;
+    float: right;
+    width: auto;
+    background-color: transparent;
+    text-align: right; }
 
-.feature-section {
-  padding: 80px 20px; }
+  .nav li {
+    display: inline-block; }
 
-.feature-section h2 {
-  margin-top: .4rem;
-  font-size: 2.666rem;
-  font-weight: 400;
-  color: #9e1e62;
-  text-transform: uppercase; }
-
-.feature-section h2 > small {
-  display: block;
-  font-weight: 300;
-  font-size: .666rem; }
-
-.feature-section h2 > small > em {
-  font-style: normal;
-  text-transform: none; }
-
-.feature-section p {
-  font-size: 1.2rem; }
-
-.feature-image {
-  margin-bottom: 2rem; }
-
-.events-section p:last-of-type, .books-section p:last-of-type {
-  margin-bottom: 2rem; }
-
-.books-section {
-  background-color: #cbcbcb; }
-
-.quote-section {
-  background: url(../img/man-abnormal-man-14777464755.jpg) no-repeat center center;
-  background-size: cover;
-  overflow: hidden; }
-
-.featured-quote {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  color: #fff; }
-
-.featured-quote p {
-  margin-bottom: .5rem;
-  font-size: 2rem;
-  color: #fff; }
-
-.featured-quote footer {
-  text-align: right;
-  text-transform: uppercase; }
-
-.featured-quote cite {
-  font-style: normal;
-  color: #fff; }
-
+  h1.home-title {
+    font-size: 6em; } }
+/*footer styles*/
 .social-cta {
   padding: 20px;
   background-color: #fff;
@@ -2924,42 +2930,74 @@ h1.home-title {
 .contact-info {
   color: #fff; }
 
-.button {
-  text-transform: uppercase; }
-
-.line-button {
-  background: transparent;
-  border: 1px solid #9e1e62;
-  color: #9e1e62; }
-
-.line-button:hover {
-  border-color: #711448;
-  background: #711448;
-  color: #fff; }
-
-/*events page*/
-.locations-section {
-  padding: 20px 0;
-  background-color: #cbcbcb; }
-
 @media only screen and (min-width: 64.063em) {
-  .menu-link {
-    position: absolute;
-    clip: rect(0px 0px 0px 0px); }
-
-  .site-nav {
-    position: static;
-    float: right;
-    width: auto;
-    background-color: transparent;
+  .contact-info {
     text-align: right; }
 
-  .nav li {
-    display: inline-block; }
+  .social-cta em {
+    display: inline; }
 
-  h1.home-title {
-    font-size: 6em; }
+  .facebook-icon {
+    display: inline-block;
+    margin-top: -4px;
+    margin-right: 1rem; } }
+/*homepage styles*/
+.feature-section {
+  padding: 80px 20px; }
 
+.feature-section h2 {
+  margin-top: .4rem;
+  font-size: 2.666rem;
+  font-weight: 400;
+  color: #9e1e62;
+  text-transform: uppercase; }
+
+.feature-section h2 > small {
+  display: block;
+  font-weight: 300;
+  font-size: .666rem; }
+
+.feature-section h2 > small > em {
+  font-style: normal;
+  text-transform: none; }
+
+.feature-section p {
+  font-size: 1.2rem; }
+
+.feature-image {
+  margin-bottom: 2rem; }
+
+.events-section p:last-of-type, .books-section p:last-of-type {
+  margin-bottom: 2rem; }
+
+.books-section {
+  background-color: #cbcbcb; }
+
+.quote-section {
+  background: url(../img/man-abnormal-man-14777464755.jpg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden; }
+
+.featured-quote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #fff; }
+
+.featured-quote p {
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  color: #fff; }
+
+.featured-quote footer {
+  text-align: right;
+  text-transform: uppercase; }
+
+.featured-quote cite {
+  font-style: normal;
+  color: #fff; }
+
+@media only screen and (min-width: 64.063em) {
   .feature-section {
     padding: 80px 120px; }
 
@@ -2972,21 +3010,81 @@ h1.home-title {
     margin-left: 4rem; }
 
   .quote-section {
-    max-height: 400px; }
+    max-height: 400px; } }
+/*about page styles*/
+.past-programs-list a {
+  display: block;
+  text-align: left; }
 
-  .contact-info {
-    text-align: right; }
+.program-label {
+  line-height: 1;
+  font-size: .9rem;
+  font-style: italic; }
 
-  .social-cta em {
-    display: inline; }
+.program-year {
+  display: block;
+  margin-top: .5rem;
+  font-size: 1rem;
+  font-style: normal; }
 
-  .facebook-icon {
-    display: inline-block;
-    margin-top: -4px;
-    margin-right: 1rem; } }
-.page-section {
-  padding: 40px 0; }
+/*book page styles*/
+.book {
+  margin-bottom: 2rem; }
 
+.book h3 {
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  font-weight: 400; }
+
+.book h3 > small {
+  display: block;
+  margin-top: .7rem;
+  font-size: 1rem;
+  font-weight: 300; }
+
+.book h4 {
+  font-size: 1rem;
+  font-style: italic; }
+
+.book-cover {
+  float: right;
+  max-width: 40%;
+  margin: 0 0 2rem 2rem; }
+
+.find-book {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em; }
+
+.find-book li a:before {
+  content: "\0BB \020"; }
+
+.page-callout {
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  background-color: #cbcbcb; }
+
+.author-visit h3 {
+  font-size: 1.2rem; }
+
+.author-visit h3 > small {
+  display: block;
+  margin-bottom: .5rem;
+  font-size: .8rem;
+  text-transform: uppercase; }
+
+.unstyled-list {
+  list-style: none;
+  margin: 0; }
+
+@media only screen and (min-width: 40.063em) {
+  .book-cover {
+    float: right;
+    max-width: none;
+    margin: 0 0 2rem 2rem; } }
+/*events styles*/
 .events-list h2 {
   font-weight: 400;
   font-size: 1.6rem;
@@ -3134,6 +3232,10 @@ h1.home-title {
   font-size: 90%;
   vertical-align: middle; }
 
+.locations-section {
+  padding: 20px 0;
+  background-color: #cbcbcb; }
+
 .locations-section h2 {
   font-size: 1.5rem; }
 
@@ -3155,3 +3257,71 @@ h1.home-title {
 
   .filter {
     border: 0; } }
+/*resources styles*/
+.video figcaption {
+  margin-bottom: .5rem;
+  line-height: 1.1;
+  font-size: .8rem; }
+
+.video {
+  margin-bottom: 1.5rem;
+  padding: 6px 0 3px 0;
+  border-top: 1px solid #cbcbcb; }
+
+.video-section .video {
+  margin-bottom: 0;
+  border-top: 1px solid #888; }
+
+.video-section .video figcaption {
+  font-size: 100%;
+  font-style: italic; }
+
+.video-section p {
+  margin-top: 0;
+  font-size: .9rem; }
+
+.past-programs-list a {
+  display: block;
+  text-align: left; }
+
+.program-label {
+  line-height: 1;
+  font-size: .9rem;
+  font-style: italic; }
+
+.program-year {
+  display: block;
+  margin-top: .5rem;
+  font-size: 1rem;
+  font-style: normal; }
+
+.video-section {
+  margin-top: 2rem;
+  padding: 20px 0; }
+
+.activity {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #cbcbcb; }
+
+.more-readings {
+  padding: 1rem; }
+
+.essay-preview {
+  margin-bottom: 1.5rem; }
+
+.essay-excerpt {
+  font-style: italic; }
+
+.image figcaption {
+  margin-top: 1rem;
+  padding-top: .5rem;
+  border-top: 1px solid #cbcbcb;
+  font-size: .8rem;
+  font-style: italic; }
+
+.set-right {
+  width: 40%;
+  float: right;
+  margin-left: 2rem;
+  margin-bottom: 1rem; }
