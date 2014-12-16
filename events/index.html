@@ -15,6 +15,7 @@ layout: base
             <button class="filter" data-filter=".audience-kids">Kids</button>
             <button class="filter" data-filter=".audience-teens">Teens</button>
             <button class="filter" data-filter=".audience-adults">Adults</button>
+            <button class="filter" data-filter=".audience-all-ages">All ages</button>
           </div>
           <h4>Event type</h4>
           <div class="type-filters">
@@ -61,8 +62,9 @@ layout: base
                 </div>
                 <div class="small-9 small-pull-3 medium-reset-order columns">
                   <div class="event-date">{{ post.date | date: "%A, %B %-d, %Y" }}</div>
+                  {% if post.canceled == "Yes" %}<span class="canceled-label">Canceled</span>{% endif %}
                   <h3>
-                    <a class="event-title post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify }}</a>
+                    <a class="event-title post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify }} </a>
                   </h3>
                   <div class="event-description">
                     {{ post.content }}
