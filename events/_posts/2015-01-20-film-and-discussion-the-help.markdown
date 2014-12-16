@@ -4,7 +4,7 @@ layout: event
 title: "Film and Discussion: *The Help*"
 location: Morton Grove Public Library
 date: "2015-01-20 00:00:00 -0600"
-times: "11:30 AM"
+times: "11:30 a.m"
 audiences: 
   - Adults
 types: 
