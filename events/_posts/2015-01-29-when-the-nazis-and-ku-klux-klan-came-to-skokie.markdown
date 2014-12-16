@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: Skokie Village Hall
 date: 2015-01-29 00:00:00 -0600
 times: 7:30 p.m.
-audiences: ['Adult']
+audiences: ['Adults']
 types: ['Lecture']
 registration: 
 canceled: "No"

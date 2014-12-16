@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: Holiday Inn Chicago North Shore, Skokie
 date: 2015-03-31 00:00:00 -0600
 times: 7 p.m.
-audiences: ['Adult']
+audiences: ['Adults']
 types: ['Workshop']
 registration: 
 canceled: "No"

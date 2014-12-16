@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: Skokie Heritage Museum
 date: 2015-01-25 00:00:00 -0600
 times: 1:30 P.M.
-audiences: ['Adult']
+audiences: ['Adults']
 types: ['Lecture']
 registration: 
 canceled: "No"

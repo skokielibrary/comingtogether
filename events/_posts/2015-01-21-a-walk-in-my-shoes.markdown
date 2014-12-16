@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: Sweety Pies Bakery, Skokie
 date: 2015-01-21 00:00:00 -0600
 times: 6 p.m
-audiences: ['Adult', 'Teens']
+audiences: ['Adults', 'Teens']
 types: ['Workshop']
 registration: 
 canceled: "No"

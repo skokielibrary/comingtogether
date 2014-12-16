@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: Skokie Public Library
 date: 2015-01-19 00:00:00 -0600
 times: 6 p.m.
-audiences: ['Adult']
+audiences: ['Adults']
 types: ['Lecture']
 registration: 
 canceled: "No"

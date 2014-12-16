@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: Oakton Community College, Des Plaines Campus, Room 1606
 date: 2015-02-03 00:00:00 -0600
 times: 4 p.m.
-audiences: ['Adult']
+audiences: ['Adults']
 types: ['Lecture']
 registration: 
 canceled: "No"

@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: North Shore Center for the Performing Arts
 date: 2015-01-18 00:00:00 -0600
 times: 2 p.m.
-audiences: ['Adult', 'Teens']
+audiences: ['Adults', 'Teens']
 types: ['Performance']
 registration: 
 canceled: "No"

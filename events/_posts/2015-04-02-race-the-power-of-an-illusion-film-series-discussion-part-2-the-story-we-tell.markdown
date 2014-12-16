@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: Oakton Community College, Skokie Campus, Room A145-152
 date: 2015-04-02 00:00:00 -0600
 times: 6:30 p.m.
-audiences: ['Adult']
+audiences: ['Adults']
 types: ['Film']
 registration: 
 canceled: "No"

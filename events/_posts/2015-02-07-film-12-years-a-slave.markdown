@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: Niles Public Library
 date: 2015-02-07 00:00:00 -0600
 times: 2 p.m.
-audiences: ['Adult']
+audiences: ['Adults']
 types: ['Film']
 registration: 
 canceled: "No"

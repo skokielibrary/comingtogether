@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: Morton Grove Public Library
 date: 2015-01-15 00:00:00 -0600
 times: 2 pm & 6:30 pm
-audiences: ['Adult', 'Kids/Family']
+audiences: ['Adults', 'Kids/Family']
 types: ['Film']
 registration: http://www.eventkeeper.com/code/popevent.cfm?curOrg=MGPL&curApp=events&eID=3794649&thisDate=NO_DATE
 canceled: "No"

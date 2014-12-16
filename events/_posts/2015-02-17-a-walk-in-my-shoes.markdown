@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: Meatheads, Lincolnwood
 date: 2015-02-17 00:00:00 -0600
 times: 11:30 a.m.
-audiences: ['Adult']
+audiences: ['Adults']
 types: ['Lecture']
 registration: http://www.lincolnwoodchamber.org/content.aspx?page_id=2&club_id=645386
 canceled: "No"

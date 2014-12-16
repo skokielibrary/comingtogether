@@ -5,7 +5,7 @@ subtitle: "Voices of Race, 2015"
 location: Civic Center of Morton Grove
 date: 2015-02-20 00:00:00 -0600
 times: 10:00 AM
-audiences: ['Adult']
+audiences: ['Adults']
 types: ['Books/Authors']
 registration: http://www.eventkeeper.com/code/popevent.cfm?curOrg=MGPL&curApp=events&eID=3884150&thisDate=NO_DATE
 canceled: "No"
