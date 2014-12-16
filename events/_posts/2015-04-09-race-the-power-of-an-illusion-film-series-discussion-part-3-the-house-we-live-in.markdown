@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Race&#58; The Power of an Illusion - Film Series & Discussion; Part 3 - "The House We Live In"
+title: Race&#58; The Power of an Illusion - Film Series & Discussion; Part 3 - The House We Live In
 subtitle: "Voices of Race, 2015"
 location: Oakton Community College, Skokie Campus, Room A145-152
 date: 2015-04-09 00:00:00 -0600
