@@ -3,8 +3,8 @@ subtitle: "Voices of Race, 2015"
 layout: event
 title: An Evening of Cultural Experience
 location: "Oakton Community College, Skokie Campus, Room P103-104"
-date: "2015-02-26 00:00:00 -0600"
-times: 5 p.m.
+date: "2015-02-26 02:00:00 -0600"
+times: "5:00 p.m"
 audiences: 
   - All ages
 types: Performance

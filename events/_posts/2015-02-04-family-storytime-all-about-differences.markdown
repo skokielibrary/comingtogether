@@ -4,7 +4,7 @@ layout: event
 title: "Family Storytime:  All About Differences"
 location: Skokie Public Library
 date: "2015-02-04 03:00:00 -0600"
-times: 7 p.m.
+times: "7:00 p.m"
 audiences: 
   - Kids/Family
 types: 

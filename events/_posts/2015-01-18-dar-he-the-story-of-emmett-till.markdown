@@ -4,7 +4,7 @@ layout: event
 title: "Dar He: The Story of Emmett Till"
 location: North Shore Center for the Performing Arts
 date: "2015-01-18 00:00:00 -0600"
-times: 2 p.m.
+times: "2:00 p.m."
 audiences: 
   - Adults
   - Teens

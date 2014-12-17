@@ -4,7 +4,7 @@ layout: event
 title: "Film: *Skokie: Invaded But Not Conquered*"
 location: Morton Grove Public Library
 date: "2015-01-18 14:00:00 -0600"
-times: "2:00 PM"
+times: "2:00 p.m"
 audiences: 
   - Adults
 types: 

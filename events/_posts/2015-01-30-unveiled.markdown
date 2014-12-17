@@ -1,10 +1,10 @@
 ---
 subtitle: "Voices of Race, 2015"
 layout: event
-title: "Unveiled, a One-Woman Show"
+title: "*Unveiled*, a One-Woman Show"
 location: Skokie Public Library
 date: "2015-01-30 00:00:00 -0600"
-times: "6:00 PM"
+times: "6:00 p.m"
 audiences: 
   - Adults
   - Teens

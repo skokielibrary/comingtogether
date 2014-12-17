@@ -4,7 +4,7 @@ layout: event
 title: "Book Discussion & Author Visit: *The Supremes at Earl's All You Can Eat*"
 location: Skokie Public Library
 date: "2015-02-04 02:00:00 -0600"
-times: 7 p.m.
+times: "7:00 p.m"
 audiences: 
   - Adults
 types: 
