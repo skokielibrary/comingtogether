@@ -19,7 +19,7 @@ filter_by: '2015'
         {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
         {% if year == page.filter_by %}
         <div class="event">
-          <h3><small>{{ post.date | date: "%-m/%d/%Y" }}</small> <a class="event-title post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          <h3><small>{{ post.date | date: "%-m/%d/%Y" }}</small> <a class="event-title post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify }}</a></h3>
           <p class="event-meta">{{ post.times }}, {{ post.location }}</p>
           {{ post.content }}
         </div>
