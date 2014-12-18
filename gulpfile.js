@@ -23,7 +23,7 @@ gulp.task('sass', function() {
     .pipe(sass({
         loadPath: ['assets/scss', 'bower_components/foundation/scss', 'bower_components/foundation/scss/foundation']
       }))
-    //.pipe(minifycss())
+    .pipe(minifycss())
     .pipe(gulp.dest('assets/css'))
 });
 
