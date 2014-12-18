@@ -6,8 +6,11 @@
        url('../fonts/cheddar-jack.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
+/*variables*/
 $desktop-break: 64.063em;
 
+/*base styles*/
+*{transition: all .5s ease;}
 body{background: #9e1e62 url(../img/hands.jpg) no-repeat top center fixed; font: 300 16px/1.4 'Lato', sans-serif; color: #303030;}
 h1,h2,h3,h4,h5,h6{font-family: 'Lato', sans-serif; font-weight: 300;}
 h2{font-size: 1.5rem; text-transform: uppercase; color: #9e1e62;}

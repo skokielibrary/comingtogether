@@ -2683,6 +2683,11 @@ th.hide-for-touch {
   src: url("../fonts/cheddar-jack.woff") format("woff"), url("../fonts/cheddar-jack.ttf") format("truetype");
   /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
 
+/*variables*/
+/*base styles*/
+* {
+  transition: all .5s ease; }
+
 body {
   background: #9e1e62 url(../img/hands.jpg) no-repeat top center fixed;
   font: 300 16px/1.4 'Lato', sans-serif;
@@ -2891,7 +2896,7 @@ h1.home-title {
   width: 48px;
   height: 48px;
   margin: 1rem auto .5rem auto;
-  background: url(../img/sprite.png) no-repeat 0 56px;
+  background: url(../img/sprite.png) no-repeat 0 -56px;
   vertical-align: middle; }
 
 .site-footer {
