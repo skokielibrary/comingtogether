@@ -4,10 +4,10 @@
 .brand{font-size: 1.333rem; text-transform: uppercase; font-weight: 300;}
 .site-header .brand{float: left; padding-top: .7rem;}
 .brand small{display: block; font-size: .6rem; }
-.menu-link{float: right; margin-top: .7rem; padding: .9rem 1rem; background: #711448; border: 0; font-weight: 300;}
-.menu-link:hover, .menu-link:focus{background-color:#9e1e62; outline: 0;}
-.menu-link:focus{background-color: #9e1e62;}
-.site-nav{position: fixed; right: -15.625em; width: 15.625em; background-color: #9e1e62; border: 0;}
+.menu-button{float: right; margin-top: .7rem; padding: .9rem 1rem; background: #711448; border: 0; font-weight: 300;}
+.menu-button:hover, .menu-link:focus{background-color:#9e1e62; outline: 0;}
+.menu-button:focus{background-color: #9e1e62;}
+.site-nav{position: fixed; width: 15.625em; right: -15.625em; background-color: #9e1e62; border: 0;}
 .nav{list-style: none; margin: 0; padding: 0; }
 .nav li{display: block;}
 .nav li a{display: block; padding: 1rem;}
@@ -20,7 +20,7 @@ h1.home-title{padding-top: 0; font-size: 5rem; font-family: 'CheddarJack', Fallb
 .page-title p{font-size: 1.5rem;}
 
 @media only screen and (min-width: $desktop-break){
-  .menu-link{position: absolute; clip: rect(0px 0px 0px 0px);}
+  .hide-button{position: absolute; clip: rect(0px 0px 0px 0px);}
   .site-nav{position: static; float: right; width: auto; background-color: transparent; text-align: right; }
   .nav li{display: inline-block;}
   h1.home-title{font-size: 6em;}
