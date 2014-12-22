@@ -9,7 +9,7 @@ audiences:
   - Adults
 types: 
   - Film
-registration: null
+registration: "http://evanced.nileslibrary.org/evanced/lib/eventsignup.asp?ID=17901"
 canceled: "No"
 published: true
 ---
