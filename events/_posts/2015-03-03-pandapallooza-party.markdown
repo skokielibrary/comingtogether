@@ -10,7 +10,7 @@ audiences:
 types: 
   - Workshop
   - Books/Authors
-registration: "http://tinyurl.com/pycbj5h i"
+registration: "http://evanced.nileslibrary.org/evanced/lib/eventsignup.asp?ID=20770"
 canceled: "No"
 published: true
 ---
