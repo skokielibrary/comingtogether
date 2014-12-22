@@ -3,7 +3,7 @@ subtitle: "Voices of Race, 2015"
 layout: event
 title: Courageous Conversation with Secretary Jesse White and Mayor Van Dusen
 location: Skokie Public Library
-date: "2015-01-19 03:00:00 -0600"
+date: "2015-01-19 04:00:00 -0600"
 times: "6:00 p.m."
 audiences: 
   - Adults
