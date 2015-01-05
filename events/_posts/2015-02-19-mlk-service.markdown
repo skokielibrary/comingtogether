@@ -9,7 +9,7 @@ audiences:
   - All ages
 types: 
   - Performance
-registration: "https://docs.google.com/forms/d/1mcZ6A4FTMhHDICtSpGdBIaMgdHzP6f_Fnmbj_gJ4eRc/viewform"
+registration: 
 canceled: "No"
 published: true
 ---
