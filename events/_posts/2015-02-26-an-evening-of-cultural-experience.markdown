@@ -8,9 +8,9 @@ times: "5:00 p.m"
 audiences: 
   - All ages
 types: Performance
-registration: Call 847.376.7632 or 847.635.1474 for
+registration: null
 canceled: "No"
 published: true
 ---
 
-Oakton Community College student clubs and the college community will present free evening of creative expression, featuring poetry, music, dance, and storytelling at the Skokie campus. Refreshments served. Call (847) 376-7632 or (847) 635-1474.
+Oakton Community College student clubs and the college community will present free evening of creative expression, featuring poetry, music, dance, and storytelling at the Skokie campus. Refreshments served. Call (847) 376-7632 or (847) 635-1474 to register.
