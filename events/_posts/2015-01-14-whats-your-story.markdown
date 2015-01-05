@@ -9,7 +9,7 @@ audiences:
   - All ages
 types: 
   - Performance
-registration: ""
+registration: null
 canceled: "No"
 published: true
 ---
