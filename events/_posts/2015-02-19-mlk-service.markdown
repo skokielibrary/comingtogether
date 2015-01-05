@@ -7,9 +7,8 @@ date: "2015-01-19 03:00:00 -0600"
 times: "12:00 p.m."
 audiences: 
   - All ages
-types: 
-  - Performance
-registration: 
+types: Kids/Family
+registration: null
 canceled: "No"
 published: true
 ---
