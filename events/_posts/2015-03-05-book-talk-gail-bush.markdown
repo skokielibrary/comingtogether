@@ -8,7 +8,7 @@ times: "10:30 a.m"
 audiences: 
   - Teens
 types: Books/Authors
-registration: ""
+registration: null
 canceled: "No"
 published: true
 ---
