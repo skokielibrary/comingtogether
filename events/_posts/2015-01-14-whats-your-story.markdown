@@ -14,4 +14,4 @@ canceled: "No"
 published: true
 ---
 
-Two generations come together to share shtores of race from multiple perspectives. Students and senior citizens have worked together to develop this evocative theater piece. A community initiative between the Levy Senior Center and D219.
+Two generations come together to share stories of race from multiple perspectives. Students and senior citizens have worked together to develop this evocative theater piece. A community initiative between the Levy Senior Center and D219.
