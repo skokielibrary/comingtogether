@@ -22,6 +22,7 @@ filter_by: '2015'
           <h3><small>{{ post.date | date: "%-m/%d/%Y" }}</small> <a class="event-title post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify }}</a></h3>
           <p class="event-meta">{{ post.times }}, {{ post.location }}</p>
           {{ post.content }}
+          {% if post.canceled == "Yes" %}<div class="canceled-label">This event was canceled.</div>{% endif %}
         </div>
         {% endif %}
       {% endfor %}

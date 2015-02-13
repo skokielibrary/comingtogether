@@ -27,13 +27,14 @@ type: event-detail
             <h3>
               <a class="event-title post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title | markdownify }}</a>
             </h3>
+            {% if page.canceled == "Yes" %}<div class="canceled-label">This event has been canceled.</div>{% endif %}
             <div class="event-description">
               {{ page.content }}
             </div>
             <ul class="event-meta">
               <li>{{ page.times }}</li>
               <li>{{ page.location }}</li>
-              <li>{% if page.registration %}<a href="{{ page.registration }}" class="registration-link">Register now&rarr;</a>{% endif %}</li>
+              {% if page.canceled != "Yes" %}<li>{% if page.registration %}<a href="{{ page.registration }}" class="registration-link">Register now&rarr;</a>{% endif %}</li>{% endif %}
             </ul>
           </div>
         </div>

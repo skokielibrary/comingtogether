@@ -63,17 +63,17 @@ layout: base
                 </div>
                 <div class="small-9 small-pull-3 medium-reset-order columns">
                   <div class="event-date">{{ post.date | date: "%A, %B %-d, %Y" }}</div>
-                  {% if post.canceled == "Yes" %}<span class="canceled-label">Canceled</span>{% endif %}
                   <h3>
                     <a class="event-title post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify }} </a>
                   </h3>
+                  {% if post.canceled == "Yes" %}<div class="canceled-label">This event has been canceled.</div>{% endif %}
                   <div class="event-description">
                     {{ post.content }}
                   </div>
                   <ul class="event-meta">
                     <li>{{ post.times }}</li>
                     <li>{{ post.location }}</li>
-                    <li>{% if post.registration %}<a href="{{ post.registration }}" class="registration-link">Register now</a>{% endif %}</li>
+                    {% if post.canceled != "Yes" %}<li>{% if post.registration %}<a href="{{ post.registration }}" class="registration-link">Register now</a>{% endif %}</li>{% endif %}
                   </ul>
                 </div>
               </div>
