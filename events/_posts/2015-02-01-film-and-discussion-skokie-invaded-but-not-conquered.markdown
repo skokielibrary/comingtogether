@@ -3,7 +3,7 @@ subtitle: "Voices of Race, 2015"
 layout: event
 title: "Film and Discussion: *Skokie: Invaded But Not Conquered*"
 location: Lincolnwood Public Library
-date: "2015-02-01 00:00:00 -0600"
+date: "2015-03-01 00:00:00 -0600"
 times: "2:00 p.m"
 audiences: 
   - Adults
