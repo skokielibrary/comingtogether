@@ -11,7 +11,7 @@ audiences:
 types: 
   - Workshop
 registration: "http://events.skokielibrary.info/evanced/lib/eventsignup.asp?ID=22660"
-canceled: "No"
+canceled: "Yes"
 published: true
 ---
 
