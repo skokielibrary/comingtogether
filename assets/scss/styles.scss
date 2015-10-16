@@ -1,13 +1,13 @@
 @import 'settings';
 @import 'custom-settings';
 @import 'normalize';
-@import "foundation/components/block-grid",
-"foundation/components/buttons",
-"foundation/components/flex-video",
-"foundation/components/grid",
-"foundation/components/inline-lists",
-"foundation/components/type",
-"foundation/components/visibility";
+@import "block-grid";
+@import "buttons";
+@import "flex-video";
+@import "grid";
+@import "inline-lists";
+@import "type";
+@import "visibility";
 @import 'custom';
 @import 'header';
 @import 'footer';
