@@ -1,4 +1,8 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+{% if page.title == 'Calendar' %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/fullcalendar.min.js"></script>
+{% endif %}
 <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -54,6 +58,17 @@
     // }
   });
 
+  {% endif %}
+
+  {% if page.title == 'Calendar' %}
+    $('#calendar').fullCalendar({
+      header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,agendaWeek,agendaDay'
+			},
+      events: '{{ site.baseurl }}/events/events.json'
+    });
   {% endif %}
 
   });
