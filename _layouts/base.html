@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body>
+<body{% if page.type == "homepage" %} class="homepage"{% endif %}>
 
   <!--header-->
   {% include header.html %}

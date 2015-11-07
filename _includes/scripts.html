@@ -10,13 +10,10 @@
   ga('send', 'pageview');
 
   $(function(){
-    if (window.innerWidth < 900){
-      $('#menu-button').removeClass('hide-button').attr('aria-hidden', 'false').bigSlide({side: 'right'})
-    }
 
-  {% if page.title == 'Attend events' %}
+  {% if page.title == 'Events' %}
 
-    $('.event').addClass('hide');
+    $('.event').addClass('filtered');
     $('#events-schedule').mixItUp({
       animation: {
         enable: false
@@ -52,7 +49,6 @@
     //   if (single_days[i].id < start_today){
     //   $(single_days[i]).hide();
     // }
-  });
 
   {% endif %}
 

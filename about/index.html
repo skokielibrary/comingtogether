@@ -1,5 +1,5 @@
 ---
-title: 'Learn more'
+title: "About"
 layout: base
 ---
 <section class="page-section">
@@ -24,56 +24,13 @@ layout: base
         <a href="https://docs.google.com/forms/d/19-9_cLM57Rnne4Y0Y5k8HDpaJlBxGwE28bXrXO3BuHs/viewform" class="button line-button">Apply now</a>
         <h3>Other opportunties</h3>
         <p>We're always interested in finding new community partners to plan and host events. Get in touch and we'll talk about ways that your organization can be involved too.</p>
-        <a href="mailto:{{ site.email }}?subject=Coming+Together+2015">Get in touch with us</a>
+        <a href="mailto:{{ site.email }}?subject=Coming+Together+{{ site.currentyear }}">Get in touch with us</a>
       </div>
     </div>
   </div>
   <div class="row">
     <div class="large-7 large-centered columns">
-      <h2>Past programs</h2>
-      <ul class="past-programs-list medium-block-grid-3">
-        <li>
-          <a href="{{ site.baseurl }}/assets/downloads/2015/CTIS-2015-program.pdf">
-            <img src="{{ site.baseurl }}/assets/img/ctis-cover-2015.jpg">
-            <span class="program-label"><i class="program-year">2015</i> Voices of Race</span>
-
-          </a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/assets/downloads/2014/CTIS-2014-program.pdf">
-            <img src="{{ site.baseurl }}/assets/img/ctis-cover-2014.jpg">
-            <span class="program-label"><i class="program-year">2014</i> Korean culture</span>
-
-          </a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/assets/downloads/2013/CTIS-2013-program.pdf">
-            <img src="{{ site.baseurl }}/assets/img/ctis-cover-2013.jpg">
-            <span class="program-label"><i class="program-year">2013</i> Greek culture</span>
-
-          </a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/assets/downloads/2012/CTIS-2012-program.pdf">
-            <img src="{{ site.baseurl }}/assets/img/ctis-cover-2012.jpg">
-            <span class="program-label"><i class="program-year">2012</i> Assyrian culture</span>
-
-          </a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/assets/downloads/2011/CTIS-2011-program.pdf">
-            <img src="{{ site.baseurl }}/assets/img/ctis-cover-2011.jpg">
-            <span class="program-label"><i class="program-year">2011</i> Filipino culture</span>
-
-          </a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/assets/downloads/2010/CTIS-2010-program.pdf">
-            <img src="{{ site.baseurl }}/assets/img/ctis-cover-2010.jpg">
-            <span class="program-label"><i class="program-year">2010</i> Asian Indian culture</span>
-          </a>
-        </li>
-      </ul>
+      {% include past-programs.html %}
     </div>
   </div>
 </section>

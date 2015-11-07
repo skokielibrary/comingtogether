@@ -1,15 +1,73 @@
 /*book page styles*/
-.book{margin-bottom: 2rem;}
-.book h3{margin-bottom: 2rem; line-height: 1.2; font-size: 1.2rem; font-weight: 400;}
-.book h3 > small{display: block; margin-top: .7rem; font-size: 1rem; font-weight: 300;}
-.book h4{font-size: 1rem; font-style: italic;}
-.book-cover{float: right; max-width: 40%; margin: 0 0 2rem 2rem;}
-.find-book{list-style: none; margin-left: 0; padding-left: 1em; text-indent: -1em;}
-.find-book li a:before {content: "\0BB \020";}
-.page-callout{margin-bottom: 2rem; padding: 2rem 0; background-color: #cbcbcb;}
-.author-visit h3{font-size: 1.2rem;}
-.author-visit h3 > small{display: block; margin-bottom: .5rem; font-size: .8rem; text-transform: uppercase;}
-.unstyled-list{list-style: none; margin: 0;}
+.book{
+  margin-bottom: 2rem;
+}
+
+.book h3{
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.book h3 > small{
+  display: block;
+  margin-top: .7rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.book h4{
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.book-cover{
+  float: right;
+  max-width: 40%;
+  margin: 0 0 2rem 2rem;
+}
+
+.find-book{
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.find-book li a:before {
+  content: "\0BB \020";
+}
+
+.page-callout{
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  background-color: #cbcbcb;
+}
+
+.author-visit h3{
+  font-size: 1.2rem;
+}
+
+.author-visit h3 > small{
+  display: block;
+  margin-bottom: .5rem;
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+.unstyled-list{
+  list-style: none;
+  margin: 0;
+}
+
 @media only screen and (min-width: 40.063em){
-  .book-cover{float: right; max-width: none; margin: 0 0 2rem 2rem;}
+
+  .book-cover{
+  float: right;
+  max-width: none;
+  margin: 0 0 2rem 2rem;
+}
+
+
 }

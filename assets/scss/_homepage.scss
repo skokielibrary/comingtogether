@@ -1,21 +1,110 @@
 /*homepage styles*/
-.feature-section{padding: 80px 20px;}
-.feature-section h2{margin-top: .4rem; font-size: 2.666rem; font-weight: 400; color: #9e1e62; text-transform: uppercase;}
-.feature-section h2 > small{display: block; font-weight: 300; font-size: .666rem;}
-.feature-section h2 > small > em{font-style: normal; text-transform: none;}
-.feature-section p{font-size: 1.2rem;}
-.feature-image{margin-bottom: 2rem;}
-.events-section p:last-of-type, .books-section p:last-of-type{margin-bottom: 2rem;}
-.books-section{background-color: #cbcbcb;}
-.quote-section{background: url(../img/man-abnormal-man-14777464755.jpg) no-repeat center center; background-size: cover; overflow: hidden;}
-.featured-quote{margin: 0; padding: 0; border: 0; color: #fff; }
-.featured-quote p{margin-bottom: .5rem; font-size: 2rem; color: #fff;}
-.featured-quote footer{text-align: right; text-transform: uppercase;}
-.featured-quote cite{font-style: normal; color: #fff;}
+.feature-section{
+  padding: 80px 20px;
+}
+
+.feature-section h2{
+  margin-top: .4rem;
+  font-family: 'ChalkyChicken';
+  font-size: 2rem;
+  color: $red;
+  text-transform: uppercase;
+}
+
+.feature-section h2 > small{
+  display: block;
+  margin-bottom: .875rem;
+  font-family: 'Lato';
+  font-size: .675rem;
+  color: $black;
+}
+
+.feature-section h2 > small > em{
+  font-style: normal;
+  text-transform: none;
+}
+
+.feature-section p{
+  font-size: 1.2rem;
+}
+
+.feature-image{
+  margin-bottom: 2rem;
+}
+
+.events-section{
+  background: $white;
+}
+
+.events-section p:last-of-type, .books-section p:last-of-type{
+  margin-bottom: 2rem;
+}
+
+.books-section{
+  background: $red;
+
+  h2{
+    color: $white;
+
+    &> small{
+      color: $white;
+    }
+  }
+
+  .line-button{
+    border-color: $white;
+    color: $white;
+  }
+}
+
+.quote-section{
+  overflow: hidden;
+}
+
+.featured-quote{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #fff;
+
+}
+
+.featured-quote p{
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.featured-quote footer{
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.featured-quote cite{
+  font-style: normal;
+  color: #fff;
+}
+
 
 @media only screen and (min-width: $desktop-break){
-  .feature-section{padding: 80px 120px;}
-  .feature-image-left{float: left; margin-right: 4rem;}
-  .feature-image-right{float: right; margin-left: 4rem;}
-  .quote-section{max-height: 400px;}
+
+  .feature-section{
+  padding: 80px 120px;
+}
+
+  .feature-image-left{
+  float: left;
+  margin-right: 4rem;
+}
+
+  .feature-image-right{
+  float: right;
+  margin-left: 4rem;
+}
+
+  .quote-section{
+  max-height: 400px;
+}
+
+
 }
