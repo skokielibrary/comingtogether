@@ -51,7 +51,7 @@ layout: base
                   <!--event types-->
                   <ul class="event-types-list">
                     {% for t in post.types %}
-                    <li><i class="type-icon type-icon-{{ t | slugify }}"></i>{{ t }}</li>
+                    <li><i class="type-icon {{ t | slugify }}"></i>{{ t }}</li>
                     {% endfor %}
                   </ul>
                   <!--audiences-->
