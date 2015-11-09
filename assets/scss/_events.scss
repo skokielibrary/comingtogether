@@ -96,8 +96,15 @@
 
 .filters{
   display: none;
+  margin-bottom: 2rem;
   padding: 1rem;
-  background-color: #fcfcfc;
+  background-color: darken($white, 5%);
+
+  @media only screen and (min-width: 40.063em){
+    display: block;
+    padding: 0;
+    background-color: transparent;
+  }
 }
 
 .filters h3{
@@ -123,18 +130,24 @@
 
 .filter{
   margin: 0 .25rem .5rem 0;
-  padding:.375rem 1rem;background-color: #fcfcfc;
-  border: 1px solid #cbcbcb;
+  padding:.375rem 1rem;
+  background: $white;
   font-family: inherit;
-  font-weight: 300 !important;
+  //color: lighten($black, 50%);
   color: $red;
   text-align: left;
+  font-weight: 400;
+  transition: opacity .2s ease;
 
-}
+  &:hover{
+    opacity: .5;
+    background: $white;
+    color: $red;
+  }
 
-.filter:hover{
-  background-color:#711448;
-
+  @media only screen and (min-width: 40.063em){
+    border: 1px solid $red;
+  }
 }
 
 .filter:focus{
@@ -144,7 +157,7 @@
 }
 
 .filter.active{
-  background-color: #aaa;
+  background-color: $red;
   outline: 0;
   color: #fff;
 }
@@ -179,8 +192,7 @@
 }
 
 .locations-section{
-  padding: 20px 0;
-  background-color: #cbcbcb;
+  background-color: darken($white, 10%);
 }
 
 .locations-section h2{
@@ -202,19 +214,4 @@
 .canceled-label{
   margin: .5rem 0;
   font-weight: bold;
-}
-
-@media only screen and (min-width: 40.063em){
-
-  .filters{
-  display: block;
-  padding: 0;
-  background-color: transparent;
-}
-
-  .filter{
-  border: 0;
-}
-
-
 }

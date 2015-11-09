@@ -7,14 +7,13 @@
   margin-bottom: 2rem;
   line-height: 1.2;
   font-size: 1.2rem;
-  font-weight: 400;
 }
 
 .book h3 > small{
   display: block;
   margin-top: .7rem;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .book h4{
@@ -42,7 +41,7 @@
 .page-callout{
   margin-bottom: 2rem;
   padding: 2rem 0;
-  background-color: #cbcbcb;
+  background-color: darken($white, 10%);
 }
 
 .author-visit h3{
