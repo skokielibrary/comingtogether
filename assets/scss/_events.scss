@@ -18,15 +18,15 @@
 }
 
 .event h3{
-  margin: 0;
+  margin: 0 0 4px;
   font-size: 1.2rem;
-  font-weight: 400;
 }
 
 .event h3 p{
   margin: 0;
   font-size: inherit;
   font-weight: inherit;
+  line-height: 1.4;
 }
 
 .event p
@@ -61,37 +61,35 @@
 
 .type-icon{
   display: block;
-  height: 55px;
-  width: 55px;
-  margin: 0 auto .5rem auto;
-  background: url(/2015/assets/img/sprite.png);
+  height: 72px;
+  width: 72px;
+  margin: 0 auto .125rem auto;
   vertical-align: middle;
-  background-color: #fcfcfc;
-  border-radius: 50%;
-}
 
-.type-icon-performance{
-  background-position: 0 0;
-}
+  &.performance{
+    background: url(/assets/svg/performance.svg);
+  }
 
-.type-icon-film{
-  background-position: -56px 0;
-}
+  &.film{
+    background: url(/assets/svg/film.svg);
+  }
 
-.type-icon-books-authors{
-  background-position: -112px 0;
-}
+  &.books-authors{
+    background: url(/assets/svg/books-authors.svg);
+  }
 
-.type-icon-workshop{
-  background-position: -168px 0;
-}
+  &.workshop{
+    background: url(/assets/svg/workshop.svg);
+  }
 
-.type-icon-kids-family{
-  background-position: -224px 0;
-}
+  &.kids-family{
+    background: url(/assets/svg/kids-family.svg);
+  }
 
-.type-icon-lecture{
-  background-position: -280px 0;
+  &.lecture{
+    background: url(/assets/svg/lecture.svg);
+  }
+
 }
 
 .filters{
@@ -165,7 +163,9 @@
 .filter.active:before{
   position: absolute;
   top: 0;
-  left: 0;content:"\00d7";padding:.375rem 4px;font-weight:400
+  left: 0;content:"\00d7";
+  padding:.375rem 4px;
+  font-weight:400;
 }
 
 .filtered{
@@ -181,18 +181,26 @@
   display: block;
 }
 
-.registration-link{
+.registration-button{
+  @extend .button;
+  background: $red;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: .875rem;
   font-weight: 400;
-}
 
-.registration-link:after{
-  content:'\2192';
-  font-size: 90%;
-  vertical-align: middle;
+  &:hover{
+    background: $red;
+  }
+
+  &:active{
+    background: $red;
+  }
 }
 
 .locations-section{
-  background-color: darken($white, 10%);
+  background-color: darken($white, 8%);
 }
 
 .locations-section h2{
