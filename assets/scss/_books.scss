@@ -3,18 +3,18 @@
   margin-bottom: 2rem;
 }
 
-.book h3{
+.book h2{
   margin-bottom: 1rem;
   line-height: 1.2;
-  font-size: 1.2rem;
-}
 
-.book h3 > small{
-  display: block;
-  margin-top: .325rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.1;
+  > small{
+    display: block;
+    margin-top: .325rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+
 }
 
 .book h4{
@@ -26,6 +26,12 @@
   float: right;
   max-width: 40%;
   margin: 0 0 2rem 2rem;
+}
+
+.audience{
+  margin-bottom: .375rem;
+  font-size: .875rem;
+  font-style: italic;
 }
 
 .find-book{
