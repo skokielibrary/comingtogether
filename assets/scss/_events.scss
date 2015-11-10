@@ -223,3 +223,122 @@
   margin: .5rem 0;
   font-weight: bold;
 }
+
+/*event types key*/
+
+.event-types-key{
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.event-types{
+  margin-top: 1.5rem;
+
+  dt{
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    margin-right: .5rem;
+  }
+  dd{
+    display: inline-block;
+    margin-right: 1.5rem;
+    vertical-align: bottom;
+  }
+  .books-authors{
+    background-color: $books-authors !important;
+    border: 1px solid $books-authors !important;
+  }
+  .film{
+    background-color: $film !important;
+    border: 1px solid $film !important;
+  }
+  .kids-family{
+    background-color: $kids-family !important;
+    border: 1px solid $kids-family !important;
+  }
+  .lecture{
+    background-color: $lecture !important;
+    border: 1px solid $lecture !important;
+  }
+  .presentation{
+    background-color: $presentation !important;
+    border: 1px solid $presentation !important;
+  }
+  .workshop{
+    background-color: $workshop !important;
+    border: 1px solid $workshop !important;
+  }
+}
+
+/*overrides for calendar*/
+
+.fc button{
+  @extend .button;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  background-image: none !important;
+  background: darken($white, 30%);
+  font-weight: 400;
+  font-size: .875rem !important;
+
+  &:hover{
+    background: darken($white, 30%);
+    opacity: .6;
+  }
+}
+
+.fc-right .fc-button-group>*{
+  margin: 0 0 0 .5rem !important;
+}
+
+.fc-left .fc-button-group>*{
+  margin: 0 .5rem 0 0 !important;
+}
+
+.fc-state-default{
+  background: $orange;
+}
+
+.fc th{
+  text-transform: uppercase;
+  font-size: .675rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.fc-event{
+  background-color: darken($white, 30%) !important;
+  border: 1px solid darken($white, 30%) !important;
+  border-radius: 0 !important;
+
+  &.books-authors{
+    background-color: $books-authors !important;
+    border: 1px solid $books-authors !important;
+  }
+  &.film{
+    background-color: $film !important;
+    border: 1px solid $film !important;
+  }
+  &.kids-family{
+    background-color: $kids-family !important;
+    border: 1px solid $kids-family !important;
+  }
+  &.lecture{
+    background-color: $lecture !important;
+    border: 1px solid $lecture !important;
+  }
+  &.presentation{
+    background-color: $presentation !important;
+    border: 1px solid $presentation !important;
+  }
+  &.workshop{
+    background-color: $workshop !important;
+    border: 1px solid $workshop !important;
+  }
+}
+
+.fc-unthemed .fc-today{
+  background-color: lighten($orange, 30%);
+}
