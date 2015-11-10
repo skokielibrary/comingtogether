@@ -59,11 +59,11 @@
   {% if page.title == 'Calendar' %}
     $('#calendar').fullCalendar({
       header: {
-				left: 'prev,next today',
+				left: 'prev,next',
 				center: 'title',
 				right: 'month,agendaWeek,agendaDay'
 			},
-      events: '{{ site.baseurl }}/events/events.json'
+      events: '{{ site.baseurl }}/events/events.json',
     });
   {% endif %}
 

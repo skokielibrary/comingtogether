@@ -4,7 +4,9 @@
 {% for post in site.posts reversed %}
 	{
 		"title": "{{ post.title | escape }}",
-		"start": "{{ post.date | date_to_xmlschema }}"
+		"start": "{{ post.date | date_to_xmlschema }}",
+		"url": "{{ site.baseurl }}{{ post.url }}",
+		"className": {% for t in post.types limit:1 %}"{{t | slugify }}"{% endfor %}
 	}{% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
 ]
