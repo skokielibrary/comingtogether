@@ -1,0 +1,10 @@
+---
+---
+[
+{% for post in site.posts reversed %}
+	{
+		"title": "{{ post.title | escape }}",
+		"start": "{{ post.date | date_to_xmlschema }}"
+	}{% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+]
