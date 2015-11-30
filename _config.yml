@@ -10,6 +10,8 @@ currentyear: "2016"
 url: "http://comingtogether.in" # the base hostname & protocol for your site
 permalink: /events/:year/:month/:day/:title
 exclude: [README.md, bower.json, package.json, bower_components, scss, node_modules, gulpfile.js, working, events/working]
+gems:
+  - jekyll-redirect-from
 defaults:
   -
     scope:
