@@ -91,6 +91,7 @@ h1.home-title{
   font-size: 5rem;
   line-height: 1;
   text-transform: none;
+  animation: focus 1s ease-out;
 
   @media only screen and (min-width: $desktop-break){
     font-size: 6em;
@@ -99,4 +100,13 @@ h1.home-title{
 
 .page-title p{
   font-size: 1.5rem;
+}
+
+@keyframes focus{
+  from{
+    filter: blur(100px);
+  }
+  to{
+    filter: blur(0);
+  }
 }

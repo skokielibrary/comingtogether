@@ -6,6 +6,7 @@ var minifycss = require('gulp-minify-css');
 var autoprefixer = require('gulp-autoprefixer');
 var cp = require('child_process');
 var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
 
 
 var config = {
@@ -40,7 +41,7 @@ gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
 
 gulp.task('sass', function () {
     gulp.src(config.sass_path + '/*.scss')
-    .pipe(sass({ includePaths : [config.sass_path, config.bower_dir + '/foundation/scss', config.bower_dir + '/foundation/scss/foundation', config.bower_dir + '/foundation/scss/foundation/components']}).on('error', sass.logError))
+    .pipe(sass({ includePaths : [config.sass_path, config.bower_dir + '/foundation/scss', config.bower_dir + '/foundation/scss/foundation', config.bower_dir + '/foundation/scss/foundation/components', config.bower_dir + '/fullcalendar/dist']}).on('error', sass.logError))
     .pipe(autoprefixer({browsers: ['last 2 versions'],cascade: false}))
     .pipe(minifycss())
     .pipe(gulp.dest('_site/assets/css'))
@@ -49,8 +50,9 @@ gulp.task('sass', function () {
 });
 
 gulp.task('js', function(){
-  gulp.src(['bower_components/mixitup/build/*.js'])
+  gulp.src([config.bower_dir + '/mixitup/build/*.js', config.bower_dir + '/moment/moment.js', config.bower_dir + '/fullcalendar/dist/fullcalendar.js'])
     .pipe(concat('scripts.js'))
+    .pipe(uglify())
     .pipe(gulp.dest(config.js_path))
 })
 

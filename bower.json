@@ -2,8 +2,8 @@
   "name": "Coming Together in Skokie and Niles Township",
   "dependencies": {
     "foundation": "~5.4.7",
-    "bigSlide": "~0.5.1",
-    "mixitup": "~2.1.7"
+    "mixitup": "~2.1.7",
+    "fullcalendar": "~2.4.0"
   },
   "private": true
 }
