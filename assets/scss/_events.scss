@@ -314,7 +314,7 @@
 }
 
 .fc-state-default{
-  background: $orange;
+  background: $red;
 }
 
 .fc th{
@@ -356,5 +356,5 @@
 }
 
 .fc-unthemed .fc-today{
-  background-color: lighten($orange, 30%);
+  background-color: lighten($red, 30%);
 }
