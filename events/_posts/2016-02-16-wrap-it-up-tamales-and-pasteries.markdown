@@ -3,7 +3,7 @@ layout: event
 title: "Wrap it up: Tamales and Pasteries"
 subtitle: "¡Viva!, 2016"
 location: "Skokie Public Library"
-date: 2016-01-01 19:00:00 -0600
+date: 2016-02-16 19:00:00 -0600
 times: "7 p.m."
 audiences: ['Adults']
 types: ['Workshop']

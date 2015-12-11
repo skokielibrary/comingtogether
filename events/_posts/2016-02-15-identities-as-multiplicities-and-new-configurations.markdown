@@ -1,9 +1,9 @@
 ---
 layout: event
-title: "Identities as Multiplicities and New Configurations "
+title: "Identities as Multiplicities and New Configurations"
 subtitle: "¡Viva!, 2016"
 location: "Evanston Public Library"
-date: 2016-01-01 17:00:00 -0600
+date: 2016-02-15 17:00:00 -0600
 times: "5 p.m."
 audiences: ['Adults']
 types: ['Lecture']
