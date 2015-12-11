@@ -74,7 +74,7 @@ layout: base
                   <ul class="event-meta">
                     <li>{{ post.times }}</li>
                     <li>{{ post.location }}</li>
-                    {% if post.canceled != "Yes" %}<li>{% if post.registration %}<a href="{{ post.registration }}" class="registration-button">Register now</a>{% endif %}</li>{% endif %}
+                    {% if post.registration != "none"%}{% if post.canceled != "Yes" %}<li><a href="{{ post.registration }}" class="registration-button">Register now</a></li>{% endif %}{% endif %}
                   </ul>
                 </div>
               </div>
