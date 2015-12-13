@@ -34,7 +34,7 @@ type: event-detail
             <ul class="event-meta">
               <li>{{ page.times }}</li>
               <li>{{ page.location }}</li>
-              {% if page.canceled != "Yes" %}<li>{% if page.registration %}<a href="{{ page.registration }}" class="registration-link">Register now&rarr;</a>{% endif %}</li>{% endif %}
+              {% if page.registration != "none" %}{% if page.canceled != "Yes" %}<li><a href="{{ page.registration }}" class="registration-link">Register now&rarr;</a></li>{% endif %}{% endif %}
             </ul>
           </div>
         </div>

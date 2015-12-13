@@ -1,13 +1,7 @@
-@font-face {
-  font-family: 'ChalkyChicken';
-  src: url('../fonts/chalky-chicken.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-       url('../fonts/chalky-chicken.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
-
 
 /*base styles*/
 body{
-  background: $white url('../img/bricks.jpg') no-repeat center center fixed;
+  background: $white url('../img/viva-header.png') no-repeat top center fixed;
   background-size: cover;
    font: 400 16px/1.4 'Lato', sans-serif;
    color: $black;
@@ -49,7 +43,7 @@ button, .button{
 }
 
 button:focus, .button:focus{
-  background-color: $orange;
+  background-color: $red;
 }
 
 .button{
@@ -88,7 +82,7 @@ img.portrait{
 }
 
 .page-section{
-  padding: 40px 0;
+  padding: 3rem 0;
 }
 
 .page-content{

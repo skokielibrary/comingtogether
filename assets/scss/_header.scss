@@ -76,12 +76,11 @@
 }
 
 .page-title h1, .page-title p{
-  margin: 0;
-  color: #fff;
+  margin: 0 0 .5rem;
+  color: $red;
 }
 
 .page-title h1{
-  font-family: ChalkyChicken;
   font-size: 2.5rem;
   text-transform: uppercase;
 }
@@ -89,8 +88,8 @@
 h1.home-title{
   padding-top: 0;
   font-size: 5rem;
+  font-style: italic;
   line-height: 1;
-  text-transform: none;
   animation: focus 1s ease-out;
 
   @media only screen and (min-width: $desktop-break){
