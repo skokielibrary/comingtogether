@@ -1,33 +1,38 @@
+- place: 90 Miles Cuban Cafe
+  street: Lincolnwood Town Center, 3333 W. Touhy Avenue
+  city: Lincolnwood
+  state: IL
+  zipcode: 00000
 
-- place: Civic Center of Morton Grove
+- place: American Legion Memorial Civic Center of Morton Grove
   street: 6140 Dempster Street
   city: Morton Grove
   state: IL
-  zipcode: 60053
+  zipcode: 00000
 
-- place: Devonshire Cultural Center
-  street: 4400 Greenwood Street
-  city: Skokie
+- place: Evanston Township High School
+  street: 1600 Dodge Avenue
+  city: Evanston
   state: IL
-  zipcode: 60076
+  zipcode: 000000
 
-- place: Diverse Communities United
-  street: 1490 Chicago Avenue
+- place: Evanston Public Library
+  street: 1703 Orrington Avenue
   city: Evanston
   state: IL
   zipcode: 60201
 
-- place: Holiday Inn Chicago North Shore
-  street: 5300 West Touhy
-  city: Skokie
+- place: Lincolnwood Community Center
+  street: 6900 N. Lincoln Avenue
+  city: Lincolnwood
   state: IL
-  zipcode: 60077
+  zipcode: 000000
 
-- place: Illinois Holocaust Museum & Education Center
-  street: 9603 Woods Drive
-  city: Skokie
+- place: Lincolnwood Place
+  street: 7000 N. McCormick Boulevard
+  city: Lincolnwood
   state: IL
-  zipcode: 60077
+  zipcode: 000000
 
 - place: Lincolnwood Public Library
   street: 4000 West Pratt Avenue
@@ -35,11 +40,11 @@
   state: IL
   zipcode: 60712
 
-- place: Meatheads
-  street: 6734 N. Lincoln Avenue
+- place: L. Woods
+  street: 7110 N. Lincoln Avenue
   city: Lincolnwood
   state: IL
-  zipcode: 60712
+  zipcode: 00000
 
 - place: Morton Grove Public Library
   street: 6140 Lincoln Avenue
@@ -65,7 +70,7 @@
   state: IL
   zipcode: 60077
 
-- place: Niles Township Schools’ ELL Parent Center
+- place: ELL Parent Center
   street: 9440 Kenton Avenue
   city: Skokie
   state: IL
@@ -78,7 +83,7 @@
   zipcode: 60016
 
 - place: Oakton Community College, Skokie Campus
-  street: 7701 N. Lincoln Ave.
+  street: 7701 N. Lincoln Avenue
   city: Skokie
   state: IL
   zipcode: 60077
@@ -101,14 +106,8 @@
   state: IL
   zipcode: 60077
 
-- place: Super Cup Coffee Shop
-  street: 8509 Fernald Avenue
-  city: Morton Grove
+- place: Whole Foods Sauganash
+  street: 6020 N. Cicero Avenue
+  city: Chicago
   state: IL
-  zipcode: 60053
-
-- place: Sweety Pies Bakery
-  street: 8042 Lincoln Avenue  Skokie
-  city: Skokie
-  state: IL
-  zipcode: 60077
+  zipcode: 000000
