@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Catar y Jugar with CATS Music"
+title: "Cantar y Jugar with CATS Music"
 subtitle: "¡Viva!, 2016"
 location: "Skokie Public Library"
 date: 2016-02-20 10:30:00 -0600
