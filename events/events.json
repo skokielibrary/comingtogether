@@ -3,7 +3,7 @@
 [
 {% for post in site.posts reversed %}
 	{
-		"title": "{{ post.title | escape }}",
+		"title": "{{ post.title }}",
 		"start": "{{ post.date | date_to_xmlschema }}",
 		"url": "{{ site.baseurl }}{{ post.url }}",
 		"className": {% for t in post.types limit:1 %}"{{t | slugify }}"{% endfor %}

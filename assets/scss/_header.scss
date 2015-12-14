@@ -71,8 +71,13 @@
 
 .page-header{
   position: relative;
-  padding: 6rem 0;
+  padding: 4rem 0;
   text-align: center;
+
+  @media only screen and (min-width: $desktop-break){
+    padding: 6rem 0;
+  }
+
 }
 
 .page-title h1, .page-title p{
