@@ -7,7 +7,7 @@ date: 2016-02-17 11:15:00 -0600
 times: "11:15 a.m."
 audiences: ['Adults']
 types: ['Workshop']
-registration: "none"
+registration: "http://www.eventkeeper.com/code/ekform.cfm?curOrg=LWOOD&curName=2016/02/17_Chef_Demo_at_Lincolnwood_Place"
 canceled: "No"
 ---
 Join Lincolnwood Public Library for a Chef Demonstration at Lincolnwood Place that will revolve around Latino foods and feature live Latin American music by Gabriel Medina from the Old Town School of Folk Music. Registration is required.

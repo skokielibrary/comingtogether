@@ -75,7 +75,7 @@ layout: base
                   <ul class="event-meta">
                     <li>{{ post.times }}</li>
                     <li>{{ post.location }}</li>
-                    {% if post.registration != "none"%}{% if post.canceled != "Yes" %}<li><a href="{{ post.registration }}" class="registration-button">Register now</a></li>{% endif %}{% endif %}
+                    {% if post.registration != "none"%}{% if post.canceled != "Yes" %}<li><a href="{{ post.registration }}" class="registration-button" onclick="ga('send', 'event', 'Registration', 'click', '{{ post.title  }}');">Register now</a></li>{% endif %}{% endif %}
                   </ul>
                 </div>
               </div>

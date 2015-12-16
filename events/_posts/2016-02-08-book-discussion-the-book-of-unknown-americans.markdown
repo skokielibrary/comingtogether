@@ -10,4 +10,4 @@ types: ['Books/Authors']
 registration: "none"
 canceled: "No"
 ---
-Join Lincolnwood Public Library for a discussion of The Book of Unknown Americans at the Lincolnwood Community Center
+Join Lincolnwood Public Library for a discussion of The Book of Unknown Americans at the Lincolnwood Community Center.
