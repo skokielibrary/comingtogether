@@ -114,3 +114,45 @@ h1.home-title{
     filter: blur(0);
   }
 }
+
+.translate{
+  margin: 0;
+  padding: 1rem;
+  background: transparent;
+  vertical-align: bottom;
+  transition: opacity .2s ease;
+
+  &:focus{
+    background: transparent;
+    opacity: .8;
+  }
+
+  &:hover{
+    background: transparent;
+    opacity: .6;
+  }
+
+  svg{
+    height: 1.5rem;
+    width: auto;
+  }
+}
+
+.translate-widget{
+  position: absolute;
+  bottom: -1rem;
+  right: 1.2rem;
+  height: 0;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity .2s ease;
+
+  &.show{
+    opacity: 1;
+  }
+
+  .goog-te-gadget-simple{
+    border: 0 !important;
+    padding: .875rem;
+  }
+}
