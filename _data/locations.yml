@@ -2,19 +2,19 @@
   street: Lincolnwood Town Center, 3333 W. Touhy Avenue
   city: Lincolnwood
   state: IL
-  zipcode: 00000
+  zipcode: 60712
 
 - place: American Legion Memorial Civic Center of Morton Grove
   street: 6140 Dempster Street
   city: Morton Grove
   state: IL
-  zipcode: 00000
+  zipcode: 60053
 
 - place: Evanston Township High School
   street: 1600 Dodge Avenue
   city: Evanston
   state: IL
-  zipcode: 000000
+  zipcode: 60201
 
 - place: Evanston Public Library
   street: 1703 Orrington Avenue
@@ -26,13 +26,13 @@
   street: 6900 N. Lincoln Avenue
   city: Lincolnwood
   state: IL
-  zipcode: 000000
+  zipcode: 60712
 
 - place: Lincolnwood Place
   street: 7000 N. McCormick Boulevard
   city: Lincolnwood
   state: IL
-  zipcode: 000000
+  zipcode: 60712
 
 - place: Lincolnwood Public Library
   street: 4000 West Pratt Avenue
@@ -44,7 +44,7 @@
   street: 7110 N. Lincoln Avenue
   city: Lincolnwood
   state: IL
-  zipcode: 00000
+  zipcode:  60712
 
 - place: Morton Grove Public Library
   street: 6140 Lincoln Avenue
@@ -110,4 +110,4 @@
   street: 6020 N. Cicero Avenue
   city: Chicago
   state: IL
-  zipcode: 000000
+  zipcode: 60646
