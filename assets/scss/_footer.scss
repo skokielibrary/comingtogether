@@ -71,11 +71,18 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  columns: 12rem 2;
+  column-gap: 3rem;
+
+  @media only screen and (min-width: $desktop-break){
+    columns: 10rem 3;
+  }
 }
 
 .supporting-orgs li{
   margin-bottom: .5rem;
   line-height: 1.2;
+  break-inside: avoid;
 }
 
 
