@@ -4,7 +4,7 @@ title: "Salsa Night at 90 Miles Cuban Cafe, Lincolnwood Town Center"
 subtitle: "¡Viva!, 2016"
 location: "90 Mile cuban Cafe"
 date: 2016-03-10 18:00:00 -0600
-times: "12:00 am"
+times: "6:00 pm"
 audiences: ['Adults']
 types: ['Performance']
 registration: "none"
