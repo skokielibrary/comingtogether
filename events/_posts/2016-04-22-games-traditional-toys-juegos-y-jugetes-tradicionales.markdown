@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Games & Traditional Toys (Juegos y Jugetes Tradicionales)"
+title: "Juegos y Jugetes Tradicionales (Games and Traditional Toys)"
 subtitle: "¡Viva!, 2016"
 location: "Niles West High School"
 date: 2016-04-22 18:00:00 -0600
