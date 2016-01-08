@@ -7,7 +7,7 @@ date: 2016-02-20 10:30:00 -0600
 times: "10:30 a.m."
 audiences: ['Kids']
 types: ['Kids/Family']
-registration: "none"
+registration: "https://skokielibrary.info/events/3188/club-wonder-cantar-y-jugar-with-cats-music"
 canceled: "No"
 ---
 Families of children with special needs are invited to join Tricia Sebastian, founder of Creating Arts Together with Songs (CATS), who will lead the children in singing in English and Spanish and playing instruments. Kids will have fun interacting through games, using props, and moving to the beat as they celebrate Latino cultures. Limited to 20 participants. For children ages 3 to 8 with parents or caregivers

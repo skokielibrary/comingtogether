@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Movie: The Motorcycle Diaries"
+title: "The Motorcycle Diaries"
 subtitle: "¡Viva!, 2016"
 location: "Niles Public Library"
 date: 2016-02-02 14:00:00 -0600

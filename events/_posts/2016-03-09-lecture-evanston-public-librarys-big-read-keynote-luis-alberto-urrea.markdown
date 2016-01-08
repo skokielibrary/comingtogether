@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Lecture: Evanston Public Library's Big Read Keynote: Luis Alberto Urrea"
+title: "Evanston Public Library's Big Read Keynote: Luis Alberto Urrea"
 subtitle: "¡Viva!, 2016"
 location: "Evanston Township High School"
 date: 2016-03-09 19:00:00 -0600
