@@ -34,7 +34,7 @@ type: event-detail
             <ul class="event-meta">
               <li>{{ page.times }}</li>
               <li>{{ page.location }}</li>
-              {% if page.registration != "none" %}{% if page.canceled != "Yes" %}<li><a href="{{ page.registration }}" class="registration-link">Register now&rarr;</a></li>{% endif %}{% endif %}
+              {% if page.registration != "none" %}{% if page.canceled != "Yes" %}<li><a href="{{ page.registration }}" class="registration-button" onclick="ga('send', 'event', 'Registration', 'click', '{{ page.title }}');">Register now</a></li>{% endif %}{% endif %}
             </ul>
           </div>
         </div>
