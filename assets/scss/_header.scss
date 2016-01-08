@@ -117,10 +117,13 @@ h1.home-title{
 
 .translate{
   margin: 0;
-  padding: 1rem;
+  padding: .25rem;
   background: transparent;
-  vertical-align: bottom;
   transition: opacity .2s ease;
+
+  @media only screen and (min-width: $desktop-break){
+    padding: .75rem
+  }
 
   &:focus{
     background: transparent;
@@ -133,26 +136,36 @@ h1.home-title{
   }
 
   svg{
-    height: 1.5rem;
+    height: 2rem;
     width: auto;
+    fill: $black;
   }
 }
 
 .translate-widget{
   position: absolute;
   bottom: -1rem;
-  right: 1.2rem;
+  right: 0;
   height: 0;
   z-index: 9999;
   opacity: 0;
   transition: opacity .2s ease;
+
+  @media only screen and (min-width: $desktop-break){
+    right: .875rem;
+  }
 
   &.show{
     opacity: 1;
   }
 
   .goog-te-gadget-simple{
+    width: 100%;
     border: 0 !important;
-    padding: .875rem;
+    padding: .75rem;
+
+    @media only screen and (min-width: $desktop-break){
+      width: auto;
+    }
   }
 }

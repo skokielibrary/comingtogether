@@ -14,7 +14,15 @@
   $(function(){
 
   $('#translate').click(function(){
-    $('.translate-widget').toggleClass('show');
+    var widget = $('.translate-widget')
+    widget.toggleClass('show');
+
+    if (widget.hasClass('show')){
+      widget.attr('aria-hidden', 'false');
+    }
+    else{
+      widget.attr('aria-hidden', 'true');
+    }
   })
 
   {% if page.title == 'Events' %}
