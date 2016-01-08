@@ -13,6 +13,18 @@
 
   $(function(){
 
+  $('#translate').click(function(){
+    var widget = $('.translate-widget')
+    widget.toggleClass('show');
+
+    if (widget.hasClass('show')){
+      widget.attr('aria-hidden', 'false');
+    }
+    else{
+      widget.attr('aria-hidden', 'true');
+    }
+  })
+
   {% if page.title == 'Events' %}
 
     $('.event').addClass('filtered');
@@ -68,3 +80,8 @@
 
   });
 </script>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-57792737-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
