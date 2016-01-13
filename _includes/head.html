@@ -7,9 +7,9 @@
 
   <meta name="author" content="{{ site.title }} {{ site.subtitle }}">
   {% if page.type == 'event-detail' %}
-    <meta name="description" content="{{ page.content }}">
+    <meta name="description" content="{{ page.content | strip | strip_newlines }}">
   {% else %}
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description | strip | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
   {% endif %}
 
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
@@ -34,12 +34,12 @@
   <meta name="theme-color" content="#ffffff">
 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% if page.type == 'event-detail' %}/{% endif %}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }} {{ site.subtitle }}{% else %}{{ site.title }} {{ site.subtitle }}{% endif %}" />
   {% if page.type == 'event-detail' %}
-    <meta property="og:description" content="{{ page.content }}">
+    <meta property="og:description" content="{{ page.content | strip | strip_newlines }}">
   {% else %}
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
   {% endif %}
   {% if page.type == 'event-detail' %}
     <meta property="og:image" content="http://comingtogether.in/assets/img/events/ct-event-{{ page.types | first | slugify }}.png">
@@ -49,5 +49,5 @@
 
   <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
   <link href="{{ site.baseurl }}/assets/css/styles.css" rel="stylesheet">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% if page.type == 'event-detail' %}/{% endif %}">
 </head>
