@@ -41,7 +41,7 @@
     <meta name="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% endif %}
   {% if page.type == 'event-detail' %}
-    <meta property="og:image" content="http://comingtogether.in/assets/image/events/ct-event-{{ page.types | first | slugify }}.png"
+    <meta property="og:image" content="http://comingtogether.in/assets/img/events/ct-event-{{ page.types | first | slugify }}.png"
   {% else %}
     <meta property="og:image" content="http://comingtogether.in/assets/img/viva-header.png" />
   {% endif %}
