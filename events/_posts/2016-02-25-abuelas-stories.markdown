@@ -1,10 +1,10 @@
 ---
 layout: event
-title: "Abuela Story Time"
+title: "Abuela's Stories: A Time of Magic"
 subtitle: "¡Viva!, 2016"
 location: "ELL Parent Center"
-date: 2016-02-25 00:00:00 -0600
-times: "12:00 am"
+date: 2016-02-25 18:30:00 -0600
+times: "6:30 pm"
 audiences: ['All ages']
 types: ['Kids/Family']
 registration: "none"
