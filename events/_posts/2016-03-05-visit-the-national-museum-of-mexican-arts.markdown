@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Visit the National Museum of Mexican Arts."
+title: "Visit the National Museum of Mexican Arts"
 subtitle: "¡Viva!, 2016"
 location: "Skokie Heritage Museum"
 date: 2016-03-05 10:00:00 -0600
