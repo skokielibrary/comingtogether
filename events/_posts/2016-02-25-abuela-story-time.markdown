@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Abuela Story Time (exact title to come)"
+title: "Abuela Story Time"
 subtitle: "¡Viva!, 2016"
 location: "ELL Parent Center"
 date: 2016-02-25 00:00:00 -0600
