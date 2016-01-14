@@ -3,8 +3,8 @@ layout: event
 title: "Stand Against Racism"
 subtitle: "¡Viva!, 2016"
 location: "Throughout Niles Township"
-date: 2016-04-29 00:00:00 -0600
-times: "12:00 am"
+date: 2016-04-29 09:00:00 -0600
+times: "9:00 a.m."
 audiences: ['All Ages']
 types: ['Workshop']
 registration: "none"
