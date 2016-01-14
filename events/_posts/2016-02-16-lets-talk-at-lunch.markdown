@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Lets Talk at Lunch"
+title: "Let's Talk at Lunch"
 subtitle: "¡Viva!, 2016"
 location: "Skokie Public Library"
 date: 2016-02-16 12:00:00 -0600
