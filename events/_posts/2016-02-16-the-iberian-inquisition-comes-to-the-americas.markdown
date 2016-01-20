@@ -3,8 +3,8 @@ layout: event
 title: "The Iberian Inquisition comes to the Americas"
 subtitle: "¡Viva!, 2016"
 location: "Oakton Community College, Skokie Campus"
-date: 2016-02-16 11:00:00 -0600
-times: "11 a.m."
+date: 2016-02-17 16:00:00 -0600
+times: "4 p.m."
 audiences: ['Adults']
 types: ['Lecture']
 registration: "none"
