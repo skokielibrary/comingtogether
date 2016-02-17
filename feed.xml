@@ -1,30 +1,143 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Coming Together</title>
+    <description>A cultural and literary series exploring Latino and Hispanic culture and experience in our community.</description>
+    <link>http://comingtogether.in/</link>
+    <atom:link href="http://comingtogether.in/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 16 Feb 2016 16:32:17 -0600</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2016 16:32:17 -0600</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>La Historia y El Uso del Rebozo (History and use of the Shawl)</title>
+        <description>&lt;p&gt;Learn about the origins and evolution of the rebozo. Participants will have a chance to wrap and wear these beautiful shawls.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 May 2016 19:00:00 -0500</pubDate>
+        <link>http://comingtogether.in/events/2016/05/13/la-historia-y-el-uso-del-rebozo-history-and-use-of-the-shawl</link>
+        <guid isPermaLink="true">http://comingtogether.in/events/2016/05/13/la-historia-y-el-uso-del-rebozo-history-and-use-of-the-shawl</guid>
+        
+        
+        <category>events</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Dinner and a Movie  The Book of Life</title>
+        <description>&lt;p&gt;Amanecer Breakfast Tacos, a Latin food car, will have brunch tacos available for purchase from 5 – 7 pm. They will be located in the Skokie Heritage Museum parking lot. Check them out at www.amanecertacos.com. And stay for the Book of Life (rated PG): Starts at 7:30 pm on the second floor of the Museum. Space is limited to the first 50 people. Admission to the movie is free.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Apr 2016 20:30:00 -0500</pubDate>
+        <link>http://comingtogether.in/events/2016/04/29/dinner-and-a-movie-the-book-of-life</link>
+        <guid isPermaLink="true">http://comingtogether.in/events/2016/04/29/dinner-and-a-movie-the-book-of-life</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Stand Against Racism</title>
+        <description>&lt;p&gt;Coming Together is proud to participate in the Stand Against Racism for the second year in a row. Stand Against Racism is a movement of the YWCA that aims to eliminate racism by raising awareness through its annual event. Groups and individuals are invited to participate throughout Evanston and Niles Township.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Apr 2016 10:00:00 -0500</pubDate>
+        <link>http://comingtogether.in/events/2016/04/29/stand-against-racism</link>
+        <guid isPermaLink="true">http://comingtogether.in/events/2016/04/29/stand-against-racism</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Juegos y Jugetes Tradicionales (Games and Traditional Toys)</title>
+        <description>&lt;p&gt;We will teach the new generation some traditional toys and games from our culture such as trompo, balero, yoyo, matatena, loteria, serpientes y escaleras, pirinola, and canicas.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Apr 2016 19:00:00 -0500</pubDate>
+        <link>http://comingtogether.in/events/2016/04/22/games-traditional-toys-juegos-y-jugetes-tradicionales</link>
+        <guid isPermaLink="true">http://comingtogether.in/events/2016/04/22/games-traditional-toys-juegos-y-jugetes-tradicionales</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Book Discussion: The Book of Unknown Americans</title>
+        <description>&lt;p&gt;Join us for a discussion of The Book of Unknown Americans by Cristina Henríquez. A dilapidated apartment building in Delaware is the final destination for its Spanish speaking, immigrant neighbors. The Rivera Family, newly arrived from Mexico, suffered recent tragedy that has left their daughter Alma with a traumatic brain injury but that doesn’t keep her from being noticed by one of the young boys in the building. At turns heart wrenching and hopeful, Henríquez’s novel is a beautiful and compassionate coming-of-age story. &lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Mar 2016 13:00:00 -0500</pubDate>
+        <link>http://comingtogether.in/events/2016/03/31/book-discussion-the-book-of-unknown-americans</link>
+        <guid isPermaLink="true">http://comingtogether.in/events/2016/03/31/book-discussion-the-book-of-unknown-americans</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Precious Knowledge Documentary and Discussion</title>
+        <description>&lt;p&gt;Precious Knowledge illustrates what motivated Tucson High School students and teachers to form the front line of an epic civil rights battle regarding the teaching of ethnic studies in Arizona.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Mar 2016 17:00:00 -0500</pubDate>
+        <link>http://comingtogether.in/events/2016/03/23/precious-knowledge-documentary-and-discussion</link>
+        <guid isPermaLink="true">http://comingtogether.in/events/2016/03/23/precious-knowledge-documentary-and-discussion</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Precious Knowledge Documentary and Discussion</title>
+        <description>&lt;p&gt;Precious Knowledge illustrates what motivated Tucson High School students and teachers to form the front line of an epic civil rights battle regarding the teaching of ethnic studies in Arizona.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Mar 2016 17:00:00 -0500</pubDate>
+        <link>http://comingtogether.in/events/2016/03/21/precious-knowledge-documentary-and-discussion</link>
+        <guid isPermaLink="true">http://comingtogether.in/events/2016/03/21/precious-knowledge-documentary-and-discussion</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Salsa in America: Discussion and Performance</title>
+        <description>&lt;p&gt;Join Laura Flores and Del Dominguez of Mixed Motion Art Dance Academy as they dance “salsa” and discuss the evolution of the dance in the United States.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Mar 2016 13:00:00 -0500</pubDate>
+        <link>http://comingtogether.in/events/2016/03/21/salsa-in-america-discussion-and-performance</link>
+        <guid isPermaLink="true">http://comingtogether.in/events/2016/03/21/salsa-in-america-discussion-and-performance</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Sounds of Brazil with Dedé Sampaio</title>
+        <description>&lt;p&gt;Explore a new culture through the ‘Sounds of Brazil’. This program explores many aspects of Brazilian history, geography, and customs through its music. Adults and children will be invited to participate in a hands-on percussion line.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Mar 2016 14:00:00 -0600</pubDate>
+        <link>http://comingtogether.in/events/2016/03/12/sounds-of-brazil-with-dede-sampaio</link>
+        <guid isPermaLink="true">http://comingtogether.in/events/2016/03/12/sounds-of-brazil-with-dede-sampaio</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Crafty Saturday</title>
+        <description>&lt;p&gt;Join us for a very special Crafty Saturday. Before or after enjoying the Sounds of Brazil, head to the Youth Services Department to create a colorful mini piñata!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Mar 2016 09:30:00 -0600</pubDate>
+        <link>http://comingtogether.in/events/2016/03/12/crafty-saturday</link>
+        <guid isPermaLink="true">http://comingtogether.in/events/2016/03/12/crafty-saturday</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
   </channel>
 </rss>
