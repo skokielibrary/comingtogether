@@ -6,3 +6,7 @@ node_modules/
 
 working/
 jekyll/
+.DS_Store
+_config.yml
+Gemfile
+Gemfile.lock
