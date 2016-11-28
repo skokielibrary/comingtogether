@@ -2966,25 +2966,25 @@ sufrido una tragedia que ha dejado a la hija, Maribel, con trauma cerebral, pero
       }
     });
 
-    var today = new Date();
-    var today_year = today.getFullYear();
-    var today_month = today.getMonth() > 9 ? today.getMonth() + 1 : "0" + (today.getMonth() + 1);
-    var today_date = today.getDate() > 9 ? today.getDate() : "0" + today.getDate();
-
-    //make sure dates get concatenated as strings
-    var start_today = "" + today_year + "" + today_month + "" + today_date;
+    // var today = new Date();
+    // var today_year = today.getFullYear();
+    // var today_month = today.getMonth() > 9 ? today.getMonth() + 1 : "0" + (today.getMonth() + 1);
+    // var today_date = today.getDate() > 9 ? today.getDate() : "0" + today.getDate();
+    //
+    // //make sure dates get concatenated as strings
+    // var start_today = "" + today_year + "" + today_month + "" + today_date;
 
     $('#filter-toggle').click(function(){
       $('.filters').slideToggle();
     })
 
-    var single_days = $('.single-day');
-
-    $.each(single_days, function(i){
-       if (single_days[i].id < start_today){
-         $(single_days[i]).hide();
-       }
-     });
+    // var single_days = $('.single-day');
+    //
+    // $.each(single_days, function(i){
+    //    if (single_days[i].id < start_today){
+    //      $(single_days[i]).hide();
+    //    }
+    //  });
 
 
 
