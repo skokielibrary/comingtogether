@@ -1,11 +1,87 @@
-[{
-	"title": "Test Event Awesome Cool",
-	"start": "2016-11-28T12:21:25-06:00",
-	"url": "/events/2017/11/28/test-event-awesome-cool",
-	"className": "kids-family"
-}, {
-	"title": "Another Cool Event",
-	"start": "2016-11-28T12:55:11-06:00",
-	"url": "/events/2017/11/28/another-cool-event",
-	"className": "lecture"
-}]
+[
+
+	{
+		"title": "Make a Chinese Paper Lantern",
+		"start": "2017-01-30T12:00:00-06:00",
+		"url": "/events/2017/01/30/make-a-chinese-paper-lantern",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Chinese Golden Dragon Acrobats",
+		"start": "2017-02-01T12:00:00-06:00",
+		"url": "/events/2017/02/01/chinese-golden-dragon-acrobats",
+		"className": "performance"
+	},
+
+	{
+		"title": "Let’s Read Our Way to China",
+		"start": "2017-02-01T12:00:00-06:00",
+		"url": "/events/2017/02/01/lets-read-our-way-to-china",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Opening Ceremony:  Celebrating Chinese Culture",
+		"start": "2017-02-11T12:00:00-06:00",
+		"url": "/events/2017/02/11/opening-ceremony-celebrating-chinese-culture",
+		"className": "performance"
+	},
+
+	{
+		"title": "Be the Scientist: Knot Tying",
+		"start": "2017-02-14T12:00:00-06:00",
+		"url": "/events/2017/02/14/be-the-scientist",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "The Woman Who Was Emperor of China",
+		"start": "2017-02-14T12:00:00-06:00",
+		"url": "/events/2017/02/14/the-woman-who-was-emperor-of-china",
+		"className": "type"
+	},
+
+	{
+		"title": "Book Discussion:  *Typical American* by Gish Jen",
+		"start": "2017-02-15T12:00:00-06:00",
+		"url": "/events/2017/02/15/book-discussion-typical-american-by-gish-jen",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Movies in the Teen Underground: *Shaolin Soccer*",
+		"start": "2017-02-16T12:00:00-06:00",
+		"url": "/events/2017/02/16/movies-in-the-teen-underground-shaolin-soccer",
+		"className": "film"
+	},
+
+	{
+		"title": "Chinese Classical and Traditional Folk Dances",
+		"start": "2017-02-19T12:00:00-06:00",
+		"url": "/events/2017/02/19/chinese-classical-and-traditional-folk-dances",
+		"className": "performance"
+	},
+
+	{
+		"title": "Book Discussion:  *American Born Chinese*",
+		"start": "2017-02-21T12:00:00-06:00",
+		"url": "/events/2017/02/21/book-discussion-american-born-chinese",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Movies, Munchies, and More: *Snow Flower and the Secret Fan*",
+		"start": "2017-02-21T12:00:00-06:00",
+		"url": "/events/2017/02/21/movies-munchies-and-more-snow-flower-and-the-secret-fan",
+		"className": "film"
+	},
+
+	{
+		"title": "Panda Bear Storytime",
+		"start": "2017-02-22T12:00:00-06:00",
+		"url": "/events/2017/02/22/panda-bear-storytime",
+		"className": "type"
+	}
+
+]
