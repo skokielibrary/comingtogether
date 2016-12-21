@@ -1,12 +1,367 @@
----
----
 [
-{% for post in site.posts reversed %}
+
 	{
-		"title": "{{ post.title }}",
-		"start": "{{ post.date | date_to_xmlschema }}",
-		"url": "{{ site.baseurl }}{{ post.url }}",
-		"className": {% for t in post.types limit:1 %}"{{t | slugify }}"{% endfor %}
-	}{% if forloop.last %}{% else %},{% endif %}
-{% endfor %}
+		"title": "Make a Chinese Paper Lantern",
+		"start": "2017-01-30T12:00:00-06:00",
+		"url": "/events/2017/01/30/make-a-chinese-paper-lantern",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Chinese Golden Dragon Acrobats",
+		"start": "2017-02-01T12:00:00-06:00",
+		"url": "/events/2017/02/01/chinese-golden-dragon-acrobats",
+		"className": "performance"
+	},
+
+	{
+		"title": "Let’s Read Our Way to China",
+		"start": "2017-02-01T12:00:00-06:00",
+		"url": "/events/2017/02/01/lets-read-our-way-to-china",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Opening Ceremony:  Celebrating Chinese Culture",
+		"start": "2017-02-11T12:00:00-06:00",
+		"url": "/events/2017/02/11/opening-ceremony-celebrating-chinese-culture",
+		"className": "performance"
+	},
+
+	{
+		"title": "Be the Scientist: Knot Tying",
+		"start": "2017-02-14T12:00:00-06:00",
+		"url": "/events/2017/02/14/be-the-scientist",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "The Woman Who Was Emperor of China",
+		"start": "2017-02-14T12:00:00-06:00",
+		"url": "/events/2017/02/14/the-woman-who-was-emperor-of-china",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Book Discussion:  *Typical American* by Gish Jen",
+		"start": "2017-02-15T12:00:00-06:00",
+		"url": "/events/2017/02/15/book-discussion-typical-american-by-gish-jen",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Movies in the Teen Underground: *Shaolin Soccer*",
+		"start": "2017-02-16T12:00:00-06:00",
+		"url": "/events/2017/02/16/movies-in-the-teen-underground-shaolin-soccer",
+		"className": "film"
+	},
+
+	{
+		"title": "Chinese Classical and Traditional Folk Dances",
+		"start": "2017-02-19T12:00:00-06:00",
+		"url": "/events/2017/02/19/chinese-classical-and-traditional-folk-dances",
+		"className": "performance"
+	},
+
+	{
+		"title": "Book Discussion:  *American Born Chinese*",
+		"start": "2017-02-21T12:00:00-06:00",
+		"url": "/events/2017/02/21/book-discussion-american-born-chinese",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Movies, Munchies, and More: *Snow Flower and the Secret Fan*",
+		"start": "2017-02-21T12:00:00-06:00",
+		"url": "/events/2017/02/21/movies-munchies-and-more-snow-flower-and-the-secret-fan",
+		"className": "film"
+	},
+
+	{
+		"title": "Book Discussion:  American Born Chinese",
+		"start": "2017-02-22T12:00:00-06:00",
+		"url": "/events/2017/02/22/book-discussion-american-born-chinese",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Lantern Festival",
+		"start": "2017-02-22T12:00:00-06:00",
+		"url": "/events/2017/02/22/lantern-festival",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Panda Bear Storytime",
+		"start": "2017-02-22T12:00:00-06:00",
+		"url": "/events/2017/02/22/panda-bear-storytime",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Traveling Between Two Worlds",
+		"start": "2017-02-22T12:00:00-06:00",
+		"url": "/events/2017/02/22/traveling-between-two-worlds",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Coming Together Series: A Debate About U.S./Chinese Relations in a Globalized World",
+		"start": "2017-02-23T12:00:00-06:00",
+		"url": "/events/2017/02/23/a-debate-about-us-chinese-relations",
+		"className": "performance"
+	},
+
+	{
+		"title": "Between the Lines: *American Born Chinese*",
+		"start": "2017-02-23T12:00:00-06:00",
+		"url": "/events/2017/02/23/between-the-lines-american-born-chinese",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "'Chinese-ness': How Chinese Americans Mobilize Politically",
+		"start": "2017-02-23T12:00:00-06:00",
+		"url": "/events/2017/02/23/how-chinese-americans-mobilize-politically",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Art Attack: Watercolor Goldfish Pond",
+		"start": "2017-02-24T12:00:00-06:00",
+		"url": "/events/2017/02/24/art-attack-watercolor-goldfish-pond",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Confucius: The Man and His Message",
+		"start": "2017-02-27T12:00:00-06:00",
+		"url": "/events/2017/02/27/confucius-the-man-and-his-message",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Between the Lines: American Born Chinese",
+		"start": "2017-02-28T12:00:00-06:00",
+		"url": "/events/2017/02/28/between-the-lines-american-born-chinese",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Snack Time:  Chinese Green Onion Pancakes",
+		"start": "2017-02-28T12:00:00-06:00",
+		"url": "/events/2017/02/28/snack-time-chinese-green-onion-pancakes",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Explore the Tales and Tastes of China",
+		"start": "2017-03-01T12:00:00-06:00",
+		"url": "/events/2017/03/01/explore-the-tales-and-tastes-of-china",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Chinese Festival",
+		"start": "2017-03-02T12:00:00-06:00",
+		"url": "/events/2017/03/02/chinese-festival",
+		"className": "performance"
+	},
+
+	{
+		"title": "Brunching, Chinese American Style",
+		"start": "2017-03-04T12:00:00-06:00",
+		"url": "/events/2017/03/04/brunching-chinese-american-style",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Mandarin Bilingual Storytime",
+		"start": "2017-03-06T12:00:00-06:00",
+		"url": "/events/2017/03/06/mandarin-bilingual-storytime",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Be the Scientist: Paper Cutting",
+		"start": "2017-03-07T12:00:00-06:00",
+		"url": "/events/2017/03/07/be-the-scientist-paper-cutting",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Guys Read: *Where the Mountain Meets the Moon*",
+		"start": "2017-03-07T12:00:00-06:00",
+		"url": "/events/2017/03/07/guys-read-where-the-mountain-meets-the-moon",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "All Ages Book Discussion with Tea",
+		"start": "2017-03-08T12:00:00-06:00",
+		"url": "/events/2017/03/08/all-ages-book-discussion-with-tea",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Chinese Cooking with Ying Stoller",
+		"start": "2017-03-08T12:00:00-06:00",
+		"url": "/events/2017/03/08/chinese-cooking-with-ying-stoller",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Book Discussion: *American Born Chinese*",
+		"start": "2017-03-09T12:00:00-06:00",
+		"url": "/events/2017/03/09/book-discussion-american-born-chinese",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Morning Matinee: *The Last Emperor*",
+		"start": "2017-03-09T12:00:00-06:00",
+		"url": "/events/2017/03/09/morning-matinee-the-last-emperor",
+		"className": "film"
+	},
+
+	{
+		"title": "The Chinese American Vote",
+		"start": "2017-03-09T12:00:00-06:00",
+		"url": "/events/2017/03/09/the-chinese-american-vote",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Crafty Saturday",
+		"start": "2017-03-11T12:00:00-06:00",
+		"url": "/events/2017/03/11/crafty-saturday",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Family Film: *Kung Fu Panda 3*",
+		"start": "2017-03-11T12:00:00-06:00",
+		"url": "/events/2017/03/11/family-film-kung-fu-panda-3",
+		"className": "film"
+	},
+
+	{
+		"title": "Special Film Screening of *Spilled Water*",
+		"start": "2017-03-11T12:00:00-06:00",
+		"url": "/events/2017/03/11/special-film-screening-of-spilled-water",
+		"className": "film"
+	},
+
+	{
+		"title": "Second Sunday Family Program:  Cheng Da Drum Team",
+		"start": "2017-03-12T13:00:00-05:00",
+		"url": "/events/2017/03/12/cheng-da-drum-team",
+		"className": "performance"
+	},
+
+	{
+		"title": "An Evening with Gene Luen Yang, Coming Together Featured Author",
+		"start": "2017-03-13T13:00:00-05:00",
+		"url": "/events/2017/03/13/an-evening-with-gene-luen-yang",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Author Gene Luen Yang at Niles North High School",
+		"start": "2017-03-14T13:00:00-05:00",
+		"url": "/events/2017/03/14/gene-luen-yang-at-niles-north",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Author Gene Luen Yang at Niles West High School",
+		"start": "2017-03-14T13:00:00-05:00",
+		"url": "/events/2017/03/14/gene-luen-yang-at-niles-west",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "A Very Special Listen Up!: *The Ugly Vegetables*",
+		"start": "2017-03-14T13:00:00-05:00",
+		"url": "/events/2017/03/14/listen-up-the-ugly-vegetables",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Mother-Daughter Book Club: *Year of the Dog*",
+		"start": "2017-03-14T13:00:00-05:00",
+		"url": "/events/2017/03/14/mother-daughter-book-club-year-of-the-dog",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Chinese Paper Crafts",
+		"start": "2017-03-16T13:00:00-05:00",
+		"url": "/events/2017/03/16/chinese-paper-crafts",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Movies in the Teen Underground: Hero",
+		"start": "2017-03-16T13:00:00-05:00",
+		"url": "/events/2017/03/16/movies-in-the-teen-underground-hero",
+		"className": "film"
+	},
+
+	{
+		"title": "Chinese Opera Workshop",
+		"start": "2017-03-18T13:00:00-05:00",
+		"url": "/events/2017/03/18/chinese-opera-workshop",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Art of Chinese Bonsai",
+		"start": "2017-03-19T13:00:00-05:00",
+		"url": "/events/2017/03/19/art-of-chinese-bonsai",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Mother-Daughter Book Club: *Where the Mountain Meets the Moon*",
+		"start": "2017-03-21T13:00:00-05:00",
+		"url": "/events/2017/03/21/mother-daughter-book-club-where-the-mountain",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Parent/Child Book Discussion: *Where the Mountain Meets the Moon*",
+		"start": "2017-03-22T13:00:00-05:00",
+		"url": "/events/2017/03/22/parent-child-book-discussion-where-the-mountain",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Critics Choice Cinema:  The Mermaid",
+		"start": "2017-03-26T13:00:00-05:00",
+		"url": "/events/2017/03/26/critics-choice-cinema-the-mermaid",
+		"className": "film"
+	},
+
+	{
+		"title": "China’s Foreign Policy",
+		"start": "2017-04-05T13:00:00-05:00",
+		"url": "/events/2017/04/05/chinas-foreign-policy",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Book Discussion: *American Born Chinese*",
+		"start": "2017-04-11T13:00:00-05:00",
+		"url": "/events/2017/04/11/book-discussion-american-born-chinese",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Building Bridges not Walls: How Judaic Studies Came to China",
+		"start": "2017-04-13T13:00:00-05:00",
+		"url": "/events/2017/04/13/building-bridges-not-walls",
+		"className": "lecture"
+	}
+
 ]

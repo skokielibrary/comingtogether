@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Calendar | Coming Together in Skokie & Niles Township</title>
+  <title>Book Discussion:  American Born Chinese | Coming Together in Skokie & Niles Township</title>
 
   <meta name="author" content="Coming Together in Skokie & Niles Township">
   
@@ -35,8 +35,8 @@
   <meta name="theme-color" content="#ffffff">
 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://localhost:4000/events/calendar/" />
-  <meta property="og:title" content="Calendar | Coming Together in Skokie & Niles Township" />
+  <meta property="og:url" content="http://localhost:4000/events/2017/02/21/book-discussion-american-born-chinese" />
+  <meta property="og:title" content="Book Discussion:  *American Born Chinese* | Coming Together in Skokie & Niles Township" />
   
     <meta property="og:description" content="A cultural and literary series exploring Chinese culture and experience in our community.">
   
@@ -47,7 +47,7 @@
   <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 
   <link href="/assets/css/styles.css" rel="stylesheet">
-  <link rel="canonical" href="http://localhost:4000/events/calendar/">
+  <link rel="canonical" href="http://localhost:4000/events/2017/02/21/book-discussion-american-born-chinese">
 </head>
 
 
@@ -83,8 +83,10 @@
   <main class="page-group" role="main">
     <div class="page-header">
   <div class="page-title">
-    <h1 ><p>Calendar</p>
+    <h1 ><p>Book Discussion:  <em>American Born Chinese</em></p>
 </h1>
+  
+    <p>Celebrating Chinese Culture, 2017</p>
   
   </div>
 </div>
@@ -93,35 +95,47 @@
 </div>-->
 
     <div class="page-content">
-      <section class="page-section">
+      <section class="page-section events-schedule-section">
   <div class="row">
-    <div class="large-12 columns">
-      <nav class="events-nav">
-  <ul>
-    <li>View as:</li>
-    <li><a href="/events/">☰ List</a></li>
-    <li><a href="/events/calendar">☷ Calendar</a></li>
-  </ul>
-</nav>
+    <div class="large-7 large-centered columns">
+      <!--event-->
+      <div class="event audience-teens audience-adults type-books-authors  location-skokie-public-library">
+        <div cldass="row">
+          <div class="medium-3 show-for-medium-up columns">
+            <!--event types-->
+            <ul class="event-types-list">
+              
+              <li><i class="type-icon books-authors"></i>Books/Authors</li>
+              
+            </ul>
+            <!--audiences-->
+            <ul class="event-audiences-list">
+              
+              <li>Teens</li>
+              
+              <li>Adults</li>
+              
+            </ul>
+          </div>
+          <div class="medium-9 columns">
+            <div class="event-date">Tuesday, February 21, 2017</div>
+            <h3>
+              <a class="event-title post-link" href="/events/2017/02/21/book-discussion-american-born-chinese"><p>Book Discussion:  <em>American Born Chinese</em></p>
+</a>
+            </h3>
+            
+            <div class="event-description">
+              <p>Join us for a discussion of <em>American Born Chinese</em>. A limited number of books will be made available for registrants at the Skokie Public Library.</p>
 
-      <div id="calendar"></div>
-      <div class="event-types-key">
-        <h4>Event types</h4>
-        <dl class="event-types">
-          <dt class="books-authors"></dt>
-          <dd>Books</dd>
-          <dt class="film"></dt>
-          <dd>Film</dd>
-          <dt class="kids-family"></dt>
-          <dd>Kids/Family</dd>
-          <dt class="lecture"></dt>
-          <dd>Lecture</dd>
-          <dt class="presentation"></dt>
-          <dd>Presentation</dd>
-          <dt class="workshop"></dt>
-          <dd>Workshop</dd>
-        </dl>
-      </div>
+            </div>
+            <ul class="event-meta">
+              <li>7:00 pm</li>
+              <li>Skokie Public Library</li>
+              
+            </ul>
+          </div>
+        </div>
+      </div><!--end of single event-->
     </div>
   </div>
 </section>
@@ -249,15 +263,6 @@
 
   
 
-  
-    $('#calendar').fullCalendar({
-      header: {
-				left: 'prev',
-				center: 'title',
-        right: 'next'
-			},
-      events: '/events/events.json',
-    });
   
 
   });

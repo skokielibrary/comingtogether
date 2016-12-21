@@ -1,15 +1,105 @@
----
-title: "Events"
-type: events-list
-layout: base
----
-<section class="page-section events-schedule-section">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Events | Coming Together in Skokie & Niles Township</title>
+
+  <meta name="author" content="Coming Together in Skokie & Niles Township">
+  
+    <meta name="description" content="A cultural and literary series exploring Chinese culture and experience in our community.">
+  
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/events/" />
+  <meta property="og:title" content="Events | Coming Together in Skokie & Niles Township" />
+  
+    <meta property="og:description" content="A cultural and literary series exploring Chinese culture and experience in our community.">
+  
+  
+    <meta property="og:image" content="http://comingtogether.in/assets/img/header.png" />
+  
+
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+
+  <link href="/assets/css/styles.css" rel="stylesheet">
+  <link rel="canonical" href="http://localhost:4000/events/">
+</head>
+
+
+<body>
+
+  <!--header-->
+  <header class="site-header" role="banner" >
+  <div class="row">
+    <div class="medium-12 columns">
+    <a href="/" class="brand notranslate">Coming <b>Together</b> <small> in Skokie & Niles Township</small></a>
+    <!--navigation-->
+    <nav class="site-nav" role="navigation" >
+      <ul class="nav">
+        <li><a href="/books">Books</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/about">About</a></li>
+        <li>
+          <button class="translate" id="translate" onclick="ga('send', 'event', 'Translate', 'click', 'Toggle');">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve"><g><path d="M46.4,52.6c-4.2-4.1-7.9-7.7-10-16h14.7v-6.2H36.5v-8.2h-6.3v8.3H15.5v6.2h15c0,0-0.1,1.2-0.3,2.1   c-2.1,8.2-4.6,13.4-14.7,18.5l2.1,6.2c9.6-5.1,14.6-11.5,16.8-18.6c2.1,5.4,5.7,9.8,9.8,13.8L46.4,52.6z"></path><path d="M65.8,32.5h-8.4L42.7,73.8H49l4.2-12.4H70l4.2,12.4h6.3L65.8,32.5z M55.3,55.2l6.3-16.5l6.3,16.6L55.3,55.2L55.3,55.2z"></path></g></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <!--end of navigation-->
+    <div class="translate-widget" aria-hidden="true">
+      <div id="google_translate_element"></div>
+    </div>
+    </div>
+  </div>
+</header>
+
+
+  <main class="page-group" role="main">
+    <div class="page-header">
+  <div class="page-title">
+    <h1 ><p>Events</p>
+</h1>
+  
+  </div>
+</div>
+<!--<div class="alert">
+  <p>This is an archived program. Go back to <a href="/">this year's program.</a></p>
+</div>-->
+
+    <div class="page-content">
+      <section class="page-section events-schedule-section">
   <div class="row">
     <div class="medium-4 push-8 columns">
       <button class="button line-button small show-for-small-only" id="filter-toggle">Filter events &#9660;</button>
       <div class="filters">
         <h3>Filter by</h3>
-        <p><a href="{{ site.baseurl }}/events/2017/">See all events&rarr;</a></p>
+        <p><a href="/events/2017/">See all events&rarr;</a></p>
         <div class="filter-controls">
           <h4>Audience</h4>
           <div class="audience-filters">
@@ -30,57 +120,2193 @@ layout: base
           </div>
           <h4>Locations</h4>
             <div class="location-filters">
-            {% for location in site.data.locations %}
-              <button class="filter" data-filter=".location-{{ location.place | slugify }}">{{ location.place }}</button>
-            {% endfor %}
+            
+              <button class="filter" data-filter=".location-american-legion-memorial-civic-center-of-morton-grove">American Legion Memorial Civic Center of Morton Grove</button>
+            
+              <button class="filter" data-filter=".location-holiday-inn-chicago-north-shore">Holiday Inn Chicago North Shore</button>
+            
+              <button class="filter" data-filter=".location-lincolnwood-public-library">Lincolnwood Public Library</button>
+            
+              <button class="filter" data-filter=".location-morton-grove-public-library">Morton Grove Public Library</button>
+            
+              <button class="filter" data-filter=".location-north-shore-center-for-the-performing-arts-in-skokie">North Shore Center for the Performing Arts in Skokie</button>
+            
+              <button class="filter" data-filter=".location-niles-north-high-school">Niles North High School</button>
+            
+              <button class="filter" data-filter=".location-niles-public-library-district">Niles Public Library District</button>
+            
+              <button class="filter" data-filter=".location-niles-township-schools-ell-parent-center">Niles Township Schools’ ELL Parent Center</button>
+            
+              <button class="filter" data-filter=".location-niles-west-high-school">Niles West High School</button>
+            
+              <button class="filter" data-filter=".location-oakton-community-college-des-plaines-campus">Oakton Community College, Des Plaines Campus</button>
+            
+              <button class="filter" data-filter=".location-oakton-community-college-skokie-campus">Oakton Community College, Skokie Campus</button>
+            
+              <button class="filter" data-filter=".location-skokie-public-library">Skokie Public Library</button>
+            
+              <button class="filter" data-filter=".location-skokie-village-hall">Skokie Village Hall</button>
+            
             </div>
         </div>
       </div>
     </div>
     <div class="medium-8 pull-4 columns" id="events-schedule">
-      {% include events-nav.html %}
+      <nav class="events-nav">
+  <ul>
+    <li>View as:</li>
+    <li><a href="/events/">☰ List</a></li>
+    <li><a href="/events/calendar">☷ Calendar</a></li>
+  </ul>
+</nav>
+
       <div class="no-events-alert">Sorry, no events match these filters.</div>
-    {% for post in site.posts reversed %}
-      {% capture currentdate %}{{ post.date | date: "%A, %B %d" }}{% endcapture %}
-        {% if currentdate != date %}
-          {% unless forloop.first %}</div>{% endunless %}
-          <div class="events-list single-day" id="{{ post.date | date: "%Y%m%d" }}">
-          {% capture date %}{{currentdate}}{% endcapture %}
-        {% endif %}
-            <div class="event {% for a in post.audiences %}audience-{{ a | slugify }} {% endfor %}{% for t in post.types %}type-{{ t | slugify }} {% endfor %} location-{{ post.location | slugify }}">
+    
+      
+        
+          
+          <div class="events-list single-day" id="20170130">
+          
+        
+            <div class="event audience-kids type-kids-family  location-niles-public-library-district">
               <div class="row">
                 <div class="small-3 small-push-9 medium-reset-order columns">
                   <!--event types-->
                   <ul class="event-types-list">
-                    {% for t in post.types %}
-                    <li><i class="type-icon {{ t | slugify }}"></i>{{ t }}</li>
-                    {% endfor %}
+                    
+                    <li><i class="type-icon kids-family"></i>Kids/Family</li>
+                    
                   </ul>
                   <!--audiences-->
                   <ul class="event-audiences-list">
-                    {% for a in post.audiences %}
-                    <li>{{ a }}{% if forloop.last == false %}, {%endif%}</li>
-                    {% endfor %}
+                    
+                    <li>Kids</li>
+                    
                   </ul>
                 </div>
                 <div class="small-9 small-pull-3 medium-reset-order columns">
-                  <div class="event-date">{{ post.date | date: "%A, %B %-d, %Y" }}</div>
+                  <div class="event-date">Monday, January 30, 2017</div>
                   <h3>
-                    <a class="event-title post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify }} </a>
+                    <a class="event-title post-link" href="/events/2017/01/30/make-a-chinese-paper-lantern"><p>Make a Chinese Paper Lantern</p>
+ </a>
                   </h3>
-                  {% if post.canceled == "Yes" %}<div class="canceled-label">This event has been canceled.</div>{% endif %}
+                  
                   <div class="event-description">
-                    {{ post.content }}
+                    <p>Celebrate Chinese New Year by creating a beautiful paper lantern. Caregivers need to stay in the room with children through grade 2.</p>
+
                   </div>
                   <ul class="event-meta">
-                    <li>{{ post.times }}</li>
-                    <li>{{ post.location }}</li>
-                    {% if post.registration != "none"%}{% if post.canceled != "Yes" %}<li><a href="{{ post.registration }}" class="registration-button" onclick="ga('send', 'event', 'Registration', 'click', '{{ post.title  }}');">Register</a></li>{% endif %}{% endif %}
+                    <li>4:30 pm</li>
+                    <li>Niles Public Library District</li>
+                    
                   </ul>
                 </div>
               </div>
             </div><!--end of single event-->
-          {% endfor %}
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170201">
+          
+        
+            <div class="event audience-teens audience-adults type-performance  location-north-shore-center-for-the-performing-arts-in-skokie">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon performance"></i>Performance</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Teens, </li>
+                    
+                    <li>Adults</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, February 1, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/01/chinese-golden-dragon-acrobats"><p>Chinese Golden Dragon Acrobats</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Rooted in time-honored traditions beginning 25 centuries ago, the Chinese Golden Dragon Acrobats feature electrifying acrobats, contortionists and jugglers who combine award-winning acrobatics and traditional dance with spectacular costumes and graceful artistry to produce art that transcends borders and culture. Cost: $10</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>1:30 pm</li>
+                    <li>North Shore Center for the Performing Arts in Skokie</li>
+                    <li><a href="http://www.NorthShoreCenter.org/CTIS" class="registration-button" onclick="ga('send', 'event', 'Registration', 'click', 'Chinese Golden Dragon Acrobats');">Register</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-adults type-books-authors  location-american-legion-memorial-civic-center-of-morton-grove">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Adults</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, February 1, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/01/lets-read-our-way-to-china"><p>Let’s Read Our Way to China</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>At this book talk, Morton Grove Public Library will lead a discussion featuring an exciting variety of books about China, set in China, and written by Chinese or Chinese American writers. Bring your library card; books will be available for checkout.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>1:00 pm</li>
+                    <li>American Legion Memorial Civic Center of Morton Grove</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170211">
+          
+        
+            <div class="event audience-teens audience-adults type-performance  location-north-shore-center-for-the-performing-arts-in-skokie">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon performance"></i>Performance</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Teens, </li>
+                    
+                    <li>Adults</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Saturday, February 11, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/11/opening-ceremony-celebrating-chinese-culture"><p>Opening Ceremony:  Celebrating Chinese Culture</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>A variety show featuring the Chinese culture and lifestyle with traditional performances including Lion and Dragon Dances, Chinese music, dance, folk songs, martial arts, and more! Celebrate and welcome the Chinese New Year with friends and family at the Opening Ceremony. <em>Free and open to the public.</em></p>
+
+<p><a href="http://www.NorthShoreCenter.org/ComingTogether">More Info</a></p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>6:00 pm</li>
+                    <li>North Shore Center for the Performing Arts in Skokie</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170214">
+          
+        
+            <div class="event audience-kids audience-teens type-kids-family  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon kids-family"></i>Kids/Family</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids, </li>
+                    
+                    <li>Teens</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, February 14, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/14/be-the-scientist"><p>Be the Scientist: Knot Tying</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Build your understanding of scientific concepts with monthly experiments and activities. This month, we’re exploring the skill and tradition of Chinese knot tying. For grades 3-5.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>6:30 pm</li>
+                    <li>Skokie Public Library</li>
+                    <li><a href="https://skokielibrary.info/events/5579/be-the-scientist-knot-tying" class="registration-button" onclick="ga('send', 'event', 'Registration', 'click', 'Be the Scientist: Knot Tying');">Register</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-teens audience-adults type-lecture  location-skokie-village-hall">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon lecture"></i>Lecture</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Teens, </li>
+                    
+                    <li>Adults</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, February 14, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/14/the-woman-who-was-emperor-of-china"><p>The Woman Who Was Emperor of China</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Wu Zetian (also known as Wu Zhao) was the only female Emperor in Chinese history. She reigned from 690-705 AD in the Tang dynasty, ascending to the throne after her husband died, and their sons proved unsatisfactory replacements. Wu Zetian, an extraordinary politician, was able to handle the court factions, and oversee the expanding imperial borders. Although there were many powerful court ladies before and after Wu Zetian’s time, no other woman was ever recognized as Emperor of the imperial realm. Refreshments will be served. Appropriate for adults, high school students.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>7:00 pm</li>
+                    <li>Skokie Village Hall</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170215">
+          
+        
+            <div class="event audience-adults type-books-authors  location-niles-public-library-district">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Adults</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, February 15, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/15/book-discussion-typical-american-by-gish-jen"><p>Book Discussion:  <em>Typical American</em> by Gish Jen</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>The Niles Library will host a book discussion on <em>Typical American</em>, by Gish Jen, a Chinese American author. Librarian Greta Ulrich will lead the discussion.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>1:00 pm</li>
+                    <li>Niles Public Library District</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170216">
+          
+        
+            <div class="event audience-teens type-film  location-niles-public-library-district">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon film"></i>Film</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Teens</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Thursday, February 16, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/16/movies-in-the-teen-underground-shaolin-soccer"><p>Movies in the Teen Underground: <em>Shaolin Soccer</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>In this 2001 comedy, a Kung Fu expert unites with a washed-up soccer star to build the ultimate team, combining sportsmanship with martial arts. Directed by and starring Stephen Chow.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>4:00 pm</li>
+                    <li>Niles Public Library District</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170219">
+          
+        
+            <div class="event audience-all-ages type-performance  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon performance"></i>Performance</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>All ages</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Sunday, February 19, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/19/chinese-classical-and-traditional-folk-dances"><p>Chinese Classical and Traditional Folk Dances</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Enjoy a performance of traditional Chinese dances that represent Chinese civilization in various geographic areas and dynasties. The Flying Fairies Dance Group combines Chinese culture, music, costumes, and choreography under the direction of Jin Qiu Yue.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>3:00 pm</li>
+                    <li>Skokie Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170221">
+          
+        
+            <div class="event audience-teens audience-adults type-books-authors  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Teens, </li>
+                    
+                    <li>Adults</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, February 21, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/21/book-discussion-american-born-chinese"><p>Book Discussion:  <em>American Born Chinese</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Join us for a discussion of <em>American Born Chinese</em>. A limited number of books will be made available for registrants at the Skokie Public Library.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>7:00 pm</li>
+                    <li>Skokie Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-adults type-film  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon film"></i>Film</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Adults</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, February 21, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/21/movies-munchies-and-more-snow-flower-and-the-secret-fan"><p>Movies, Munchies, and More: <em>Snow Flower and the Secret Fan</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>A story set in 19th-century China and focusing on the lifelong friendship between two girls who develop their own secret code as a way to contend with the rigid social norms imposed upon women.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>11:30 am</li>
+                    <li>Morton Grove Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170222">
+          
+        
+            <div class="event audience-teens audience-adults type-books-authors  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Teens, </li>
+                    
+                    <li>Adults</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, February 22, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/22/book-discussion-american-born-chinese"><p>Book Discussion:  American Born Chinese</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Join us for a discussion of <em>American Born Chinese</em>. A limited number of books will be available to registrants at the Skokie Public Library.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>10:00 am</li>
+                    <li>Skokie Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-all-ages type-kids-family  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon kids-family"></i>Kids/Family</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>All ages</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, February 22, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/22/lantern-festival"><p>Lantern Festival</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Join us as we mark the end of the Lunar New Year celebration with arts and activities. Experience traditional Chinese arts and skills, including calligraphy, paper cutting, and storytelling against the backdrop of lovely, illuminated lanterns. Drop-in event for families.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>6:00 pm</li>
+                    <li>Skokie Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-kids-family  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon kids-family"></i>Kids/Family</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, February 22, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/22/panda-bear-storytime"><p>Panda Bear Storytime</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Your little panda bear will love learning about the Chinese language and culture during this fun and interactive storytime with children’s book author and Chinese native Songju Ma Daemicke. Registration begins January 15. For ages 2-6 with a parent/caregiver.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>10:00 am</li>
+                    <li>Morton Grove Public Library</li>
+                    <li><a href="http://mgpl.evanced.info/signup/EventDetails?EventId=2530&backTo=Calendar&startDate=2017/02/01" class="registration-button" onclick="ga('send', 'event', 'Registration', 'click', 'Panda Bear Storytime');">Register</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-teens audience-adults type-lecture  location-oakton-community-college-des-plaines-campus">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon lecture"></i>Lecture</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Teens, </li>
+                    
+                    <li>Adults</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, February 22, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/22/traveling-between-two-worlds"><p>Traveling Between Two Worlds</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Sujie Man from Oakton Community College will discuss her life in China as a journalist and novelist and her transition to living in the USA. This lecture will take place in Room 1604.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>12:30 pm</li>
+                    <li>Oakton Community College, Des Plaines Campus</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170223">
+          
+        
+            <div class="event audience-kids type-performance  location-niles-west-high-school">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon performance"></i>Performance</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Thursday, February 23, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/23/a-debate-about-us-chinese-relations"><p>Coming Together Series: A Debate About U.S./Chinese Relations in a Globalized World</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>This performance will consist of a public forum debate about various aspects of United States/China relations. A short Q&amp;A/Discussion period will occur after the debate. The participants in the debate are Niles West debaters and the moderator is an Assistant Debate Coach from Niles West.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>5:00 pm</li>
+                    <li>Niles West High School</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-books-authors  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Thursday, February 23, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/23/between-the-lines-american-born-chinese"><p>Between the Lines: <em>American Born Chinese</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Between the Lines meets at Morton Grove Public Library to discuss the month’s selected book. No registration required. New members are welcome!</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>10:00 am</li>
+                    <li>Morton Grove Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-teens audience-adults type-lecture  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon lecture"></i>Lecture</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Teens, </li>
+                    
+                    <li>Adults</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Thursday, February 23, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/23/how-chinese-americans-mobilize-politically"><p>‘Chinese-ness’: How Chinese Americans Mobilize Politically</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>What does it mean to be Chinese in the United States? How does the idea of ‘Chinese-ness’ mobilize Chinese Americans into a distinct voting bloc? Justin Tse, Professor of Asian American Studies at Northwestern University, explores how Chinese Americans have been the convenient “other,” and how Chinese Americans subvert these narratives, organize for greater visibility, and ultimately gain political prominence in America.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>7:00 pm</li>
+                    <li>Skokie Public Library</li>
+                    <li><a href="https://skokielibrary.info/events/5595/chinese-ness-how-chinese-americans-mobilize-politically" class="registration-button" onclick="ga('send', 'event', 'Registration', 'click', ''Chinese-ness': How Chinese Americans Mobilize Politically');">Register</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170224">
+          
+        
+            <div class="event audience-kids type-kids-family  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon kids-family"></i>Kids/Family</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Friday, February 24, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/24/art-attack-watercolor-goldfish-pond"><p>Art Attack: Watercolor Goldfish Pond</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>If you are a creative person who loves to draw, color, and amaze your friends with your masterpieces, this program is for you. Each month we will attack a new and exciting art project that will challenge and build your artistic skills. Dig into the provided art supplies with your creativity and come out an Art Attack winner!</p>
+
+<p>Registration begins January 15. For grades 2-6.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>4:30 pm</li>
+                    <li>Morton Grove Public Library</li>
+                    <li><a href="http://mgpl.evanced.info/signup/EventDetails?EventId=2521&backTo=Calendar&startDate=2017/02/01" class="registration-button" onclick="ga('send', 'event', 'Registration', 'click', 'Art Attack: Watercolor Goldfish Pond');">Register</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170227">
+          
+        
+            <div class="event audience-kids type-lecture  location-skokie-village-hall">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon lecture"></i>Lecture</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Monday, February 27, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/27/confucius-the-man-and-his-message"><p>Confucius: The Man and His Message</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Rui Zhu, associate professor of philosophy at Lake Forest College, will discuss Confucius, his beliefs and the influence of Confucianism on Chinese culture and the world.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>7:00 pm</li>
+                    <li>Skokie Village Hall</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170228">
+          
+        
+            <div class="event audience-kids type-books-authors  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, February 28, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/28/between-the-lines-american-born-chinese"><p>Between the Lines: American Born Chinese</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Between the Lines meets at Morton Grove Public Library to discuss the book selected for the month. No registration required. New members are welcome!</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>7:00 pm</li>
+                    <li>Morton Grove Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-workshop  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon workshop"></i>Workshop</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, February 28, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/02/28/snack-time-chinese-green-onion-pancakes"><p>Snack Time:  Chinese Green Onion Pancakes</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Eat well and gain some independence by learning to make your own delicious and healthy after-school snacks. This month, learn how to make green onion pancakes in this special cooking program for Coming Together. This program is for grades 6-12.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>4:00 pm</li>
+                    <li>Skokie Public Library</li>
+                    <li><a href="https://skokielibrary.info/events/5669/snack-time-chinese-green-onion-pancakes" class="registration-button" onclick="ga('send', 'event', 'Registration', 'click', 'Snack Time:  Chinese Green Onion Pancakes');">Register</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170301">
+          
+        
+            <div class="event audience-kids type-kids-family  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon kids-family"></i>Kids/Family</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, March 1, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/01/explore-the-tales-and-tastes-of-china"><p>Explore the Tales and Tastes of China</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Join us on an exploration of aspects of Chinese culture as storyteller Robert Kikucki-Yngojo shares tales from Chinese folklore. Chinese snacks from local merchants will be available to sample. Drop-in event for families.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>6:30 pm</li>
+                    <li>Skokie Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170302">
+          
+        
+            <div class="event audience-kids type-performance  location-oakton-community-college-skokie-campus">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon performance"></i>Performance</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Thursday, March 2, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/02/chinese-festival"><p>Chinese Festival</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Chinese culture is the focus of this year’s Coming Together celebration. Oakton student clubs and the college community present a festival of music, dance, food, and fun. $3 entrance fee includes food and entertainment. Children under 5 are free. Call (847) 376-7632 or (847) 635-1474 for information.</p>
+
+<p>This event takes place in Room P104.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>6:30 pm</li>
+                    <li>Oakton Community College, Skokie Campus</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170304">
+          
+        
+            <div class="event audience-kids type-workshop  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon workshop"></i>Workshop</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Saturday, March 4, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/04/brunching-chinese-american-style"><p>Brunching, Chinese American Style</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>The brunch traditions of Chinese Americans extend far beyond the palate of savory and sweet, bringing together generations daily. Learn how to make several flavorful dishes from members of the local Chinese American community, and try a sample. Registration is required. Seating is limited to 50. Registration required at skokielibrary.info/events.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>2:00 pm</li>
+                    <li>Skokie Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170306">
+          
+        
+            <div class="event audience-kids type-kids-family  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon kids-family"></i>Kids/Family</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Monday, March 6, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/06/mandarin-bilingual-storytime"><p>Mandarin Bilingual Storytime</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Read books, sing songs, and have fun in both English and Mandarin in this special bilingual storytime. Drop-in event for ages 2-5.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>10:30 am</li>
+                    <li>Skokie Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170307">
+          
+        
+            <div class="event audience-kids type-kids-family  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon kids-family"></i>Kids/Family</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, March 7, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/07/be-the-scientist-paper-cutting"><p>Be the Scientist: Paper Cutting</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Build your understanding of scientific concepts with monthly experiments and activities. This month, we’re exploring the skill and tradition of Chinese paper cutting. For grades 3-5. Registration required at skokielibrary.info/events.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>6:30 pm</li>
+                    <li>Skokie Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-books-authors  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, March 7, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/07/guys-read-where-the-mountain-meets-the-moon"><p>Guys Read: <em>Where the Mountain Meets the Moon</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Are you a guy who likes to read? Come along with your favorite grown-up for discussion and activities featuring the book of the month. This month’s book is <em>Where the Mountain Meets the Moon</em> by Grace Lin. Register at the Morton Grove Public Library’s Youth Services desk. Registration begins February 14. For grades 3-5 and a parent/caregiver.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>7:00 pm</li>
+                    <li>Morton Grove Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170308">
+          
+        
+            <div class="event audience-all-ages type-books-authors  location-lincolnwood-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>All ages</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, March 8, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/08/all-ages-book-discussion-with-tea"><p>All Ages Book Discussion with Tea</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Join us for tea and an all ages book discussion where we will talk about this year’s selections for Coming Together: Celebrating Chinese Culture.</p>
+<ul>
+  <li><em>American Born Chinese</em> by Gene Luen Yang</li>
+  <li><em>The Shadow Hero</em> by Gene Luen Yang</li>
+  <li><em>Where the Mountain Meets the Moon</em> by Grace Lin</li>
+  <li><em>The Ugly Vegetables</em> by Grace Lin</li>
+</ul>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>7:00 pm</li>
+                    <li>Lincolnwood Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-workshop  location-niles-public-library-district">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon workshop"></i>Workshop</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, March 8, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/08/chinese-cooking-with-ying-stoller"><p>Chinese Cooking with Ying Stoller</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Soup or stir fry? Join us for this Chinese cooking demonstration by Ying Stoller of Ying’s Kitchen, Inc. Her cookbooks and cooking sauces will be available for purchase.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>6:30 pm</li>
+                    <li>Niles Public Library District</li>
+                    <li><a href="http://evanced.nileslibrary.org/evanced/lib/eventcalendar.asp" class="registration-button" onclick="ga('send', 'event', 'Registration', 'click', 'Chinese Cooking with Ying Stoller');">Register</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170309">
+          
+        
+            <div class="event audience-kids type-books-authors  location-niles-township-schools-ell-parent-center">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Thursday, March 9, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/09/book-discussion-american-born-chinese"><p>Book Discussion: <em>American Born Chinese</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Join us for a discussion of <em>American Born Chinese</em>. Copies of the book will be available at the Niles Township Schools’ ELL Parent Center.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>6:30 pm</li>
+                    <li>Niles Township Schools’ ELL Parent Center</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-film  location-lincolnwood-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon film"></i>Film</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Thursday, March 9, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/09/morning-matinee-the-last-emperor"><p>Morning Matinee: <em>The Last Emperor</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>This sweeping account of the life of Pu-Yi, the last emperor of China, follows the leader’s tumultuous reign. After being captured by the Red Army as a war criminal in 1950, Pu-Yi recalls his childhood from prison. He remembers his lavish youth in the Forbidden City, where he was afforded every luxury but unfortunately was sheltered from the outside world and complex political situation surrounding him. As revolution sweeps through China, the world Pu-Yi knew is dramatically upended. (IMDb) (PG-13, 2 hrs, 43 min.)</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>10:30 am</li>
+                    <li>Lincolnwood Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-lecture  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon lecture"></i>Lecture</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Thursday, March 9, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/09/the-chinese-american-vote"><p>The Chinese American Vote</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>There’s an oft-repeated myth that Asian Americans aren’t interested in voting. Learn how three community organizers worked to defy that myth and galvanize the Chinese American vote, using the recent election of Illinois State Representative Theresa Mah (IL-2) as an example of community members working together to test establishment politics. Registration required at skokielibrary.info/events.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>7:00 pm</li>
+                    <li>Skokie Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170311">
+          
+        
+            <div class="event audience-kids type-kids-family  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon kids-family"></i>Kids/Family</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Saturday, March 11, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/11/crafty-saturday"><p>Crafty Saturday</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Bring the whole family to create a paper Chinese dragon puppet or lucky goldfish during this special edition of Crafty Saturday. Program runs while supplies last.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>9:30 am</li>
+                    <li>Morton Grove Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-film  location-lincolnwood-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon film"></i>Film</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Saturday, March 11, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/11/family-film-kung-fu-panda-3"><p>Family Film: <em>Kung Fu Panda 3</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Continuing his “legendary adventures of awesomeness,” Po must face two hugely epic, but different threats: one supernatural and the other a little closer to home. (IMDb) (PG, 1 hr. 35 min.)</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>10:30 am</li>
+                    <li>Lincolnwood Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-film  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon film"></i>Film</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Saturday, March 11, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/11/special-film-screening-of-spilled-water"><p>Special Film Screening of <em>Spilled Water</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Enjoy this special screening of the fascinating documentary, <em>Spilled Water</em>. The director, May May Tchao, will introduce the movie and be present to answer questions. <em>Spilled Water</em>, shows through the lives of four different women, how and why gender equality in their homeland is so hard-earned.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>2:00 pm</li>
+                    <li>Morton Grove Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170312">
+          
+        
+            <div class="event audience-kids type-performance  location-niles-public-library-district">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon performance"></i>Performance</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Sunday, March 12, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/12/cheng-da-drum-team"><p>Second Sunday Family Program:  Cheng Da Drum Team</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Celebrate Chinese culture with the dramatic, immersive sound of the Cheng Da Drum Team.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>2:00 pm</li>
+                    <li>Niles Public Library District</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170313">
+          
+        
+            <div class="event audience-kids type-books-authors  location-holiday-inn-chicago-north-shore">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Monday, March 13, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/13/an-evening-with-gene-luen-yang"><p>An Evening with Gene Luen Yang, Coming Together Featured Author</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Join us for an evening with Gene Luen Yang, author of both <em>American Born Chinese</em> and <em>Shadow Hero</em>. Yang is the first writer who works primarily in graphic novels to be appointed by the Library of Congress as the National Ambassador for Young People’s Literature. The MacArthur Foundation named him a fellow in 2016 noting that his work “demonstrates the potential of comics to broaden our understanding of diverse cultures and people.” A highly acclaimed presenter, Yang will discuss his books and the importance of reading without walls. The Book Stall will be on hand selling copies of his books and a signing will follow the presentation. <em>Space is limited so individual registration is required and opens February 12th</em>. Register at any participating library.</p>
+
+<p>Doors open at 6:15 p.m.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>7:00 pm</li>
+                    <li>Holiday Inn Chicago North Shore</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170314">
+          
+        
+            <div class="event audience-teens type-books-authors  location-niles-north-high-school">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Teens</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, March 14, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/14/gene-luen-yang-at-niles-north"><p>Author Gene Luen Yang at Niles North High School</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Featured Coming Together author Gene Luen Yang will speak to high school students about his books, the writing process, and more.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>10:45 am</li>
+                    <li>Niles North High School</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-teens type-books-authors  location-niles-west-high-school">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Teens</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, March 14, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/14/gene-luen-yang-at-niles-west"><p>Author Gene Luen Yang at Niles West High School</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Featured Coming Together author Gene Luen Yang will speak to high school students about his books, the writing process, and more.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>8:45 am</li>
+                    <li>Niles West High School</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-kids-family  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon kids-family"></i>Kids/Family</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, March 14, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/14/listen-up-the-ugly-vegetables"><p>A Very Special Listen Up!: <em>The Ugly Vegetables</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Drop in for a special Listen Up! featuring the book, <em>The Ugly Vegetables</em> by Grace Lin. Explore Chinese culture within the book and within yourself. For birth-kindergarten with a parent/caregiver.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>10:00 am</li>
+                    <li>Morton Grove Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-books-authors  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, March 14, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/14/mother-daughter-book-club-year-of-the-dog"><p>Mother-Daughter Book Club: <em>Year of the Dog</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Bring your mother (or aunt, grandmother, neighbor, older sister, or teacher) with you for a lively discussion and activities connected to the book of the month. This month’s book is <em>Year of the Dog</em> by Grace Lin. Register at the Morton Grove Public Library’s Youth Services desk. For grades 3- 5. Registration begins February 14.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>7:00 pm</li>
+                    <li>Morton Grove Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170316">
+          
+        
+            <div class="event audience-kids type-workshop  location-skokie-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon workshop"></i>Workshop</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Thursday, March 16, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/16/chinese-paper-crafts"><p>Chinese Paper Crafts</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Join us for Chinese paper cutting and folding, and leave with your own beautiful creations. Drop-in program for grades 6-12.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>5:00 pm</li>
+                    <li>Skokie Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+            <div class="event audience-kids type-film  location-niles-public-library-district">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon film"></i>Film</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Thursday, March 16, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/16/movies-in-the-teen-underground-hero"><p>Movies in the Teen Underground: Hero</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Jet Li stars as Nameless (a complicated hero) in this epic action film set during China’s ancient Warring States period. Also starring: Maggie Cheung, Zhang Ziyi, Tony Leung and Donnie Yen.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>4:00 pm</li>
+                    <li>Niles Public Library District</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170318">
+          
+        
+            <div class="event audience-kids type-workshop  location-niles-public-library-district">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon workshop"></i>Workshop</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Saturday, March 18, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/18/chinese-opera-workshop"><p>Chinese Opera Workshop</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Rosa Yeh and the EZ Learn Chinese School Opera Group will introduce Chinese opera history, characters, makeup techniques, costumes and musical instruments. The audience will learn basic Chinese opera movements and practice traditional Chinese instruments such as cymbals and gong.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>2:00 pm</li>
+                    <li>Niles Public Library District</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170319">
+          
+        
+            <div class="event audience-kids type-workshop  location-lincolnwood-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon workshop"></i>Workshop</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Sunday, March 19, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/19/art-of-chinese-bonsai"><p>Art of Chinese Bonsai</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Bonsai is both an art form and horticultural practice that traces back thousands of years in Chinese history. Join Larry Stephan of the
+Midwest Bonsai Society for an in-depth demonstration on how to properly prune, wire, and shape a bonsai tree. Take in the beauty of these living miniature displays of nature. Registration required at <a href="http://lincolnwoodlibrary.org/">lincolnwoodlibrary.org</a>.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>2:00 pm</li>
+                    <li>Lincolnwood Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170321">
+          
+        
+            <div class="event audience-kids type-books-authors  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, March 21, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/21/mother-daughter-book-club-where-the-mountain"><p>Mother-Daughter Book Club: <em>Where the Mountain Meets the Moon</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Bring your mother (or aunt, grandmother, neighbor, older sister, or teacher) with you for a lively discussion and activities connected to the book of the month. This month’s book is <em>Where the Mountain Meets the Moon</em> by Grace Lin. Register at the Morton Grove Public Library’s Youth Services desk. Registration begins February 21. For grades 5 to 7.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>7:00 pm</li>
+                    <li>Morton Grove Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170322">
+          
+        
+            <div class="event audience-kids type-books-authors  location-niles-public-library-district">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, March 22, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/22/parent-child-book-discussion-where-the-mountain"><p>Parent/Child Book Discussion: <em>Where the Mountain Meets the Moon</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Does your child like dragons? And quests? Read Grace Lin’s magical book <em>Where the Mountain Meets the Moon</em> together and come share your impressions along with some Chinese snacks. Grades K-5 (3rd grade and under must be accompanied by adult).</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>5:30 pm</li>
+                    <li>Niles Public Library District</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170326">
+          
+        
+            <div class="event audience-kids type-film  location-morton-grove-public-library">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon film"></i>Film</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Sunday, March 26, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/03/26/critics-choice-cinema-the-mermaid"><p>Critics Choice Cinema:  The Mermaid</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Shan, a mermaid, is sent to assassinate Xuan, a developer who threatens the ecosystem of her race, but ends up falling in love with him instead.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>2:00 pm</li>
+                    <li>Morton Grove Public Library</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170405">
+          
+        
+            <div class="event audience-kids type-lecture  location-oakton-community-college-skokie-campus">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon lecture"></i>Lecture</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Wednesday, April 5, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/04/05/chinas-foreign-policy"><p>China’s Foreign Policy</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Join George Lungu, Oakton Professor of political science in a discussion of China’s foreign policy and the challenges it poses to the American-led order.</p>
+
+<p>This event will be held in Room P103.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>12:30 pm</li>
+                    <li>Oakton Community College, Skokie Campus</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170411">
+          
+        
+            <div class="event audience-kids type-books-authors  location-oakton-community-college-skokie-campus">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon books-authors"></i>Books/Authors</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Tuesday, April 11, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/04/11/book-discussion-american-born-chinese"><p>Book Discussion: <em>American Born Chinese</em></p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Help celebrate National Library Week with a book discussion of graphic novel, <em>American Born Chinese</em> by Gene Luen Yang, National Ambassador for Young People’s Literature and MacArthur Fellow.</p>
+
+<p>This event will be held in Room A151.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>11:30 am</li>
+                    <li>Oakton Community College, Skokie Campus</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
+      
+        
+          </div>
+          <div class="events-list single-day" id="20170413">
+          
+        
+            <div class="event audience-kids type-lecture  location-oakton-community-college-skokie-campus">
+              <div class="row">
+                <div class="small-3 small-push-9 medium-reset-order columns">
+                  <!--event types-->
+                  <ul class="event-types-list">
+                    
+                    <li><i class="type-icon lecture"></i>Lecture</li>
+                    
+                  </ul>
+                  <!--audiences-->
+                  <ul class="event-audiences-list">
+                    
+                    <li>Kids</li>
+                    
+                  </ul>
+                </div>
+                <div class="small-9 small-pull-3 medium-reset-order columns">
+                  <div class="event-date">Thursday, April 13, 2017</div>
+                  <h3>
+                    <a class="event-title post-link" href="/events/2017/04/13/building-bridges-not-walls"><p>Building Bridges not Walls: How Judaic Studies Came to China</p>
+ </a>
+                  </h3>
+                  
+                  <div class="event-description">
+                    <p>Join Oakton Emeritus faculty Beverly Friend as she tells her personal story of how a friendship between her late husband Jim and Professor Xu Xin of Nanjing University who was teaching a course in American Jewish authors, but had never actually met anyone Jewish, led to an explosion of Judaic studies in China.</p>
+
+<p>This event will be held in Room A145.</p>
+
+                  </div>
+                  <ul class="event-meta">
+                    <li>11:00 am</li>
+                    <li>Oakton Community College, Skokie Campus</li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div><!--end of single event-->
+          
         </div><!--end of a day-->
     </div>
   </div>
@@ -90,16 +2316,290 @@ layout: base
     <div class="medium-12 columns">
       <h2>Locations</h2>
       <ul class="medium-block-grid-4">
-        {% for location in site.data.locations %}
+        
         <li class="location">
-          <h3>{{ location.place }}</h3>
+          <h3>American Legion Memorial Civic Center of Morton Grove</h3>
           <ul class="location-details">
-            <li>{{ location.street }}</li>
-            <li>{{ location.city }}, {{ location.state }} {{ location.zipcode }}</li>
+            <li>6140 Dempster Street</li>
+            <li>Morton Grove, IL 60053</li>
           </ul>
-          <p><a href="https://www.google.com/maps/search/{{ location.place }} {{ location.street }} {{ location.city }} {{ location.zipcode }}">&raquo; Get directions</a></p>
-          {% endfor %}
+          <p><a href="https://www.google.com/maps/search/American Legion Memorial Civic Center of Morton Grove 6140 Dempster Street Morton Grove 60053">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>Holiday Inn Chicago North Shore</h3>
+          <ul class="location-details">
+            <li>5300 West Touhy Avenue</li>
+            <li>Skokie, IL 60077</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/Holiday Inn Chicago North Shore 5300 West Touhy Avenue Skokie 60077">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>Lincolnwood Public Library</h3>
+          <ul class="location-details">
+            <li>4000 West Pratt Avenue</li>
+            <li>Lincolnwood, IL 60712</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/Lincolnwood Public Library 4000 West Pratt Avenue Lincolnwood 60712">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>Morton Grove Public Library</h3>
+          <ul class="location-details">
+            <li>6140 Lincoln Avenue</li>
+            <li>Morton Grove, IL 60053</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/Morton Grove Public Library 6140 Lincoln Avenue Morton Grove 60053">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>North Shore Center for the Performing Arts in Skokie</h3>
+          <ul class="location-details">
+            <li>9501 Skokie Boulevard</li>
+            <li>Skokie, IL 60077</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/North Shore Center for the Performing Arts in Skokie 9501 Skokie Boulevard Skokie 60077">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>Niles North High School</h3>
+          <ul class="location-details">
+            <li>9800 Lawler Avenue</li>
+            <li>Skokie, IL 60077</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/Niles North High School 9800 Lawler Avenue Skokie 60077">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>Niles Public Library District</h3>
+          <ul class="location-details">
+            <li>6960 W. Oakton Street</li>
+            <li>Niles, IL 60714</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/Niles Public Library District 6960 W. Oakton Street Niles 60714">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>Niles Township Schools’ ELL Parent Center</h3>
+          <ul class="location-details">
+            <li>9440 Kenton Avenue</li>
+            <li>Skokie, IL 60076</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/Niles Township Schools’ ELL Parent Center 9440 Kenton Avenue Skokie 60076">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>Niles West High School</h3>
+          <ul class="location-details">
+            <li>5701 Oakton Street</li>
+            <li>Skokie, IL 60077</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/Niles West High School 5701 Oakton Street Skokie 60077">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>Oakton Community College, Des Plaines Campus</h3>
+          <ul class="location-details">
+            <li>1600 E. Golf Road</li>
+            <li>Des Plaines, IL 60016</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/Oakton Community College, Des Plaines Campus 1600 E. Golf Road Des Plaines 60016">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>Oakton Community College, Skokie Campus</h3>
+          <ul class="location-details">
+            <li>7701 N. Lincoln Avenue</li>
+            <li>Skokie, IL 60077</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/Oakton Community College, Skokie Campus 7701 N. Lincoln Avenue Skokie 60077">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>Skokie Public Library</h3>
+          <ul class="location-details">
+            <li>5215 Oakton Street</li>
+            <li>Skokie, IL 60077</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/Skokie Public Library 5215 Oakton Street Skokie 60077">&raquo; Get directions</a></p>
+          
+        <li class="location">
+          <h3>Skokie Village Hall</h3>
+          <ul class="location-details">
+            <li>5127 Oakton Street</li>
+            <li>Skokie, IL 60077</li>
+          </ul>
+          <p><a href="https://www.google.com/maps/search/Skokie Village Hall 5127 Oakton Street Skokie 60077">&raquo; Get directions</a></p>
+          
         </ul>
       </div>
     </div>
   </section>
+
+    </div>
+  </main>
+
+  <div class="social-cta">
+  <p>
+    <a href="https://www.facebook.com/ComingTogetherSkokie" onclick="ga('send', 'event', 'Social Media', 'click', 'Facebook');">
+      <i class="facebook-icon">
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+        <path d="M8,0C3.582,0,0,3.582,0,8s3.582,8,8,8s8-3.582,8-8C16,3.581,12.418,0,8,0z M10.068,7.999L8.757,8l-0.001,4.8H6.957V8h-1.2
+        	V6.346l1.2-0.001L6.955,5.371c0-1.35,0.366-2.171,1.955-2.171h1.324v1.655H9.406c-0.619,0-0.649,0.231-0.649,0.662L8.755,6.345
+        	h1.488L10.068,7.999z"/>
+        </svg>
+      </i>
+      Keep the conversation going. Join us on Facebook.
+    </a>
+  </p>
+</div>
+<footer class="site-footer" role="contentinfo">
+  <div class="row">
+    <div class="medium-6 columns">
+      <a href=" /" class="brand notranslate">Coming Together in Skokie & Niles Township</a>
+      <p class="event-dates">January to April 2017</p>
+    </div>
+    <div class="medium-6 columns contact-info">
+      <p>Questions? <a href="mailto:rosbha@d219.org?subject=Coming+Together+2017"> Get in touch with us</a></p>
+    </div>
+  </div>
+  <div class="supporting-orgs notranslate">
+    <div class="row">
+      <div class="small-12 columns">
+        <h3>Supporting Organizations</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium-12 columns">
+        <ul>
+          <li><strong>The Chinese Community:</strong></li>
+          <li>Chinese Cultural and Educational Association (CCEA) Chinese Language School</li>
+          <li>Ken Lubowich</li>
+          <li>Chicago North Chinese Language School</li>
+          <li>Midwest Chinese Language Schools Association</li>
+          <li>Phoenix Performing Arts</li>
+          <li>Xilin North Shore Chinese School</li>
+
+          <li><strong>Past Participating Cultures:</strong></li>
+          <li>Indian Community of Niles Township</li>
+          <li>Filipino Community</li>
+          <li>Assyrian Community</li>
+          <li>Greek Community</li>
+          <li>Korean Community</li>
+          <li>Voices of Race</li>
+          <li>Latino and Hispanic Community</li>
+
+          <li><strong>Libraries:</strong></li>
+          <li>Lincolnwood Public Library</li>
+          <li>Morton Grove Public Library</li>
+          <li>Niles Public Library District</li>
+          <li>Skokie Public Library</li>
+
+          <li><strong>School Districts / Educational Institutions:</strong></li>
+          <li>Oakton Community College</li>
+          <li>Niles Township High School District 219</li>
+          <li>Niles Township Schools’ ELL Parent Center</li>
+          <li>Golf School District 67</li>
+          <li>Skokie School District 68</li>
+          <li>Skokie School District 69</li>
+          <li>Morton Grove School District 70</li>
+          <li>Niles Elementary School District 71</li>
+          <li>Fairview South School District 72</li>
+          <li>Skokie School District 73</li>
+          <li>Skokie School District 73.5</li>
+          <li>Lincolnwood School District 74</li>
+
+          <li><strong>Community / Business Partners:</strong></li>
+          <li>North Shore Center for the Performing Arts in Skokie</li>
+          <li>Village of Skokie</li>
+          <li>Skokie Human Relations Commission</li>
+          <li>Morton Grove Community Relations</li>
+          <li>Holiday Inn Chicago North Shore (Skokie)</li>
+          <li>Friends of the Niles Public Library District</li>
+
+
+
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 columns">
+        <p>&copy; 2016</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="/assets/js/scripts.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57792737-1', 'auto');
+  ga('send', 'pageview');
+
+  $(function(){
+
+  $('#translate').click(function(){
+    var widget = $('.translate-widget')
+    widget.toggleClass('show');
+
+    if (widget.hasClass('show')){
+      widget.attr('aria-hidden', 'false');
+    }
+    else{
+      widget.attr('aria-hidden', 'true');
+    }
+  })
+
+  
+
+    $('.event').addClass('filtered');
+    $('#events-schedule').mixItUp({
+      animation: {
+        enable: false
+      },
+      selectors: {
+        target: '.event'
+      },
+      layout: {
+        display: 'block',
+        containerClassFail: 'no-events'
+      },
+      controls: {
+        toggleFilterButtons: true,
+        toggleLogic: 'and'
+      }
+    });
+
+    var today = new Date();
+    var today_year = today.getFullYear();
+    var today_month = today.getMonth() > 9 ? today.getMonth() + 1 : "0" + (today.getMonth() + 1);
+    var today_date = today.getDate() > 9 ? today.getDate() : "0" + today.getDate();
+
+    //make sure dates get concatenated as strings
+    var start_today = "" + today_year + "" + today_month + "" + today_date;
+
+    $('#filter-toggle').click(function(){
+      $('.filters').slideToggle();
+    })
+
+    var single_days = $('.single-day');
+
+    $.each(single_days, function(i){
+       if (single_days[i].id < start_today){
+         $(single_days[i]).hide();
+       }
+     });
+
+  
+
+  
+
+  });
+</script>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,de,es,fr,gu,hi,iw,ja,ko,ru,ur,vi,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-57792737-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+</body>
+
+</html>
