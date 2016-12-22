@@ -4455,6 +4455,7 @@ img.portrait {
       padding: 1rem; } }
 
 .page-header {
+  min-height: 164px;
   position: relative;
   padding: 4rem 0;
   text-align: center; }
