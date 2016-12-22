@@ -4469,6 +4469,12 @@ img.portrait {
 .page-title h1 {
   font-size: 2.5rem; }
 
+.sub-page-title h1 {
+  margin: 0 0 .5rem;
+  font-size: 2.5rem;
+  color: #f8d53f;
+  letter-spacing: 1px; }
+
 h1.home-title {
   padding-top: 0;
   font-size: 2.5rem;
