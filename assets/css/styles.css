@@ -4657,6 +4657,12 @@ h1.home-title {
 
 .quote-section {
   overflow: hidden; }
+  .quote-section a {
+    color: #f8d53f;
+    text-decoration: none; }
+  .quote-section a:hover {
+    text-decoration: underline;
+    opacity: 1; }
   @media only screen and (min-width: 64.063em) {
     .quote-section {
       max-height: 400px; } }
