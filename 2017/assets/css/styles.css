@@ -4308,7 +4308,7 @@ be a descendant of the grid when it is being dragged.
 
 /*base styles*/
 body {
-  background: #fff url("../img/header.png") no-repeat top center fixed;
+  background: #fff url("/2017/assets/img/header.png") no-repeat top center fixed;
   background-size: cover;
   font: 400 16px/1.4 'Lato', sans-serif;
   color: #222; }
@@ -4825,17 +4825,17 @@ h1.home-title {
   margin: 0 auto .125rem auto;
   vertical-align: middle; }
   .type-icon.performance {
-    background: url(/assets/svg/performance.svg); }
+    background: url(/2017/assets/svg/performance.svg); }
   .type-icon.film {
-    background: url(/assets/svg/film.svg); }
+    background: url(/2017/assets/svg/film.svg); }
   .type-icon.books-authors {
-    background: url(/assets/svg/2017/books-authors.svg); }
+    background: url(/2017/assets/svg/books-authors.svg); }
   .type-icon.workshop {
-    background: url(/assets/svg/workshop.svg); }
+    background: url(/2017/assets/svg/workshop.svg); }
   .type-icon.kids-family {
-    background: url(/assets/svg/kids-family.svg); }
+    background: url(/2017/assets/svg/kids-family.svg); }
   .type-icon.lecture {
-    background: url(/assets/svg/lecture.svg); }
+    background: url(/2017/assets/svg/lecture.svg); }
 
 .events-nav {
   margin-bottom: 2rem;
