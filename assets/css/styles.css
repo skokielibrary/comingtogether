@@ -4659,9 +4659,11 @@ h1.home-title {
     color: #fff; }
 
 .quote-section {
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: center;
+ }
   .quote-section a {
-    color: #f8d53f;
+    color: #f2e000;
     text-decoration: none; }
   .quote-section a:hover {
     text-decoration: underline;
