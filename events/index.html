@@ -3043,11 +3043,17 @@ what’s it’s like to be a Muslim woman at Oakton.</p>
 
     var single_days = $('.single-day');
 
-    $.each(single_days, function(i){
-       if (single_days[i].id < start_today){
-         $(single_days[i]).hide();
-       }
-     });
+    // If the program isn't over, hide events as the days progress.
+    // Otherwise, show all events after the program concludes.
+    if (start_today < 20180408) {
+      $.each(single_days, function(i){
+         if (single_days[i].id < start_today){
+           $(single_days[i]).hide();
+         }
+       });
+
+    }
+
 
   
 
