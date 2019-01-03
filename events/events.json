@@ -1,430 +1,458 @@
 [
 
 	{
-		"title": "Opening Ceremony:  Celebrating Muslim American CultureS",
-		"start": "2018-01-28T12:00:00-06:00",
-		"url": "/events/2018/01/28/opening-ceremony-celebrating-muslim-american-cultures",
+		"title": "Cicha Noc (Silent Night)",
+		"start": "2019-01-20T14:00:00-06:00",
+		"url": "/events/2019/01/20/cicha-noc-silent-night",
+		"className": "film"
+	},
+
+	{
+		"title": "Opening Ceremony: Celebrating Polish Culture",
+		"start": "2019-01-27T13:00:00-06:00",
+		"url": "/events/2019/01/27/opening-ceremony-celebrating-polish-culture",
 		"className": "performance"
 	},
 
 	{
-		"title": "Engage for Change - Gun Violence Control",
-		"start": "2018-02-01T19:00:00-06:00",
-		"url": "/events/2018/02/01/engage-for-change-gun-violence-control",
-		"className": "workshop"
+		"title": "Ashes and Diamonds",
+		"start": "2019-02-03T14:00:00-06:00",
+		"url": "/events/2019/02/03/ashes-and-diamonds",
+		"className": "film"
 	},
 
 	{
-		"title": "Understanding Muslims",
-		"start": "2018-02-05T12:30:00-06:00",
-		"url": "/events/2018/02/05/understanding-muslims",
-		"className": "lecture"
-	},
-
-	{
-		"title": "Halal: Clean Eating, Conscious Living",
-		"start": "2018-02-05T19:00:00-06:00",
-		"url": "/events/2018/02/05/halal-clean-eating-conscious-living",
-		"className": "workshop"
-	},
-
-	{
-		"title": "Understanding Islam: An Insider's View",
-		"start": "2018-02-07T12:30:00-06:00",
-		"url": "/events/2018/02/07/understanding-islam-an-insiders-view",
-		"className": "lecture"
-	},
-
-	{
-		"title": "Book Discussion: Muslim Girl: A Coming of Age",
-		"start": "2018-02-07T19:00:00-06:00",
-		"url": "/events/2018/02/07/book-discussion-muslim-girl-a-coming-of-age",
+		"title": "Book Talk: Spotlight on Polish Culture",
+		"start": "2019-02-06T13:00:00-06:00",
+		"url": "/events/2019/02/06/book-talk-spotlight-on-polish-culture",
 		"className": "books-authors"
+	},
+
+	{
+		"title": "Family Reads Bookclub",
+		"start": "2019-02-06T18:30:00-06:00",
+		"url": "/events/2019/02/06/family-reads-bookclub",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Polish Folk Art Painting",
+		"start": "2019-02-10T13:30:00-06:00",
+		"url": "/events/2019/02/10/polish-folk-art-painting",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Lajkonik Song and Dance Ensemble",
+		"start": "2019-02-10T14:00:00-06:00",
+		"url": "/events/2019/02/10/lajkonik-song-and-dance-ensemble",
+		"className": "performance"
+	},
+
+	{
+		"title": "Modern Polish Cooking from Qulinarnia",
+		"start": "2019-02-11T19:00:00-06:00",
+		"url": "/events/2019/02/11/modern-polish-cooking-from-qulinarnia",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Mother-Daughter Bookclub (Grades 3-5)",
+		"start": "2019-02-13T19:00:00-06:00",
+		"url": "/events/2019/02/13/mother-daughter-bookclub-grades-3-5",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Between the Lines: The Best Polish Restaurant in Buffalo",
+		"start": "2019-02-14T10:00:00-06:00",
+		"url": "/events/2019/02/14/between-the-lines-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "World Language Storytime in Polish",
+		"start": "2019-02-14T18:30:00-06:00",
+		"url": "/events/2019/02/14/world-language-storytime-in-polish",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Book Discussion: The Lullaby of Polish Girls",
+		"start": "2019-02-14T19:00:00-06:00",
+		"url": "/events/2019/02/14/book-discussion-the-lullaby-of-polish-girls",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "The Zookeeper's Wife Film and Discussion",
+		"start": "2019-02-17T14:00:00-06:00",
+		"url": "/events/2019/02/17/the-zookeepers-wife-film-and-discussion",
+		"className": "film"
+	},
+
+	{
+		"title": "Be the Artist",
+		"start": "2019-02-18T18:00:00-06:00",
+		"url": "/events/2019/02/18/be-the-artist",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Film: A Year in the Quiet Sun",
+		"start": "2019-02-19T11:30:00-06:00",
+		"url": "/events/2019/02/19/film-a-year-in-the-quiet-sun",
+		"className": "film"
+	},
+
+	{
+		"title": "Between the Lines: The Best Polish Restaurant in Buffalo",
+		"start": "2019-02-19T19:00:00-06:00",
+		"url": "/events/2019/02/19/between-the-lines-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
+		"start": "2019-02-19T19:00:00-06:00",
+		"url": "/events/2019/02/19/book-discussion-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
+		"start": "2019-02-20T10:00:00-06:00",
+		"url": "/events/2019/02/20/book-discussion-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Mother-Daughter Bookclub (Grades 5-7)",
+		"start": "2019-02-20T19:00:00-06:00",
+		"url": "/events/2019/02/20/mother-daughter-bookclub-grades-5-7",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Polish Storytime",
+		"start": "2019-02-21T18:30:00-06:00",
+		"url": "/events/2019/02/21/polish-storytime",
+		"className": "kids-family"
 	},
 
 	{
 		"title": "Guys Read Bookclub",
-		"start": "2018-02-07T19:00:00-06:00",
-		"url": "/events/2018/02/07/guys-read-bookclub",
+		"start": "2019-02-21T19:00:00-06:00",
+		"url": "/events/2019/02/21/guys-read-bookclub",
 		"className": "kids-family"
 	},
 
 	{
-		"title": "Muslim Scientists of the Golden Age",
-		"start": "2018-02-08T17:00:00-06:00",
-		"url": "/events/2018/02/08/muslim-scientists-of-the-golden-age",
+		"title": "Art: Step-by-Step",
+		"start": "2019-02-22T16:30:00-06:00",
+		"url": "/events/2019/02/22/art-step-by-step",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Dzika Fitness Workout",
+		"start": "2019-02-22T17:30:00-06:00",
+		"url": "/events/2019/02/22/dzika-fitness-workout",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Polish Folk Tales and Paper Cutting",
+		"start": "2019-02-22T18:30:00-06:00",
+		"url": "/events/2019/02/22/polish-folk-tales-and-paper-cutting",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Craftin' Around",
+		"start": "2019-02-26T19:00:00-06:00",
+		"url": "/events/2019/02/26/craftin-around",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "YA Book Club: Anna and the Swallow Man",
+		"start": "2019-02-27T19:00:00-06:00",
+		"url": "/events/2019/02/27/ya-book-club-anna-and-the-swallow-man",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Freedom of Press in Poland",
+		"start": "2019-02-28T19:00:00-06:00",
+		"url": "/events/2019/02/28/freedom-of-press-in-poland",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Kopytka & Kimchi: Connecting & Celebrating the Diaspora ",
+		"start": "2019-02-28T19:00:00-06:00",
+		"url": "/events/2019/02/28/kopytka-kimchi-connecting-celebrating-the-diaspora",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
+		"start": "2019-03-01T13:00:00-06:00",
+		"url": "/events/2019/03/01/book-discussion-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Think Art Photography ",
+		"start": "2019-03-02T10:00:00-06:00",
+		"url": "/events/2019/03/02/think-art-photography",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Warsztaty Teatralne Little Stars Theater Workshop: 'The Legend of Vavel's Dragon' ",
+		"start": "2019-03-02T15:00:00-06:00",
+		"url": "/events/2019/03/02/warsztaty-teatralne-little-stars-theater-workshop-the-legend-of-vavels-dragon",
 		"className": "performance"
 	},
 
 	{
-		"title": "Ebru Live: Experience the Art of Paper Marbling",
-		"start": "2018-02-09T17:30:00-06:00",
-		"url": "/events/2018/02/09/ebru-live-experience-the-art-of-paper-marbling",
-		"className": "workshop"
+		"title": "Polish Presence In American Screen Images",
+		"start": "2019-03-03T14:00:00-06:00",
+		"url": "/events/2019/03/03/polish-presence-in-american-screen-images",
+		"className": "lecture"
 	},
 
 	{
-		"title": "The Art of Henna: Link to Islamic Art & Beauty",
-		"start": "2018-02-10T13:00:00-06:00",
-		"url": "/events/2018/02/10/the-art-of-henna-link-to-islamic-art-beauty",
-		"className": "workshop"
-	},
-
-	{
-		"title": "Film and Discussion:  BESA: The Promise",
-		"start": "2018-02-11T14:00:00-06:00",
-		"url": "/events/2018/02/11/film-and-discussion-besa-the-promise",
+		"title": "Movie Monday - Ida",
+		"start": "2019-03-04T19:00:00-06:00",
+		"url": "/events/2019/03/04/movie-monday-ida",
 		"className": "film"
 	},
 
 	{
-		"title": "Meet the Artist:  Be the Artist with Samra Masood",
-		"start": "2018-02-12T18:30:00-06:00",
-		"url": "/events/2018/02/12/meet-the-artist-be-the-artist-with-samra-masood",
+		"title": "Polish Chicago: Immigrant Group to Middle Class",
+		"start": "2019-03-04T19:00:00-06:00",
+		"url": "/events/2019/03/04/polish-chicago-immigrant-group-to-middle-class",
+		"className": "lecture"
+	},
+
+	{
+		"title": "From Independence to Independence",
+		"start": "2019-03-05T18:30:00-06:00",
+		"url": "/events/2019/03/05/from-independence-to-independence",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
+		"start": "2019-03-07T11:00:00-06:00",
+		"url": "/events/2019/03/07/book-discussion-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "1-2-3 Painting: Poppies!",
+		"start": "2019-03-07T16:30:00-06:00",
+		"url": "/events/2019/03/07/1-2-3-painting-poppies",
 		"className": "kids-family"
 	},
 
 	{
-		"title": "Mother-Daughter Bookclub",
-		"start": "2018-02-14T19:00:00-06:00",
-		"url": "/events/2018/02/14/mother-daughter-bookclub",
+		"title": "Behind-the-Scenes of a Lifestyle Blogger",
+		"start": "2019-03-07T19:00:00-06:00",
+		"url": "/events/2019/03/07/behind-the-scenes-of-a-lifestyle-blogger",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Gwiazdy Paper Craft",
+		"start": "2019-03-08T15:30:00-06:00",
+		"url": "/events/2019/03/08/gwiazdy-paper-craft",
 		"className": "kids-family"
 	},
 
 	{
-		"title": "Family Bookchat:  Yo Soy Muslim",
-		"start": "2018-02-15T18:00:00-06:00",
-		"url": "/events/2018/02/15/family-bookchat-yo-soy-muslim",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "Muslim Chicago Oral History Project",
-		"start": "2018-02-15T19:00:00-06:00",
-		"url": "/events/2018/02/15/muslim-chicago-oral-history-project",
+		"title": "Let's Make Kolaczki!",
+		"start": "2019-03-08T17:00:00-06:00",
+		"url": "/events/2019/03/08/lets-make-kolaczki",
 		"className": "workshop"
 	},
 
 	{
-		"title": "Modern Wall Art Gallery Tour",
-		"start": "2018-02-16T17:00:00-06:00",
-		"url": "/events/2018/02/16/modern-wall-art-gallery-tour",
-		"className": "workshop"
-	},
-
-	{
-		"title": "Film Discussion:  Arranged",
-		"start": "2018-02-18T14:00:00-06:00",
-		"url": "/events/2018/02/18/film-discussion-arranged",
+		"title": "Defiance",
+		"start": "2019-03-09T14:00:00-06:00",
+		"url": "/events/2019/03/09/defiance",
 		"className": "film"
 	},
 
 	{
-		"title": "New Book Tuesdays:  Coming Together Edition!",
-		"start": "2018-02-20T16:00:00-06:00",
-		"url": "/events/2018/02/20/new-book-tuesdays-coming-together-edition",
-		"className": "books-authors"
+		"title": "The Polish Immigrant Experience",
+		"start": "2019-03-11T17:00:00-05:00",
+		"url": "/events/2019/03/11/the-polish-immigrant-experience",
+		"className": "lecture"
 	},
 
 	{
-		"title": "Bookworms Storytime",
-		"start": "2018-02-20T18:30:00-06:00",
-		"url": "/events/2018/02/20/bookworms-storytime",
+		"title": "World Exploration: Poland",
+		"start": "2019-03-11T20:00:00-05:00",
+		"url": "/events/2019/03/11/world-exploration-poland",
 		"className": "kids-family"
 	},
 
 	{
-		"title": "Book Discussion:  Muslim Girl: A Coming of Age",
-		"start": "2018-02-20T19:00:00-06:00",
-		"url": "/events/2018/02/20/book-discussion-muslim-girl-a-coming-of-age",
-		"className": "books-authors"
+		"title": "Festival of Polish Culture",
+		"start": "2019-03-14T13:00:00-05:00",
+		"url": "/events/2019/03/14/festival-of-polish-culture",
+		"className": "performance"
 	},
 
 	{
-		"title": "Mosaic on Glass",
-		"start": "2018-02-21T16:30:00-06:00",
-		"url": "/events/2018/02/21/mosaic-on-glass",
+		"title": "World Language Storytime in Polish",
+		"start": "2019-03-14T19:30:00-05:00",
+		"url": "/events/2019/03/14/world-language-storytime-in-polish",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Hearty and Healthy Polish Cooking for Teens and Adults",
+		"start": "2019-03-14T20:00:00-05:00",
+		"url": "/events/2019/03/14/hearty-and-healthy-polish-cooking-for-teens-and-adults",
 		"className": "workshop"
 	},
 
 	{
-		"title": "Islam and the Media",
-		"start": "2018-02-21T19:00:00-06:00",
-		"url": "/events/2018/02/21/islam-and-the-media",
-		"className": "lecture"
-	},
-
-	{
-		"title": "Mother-Daughter Bookclub",
-		"start": "2018-02-21T19:00:00-06:00",
-		"url": "/events/2018/02/21/mother-daughter-bookclub",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "Book Discussion Group: Muslim Girl",
-		"start": "2018-02-22T10:00:00-06:00",
-		"url": "/events/2018/02/22/book-discussion-group-muslim-girl",
+		"title": "Book Discussion: Anna and the Swallow Man",
+		"start": "2019-03-15T18:30:00-05:00",
+		"url": "/events/2019/03/15/book-discussion-anna-and-the-swallow-man",
 		"className": "books-authors"
 	},
 
 	{
-		"title": "Muslim Girl: A Coming of Age Book Discussion",
-		"start": "2018-02-22T11:30:00-06:00",
-		"url": "/events/2018/02/22/muslim-girl-a-coming-of-age-book-discussion",
-		"className": "books-authors"
-	},
-
-	{
-		"title": "Preschool Storytime:  Coming Together",
-		"start": "2018-02-22T13:30:00-06:00",
-		"url": "/events/2018/02/22/preschool-storytime-coming-together",
+		"title": "Coming Together - Paint Your Story",
+		"start": "2019-03-16T12:00:00-05:00",
+		"url": "/events/2019/03/16/coming-together-paint-your-story",
 		"className": "kids-family"
 	},
 
 	{
-		"title": "Coming Together Stories",
-		"start": "2018-02-22T16:30:00-06:00",
-		"url": "/events/2018/02/22/coming-together-stories",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "Book Discussion:  Muslim Girl: A Coming of Age",
-		"start": "2018-02-22T19:00:00-06:00",
-		"url": "/events/2018/02/22/book-discussion-muslim-girl-a-coming-of-age-2",
-		"className": "books-authors"
-	},
-
-	{
-		"title": "Muslim American Response to Extremism",
-		"start": "2018-02-22T19:00:00-06:00",
-		"url": "/events/2018/02/22/muslim-american-response-to-extremism",
-		"className": "lecture"
-	},
-
-	{
-		"title": "The Art of Ebru",
-		"start": "2018-02-22T19:00:00-06:00",
-		"url": "/events/2018/02/22/the-art-of-ebru",
-		"className": "lecture"
-	},
-
-	{
-		"title": "Ebru: The Art of Turkish Paper Marbling",
-		"start": "2018-02-23T15:30:00-06:00",
-		"url": "/events/2018/02/23/ebru-the-art-of-turkish-paper-marbling",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "Art: Step-by-Step ",
-		"start": "2018-02-23T16:30:00-06:00",
-		"url": "/events/2018/02/23/art-step-by-step",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "Family Film and Discussion: Wadjda",
-		"start": "2018-02-24T13:00:00-06:00",
-		"url": "/events/2018/02/24/family-film-and-discussion-wadjda",
+		"title": "Polish Wedding",
+		"start": "2019-03-16T14:00:00-05:00",
+		"url": "/events/2019/03/16/polish-wedding",
 		"className": "film"
 	},
 
 	{
-		"title": "The Muslim Mosaic:  An International Cultural Clothing Expo",
-		"start": "2018-02-24T13:00:00-06:00",
-		"url": "/events/2018/02/24/the-muslim-mosaic-an-international-cultural-clothing-expo",
-		"className": "workshop"
-	},
-
-	{
-		"title": "Family Storytime:  Yo Soy Muslim",
-		"start": "2018-02-26T18:30:00-06:00",
-		"url": "/events/2018/02/26/family-storytime-yo-soy-muslim",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "A Very Special Listen Up!: Yo Soy Muslim",
-		"start": "2018-02-27T10:00:00-06:00",
-		"url": "/events/2018/02/27/a-very-special-listen-up-yo-soy-muslim",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "Book Discussion Group: Muslim Girl",
-		"start": "2018-02-27T19:00:00-06:00",
-		"url": "/events/2018/02/27/book-discussion-group-muslim-girl",
-		"className": "books-authors"
-	},
-
-	{
-		"title": "What's Your Story? Voices of Muslim Women",
-		"start": "2018-02-27T19:00:00-06:00",
-		"url": "/events/2018/02/27/whats-your-story-voices-of-muslim-women",
-		"className": "performance"
-	},
-
-	{
-		"title": "Opening Doors to Arabic Culture and Islam",
-		"start": "2018-02-28T12:30:00-06:00",
-		"url": "/events/2018/02/28/opening-doors-to-arabic-culture-and-islam",
-		"className": "lecture"
-	},
-
-	{
-		"title": "Turkish Coffee Demonstration",
-		"start": "2018-03-03T11:00:00-06:00",
-		"url": "/events/2018/03/03/turkish-coffee-demonstration",
-		"className": "workshop"
-	},
-
-	{
-		"title": "Unveiled",
-		"start": "2018-03-04T14:00:00-06:00",
-		"url": "/events/2018/03/04/unveiled",
-		"className": "performance"
-	},
-
-	{
-		"title": "Film: My Name is Khan",
-		"start": "2018-03-06T11:30:00-06:00",
-		"url": "/events/2018/03/06/film-my-name-is-khan",
+		"title": "The Fourth Partition",
+		"start": "2019-03-17T14:30:00-05:00",
+		"url": "/events/2019/03/17/the-fourth-partition",
 		"className": "film"
 	},
 
 	{
-		"title": "K-2 Painting: Amira Rahim",
-		"start": "2018-03-08T16:30:00-06:00",
-		"url": "/events/2018/03/08/k-2-painting-amira-rahim",
+		"title": "The Best Polish Restaurant in Buffalo with author William Kowalski",
+		"start": "2019-03-18T12:30:00-05:00",
+		"url": "/events/2019/03/18/the-best-polish-restaurant-in-buffalo-with-author-william-kowalski",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "An Evening with William Kowalski: Coming Together Featured Author",
+		"start": "2019-03-18T20:00:00-05:00",
+		"url": "/events/2019/03/18/an-evening-with-william-kowalski-coming-together-featured-author",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "William Kowalski, Coming Together Featured Author",
+		"start": "2019-03-19T14:45:00-05:00",
+		"url": "/events/2019/03/19/william-kowalski-coming-together-featured-author",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
+		"start": "2019-03-21T20:00:00-05:00",
+		"url": "/events/2019/03/21/book-discussion-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Chat and Chomp The Weight of Water",
+		"start": "2019-03-25T12:45:00-05:00",
+		"url": "/events/2019/03/25/chat-and-chomp-the-weight-of-water",
 		"className": "kids-family"
 	},
 
 	{
-		"title": "Festival of Muslim Culture",
-		"start": "2018-03-08T18:30:00-06:00",
-		"url": "/events/2018/03/08/festival-of-muslim-culture",
-		"className": "workshop"
+		"title": "Film: Ida",
+		"start": "2019-03-25T19:00:00-05:00",
+		"url": "/events/2019/03/25/film-ida",
+		"className": "film"
 	},
 
 	{
-		"title": "Visiting Muslim Neighbors - A Bus Tour of Points of Interest",
-		"start": "2018-03-10T11:00:00-06:00",
-		"url": "/events/2018/03/10/visiting-muslim-neighbors",
-		"className": "workshop"
-	},
-
-	{
-		"title": "Meet Your Muslim Neighbors",
-		"start": "2018-03-10T14:00:00-06:00",
-		"url": "/events/2018/03/10/meet-your-muslim-neighbors",
-		"className": "workshop"
-	},
-
-	{
-		"title": "Meet the Artist, Be the Artist with Samra Masood",
-		"start": "2018-03-12T19:30:00-05:00",
-		"url": "/events/2018/03/12/meet-the-artist-be-the-artist-with-samra-masood",
+		"title": "Art Activities Open House at Artorium",
+		"start": "2019-03-26T11:00:00-05:00",
+		"url": "/events/2019/03/26/art-activities-open-house-at-artorium",
 		"className": "kids-family"
 	},
 
 	{
-		"title": "Cousins in Faith",
-		"start": "2018-03-14T20:00:00-05:00",
-		"url": "/events/2018/03/14/cousins-in-faith",
-		"className": "lecture"
-	},
-
-	{
-		"title": "Muslims of Skokie Exhibit Reception",
-		"start": "2018-03-15T19:30:00-05:00",
-		"url": "/events/2018/03/15/muslims-of-skokie-exhibit-reception",
-		"className": "performance"
-	},
-
-	{
-		"title": "Ebru Live: Experience the Art of Paper Marbling",
-		"start": "2018-03-16T18:30:00-05:00",
-		"url": "/events/2018/03/16/ebru-live-experience-the-art-of-paper-marbling",
-		"className": "workshop"
-	},
-
-	{
-		"title": "An Evening with Amani Al-Khatahtbeh, Coming Together Featured Author",
-		"start": "2018-03-19T18:00:00-05:00",
-		"url": "/events/2018/03/19/an-evening-with-amani-al-khatahtbeh",
+		"title": "Storytime with the Author",
+		"start": "2019-03-28T15:00:00-05:00",
+		"url": "/events/2019/03/28/storytime-with-the-author",
 		"className": "books-authors"
 	},
 
 	{
-		"title": "Amani Al-Khatahtbeh, Coming Together Featured Author",
-		"start": "2018-03-20T10:44:00-05:00",
-		"url": "/events/2018/03/20/amani-al-khatahtbeh-2",
-		"className": "books-authors"
+		"title": "Film: Ida",
+		"start": "2019-03-28T19:00:00-05:00",
+		"url": "/events/2019/03/28/film-ida",
+		"className": "film"
 	},
 
 	{
-		"title": "Amani Al-Khatahtbeh, Coming Together Featured Author",
-		"start": "2018-03-20T11:46:00-05:00",
-		"url": "/events/2018/03/20/amani-al-khatahtbeh",
-		"className": "books-authors"
-	},
-
-	{
-		"title": "Voices of Muslim Women at Oakton Community College",
-		"start": "2018-03-21T15:00:00-05:00",
-		"url": "/events/2018/03/21/voices-of-muslim-women",
-		"className": "lecture"
-	},
-
-	{
-		"title": "Family Bookchat:  Amina's Voice",
-		"start": "2018-03-22T19:00:00-05:00",
-		"url": "/events/2018/03/22/family-bookchat-aminas-voice",
+		"title": "Polish Youth Showcase",
+		"start": "2019-03-30T10:30:00-05:00",
+		"url": "/events/2019/03/30/polish-youth-showcase",
 		"className": "kids-family"
 	},
 
 	{
-		"title": "What Our Muslim Neighbors Believe",
-		"start": "2018-03-22T20:00:00-05:00",
-		"url": "/events/2018/03/22/what-our-muslim-neighbors-believe",
-		"className": "lecture"
+		"title": "Book Craft",
+		"start": "2019-03-31T15:00:00-05:00",
+		"url": "/events/2019/03/31/book-craft",
+		"className": "kids-family"
 	},
 
 	{
-		"title": "Visit to Islamic Center: Observance of Friday Prayer",
-		"start": "2018-03-23T13:15:00-05:00",
-		"url": "/events/2018/03/23/visit-to-islamic-center-observance-of-friday-prayer",
+		"title": "Pisanka Galore",
+		"start": "2019-03-31T15:00:00-05:00",
+		"url": "/events/2019/03/31/pisanka-galore",
 		"className": "workshop"
 	},
 
 	{
-		"title": "YA Book Club - Muslim Girl: A Coming of Age",
-		"start": "2018-03-28T19:00:00-05:00",
-		"url": "/events/2018/03/28/ya-book-club-muslim-girl-a-coming-of-age",
+		"title": "Celebrating 10 Years of Coming Together: Panel Discussion, Collabortive Pop-up Museum, Collaborative Art Workshop",
+		"start": "2019-04-03T19:30:00-05:00",
+		"url": "/events/2019/04/03/celebrating-10-years-of-coming-together-panel-discussion-collabortive-pop-up-museum-collaborative-art-workshop",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Polish Cusine",
+		"start": "2019-04-06T14:00:00-05:00",
+		"url": "/events/2019/04/06/polish-cusine",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Polish Legends and the Art of Cut-Outs",
+		"start": "2019-04-07T15:00:00-05:00",
+		"url": "/events/2019/04/07/polish-legends-and-the-art-of-cut-outs",
 		"className": "books-authors"
-	},
-
-	{
-		"title": "The Japanese American Muslim Perspective",
-		"start": "2018-04-05T15:00:00-05:00",
-		"url": "/events/2018/04/05/the-japanese-american-muslim-perspective",
-		"className": "lecture"
-	},
-
-	{
-		"title": "Unveiled",
-		"start": "2018-04-06T20:00:00-05:00",
-		"url": "/events/2018/04/06/unveiled",
-		"className": "performance"
-	},
-
-	{
-		"title": "Contributions of Muslim Scholars to the Modern Sciences",
-		"start": "2018-04-07T15:00:00-05:00",
-		"url": "/events/2018/04/07/contributions-of-muslim-scholars-to-the-modern-sciences",
-		"className": "lecture"
 	}
 
 ]

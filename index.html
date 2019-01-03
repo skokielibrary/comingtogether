@@ -1,213 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Coming Together in Skokie and Niles Township | Coming Together in Skokie & Niles Township</title>
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-  <style>
-    *, *:before, *:after{
-      box-sizing: border-box;
-    }
-    body{
-      margin: 0;
-      padding: 0;
-      font-family: 'Lato', sans-serif;
-      line-height: 1.4;
-      color: #333;
-    }
+  <title>Celebrating Polish American Culture | Coming Together in Skokie & Niles Township</title>
 
-    a{
-      color: #888;
-      transition: opacity .2s ease;
-    }
+  <meta name="author" content="Coming Together in Skokie & Niles Township">
+  
+    <meta name="description" content="A cultural and literary series exploring Polish American culture and experience in our community.">
+  
 
-    a:hover{
-      opacity: .6;
-    }
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico?v=2">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
-    .container{
-      position: relative;
-      max-width: 40rem;
-      margin: auto;
-      padding: 3rem 1rem;
-    }
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/" />
+  <meta property="og:title" content="Celebrating Polish American Culture | Coming Together in Skokie & Niles Township" />
+  
+    <meta property="og:description" content="A cultural and literary series exploring Polish American culture and experience in our community.">
+  
+  
+    <meta property="og:image" content="http://comingtogether.in/assets/img/header.png" />
+  
 
-    header{
-    }
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
-    .brand{
-      font-weight: 300;
-      text-transform: uppercase;
-    }
-
-    .brand b{
-      font-weight: 700;
-    }
-
-    .brand small{
-      display: block;
-      font-size: 50%;
-    }
-
-    main{
-      background: #f1f1f1;
-    }
-
-    main h2{
-      display: none;
-    }
-
-    p.feature{
-      margin-bottom: 4rem;
-      font-size: 2rem;
-      font-weight: 300;
-    }
-
-    .past-programs-list{
-      display: flex;
-      list-style: none;
-      margin: 0 0 0 -3.333%;
-      padding: 0;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-
-    .past-programs-list li{
-      width: 30%;
-      margin-bottom: 2rem;
-      margin-left: 3.333%;
-    }
-
-    .past-programs-list img{
-      max-width: 100%;
-      height: auto;
-    }
-
-    .past-programs-list li a{
-      display: block;
-      color: #333;
-      text-decoration: none;
-    }
-
-    .program-label {
-      display: block;
-      margin-top: .5rem;
-      line-height: 1;
-      font-size: .9rem;
-      font-style: italic;
-    }
-  </style>
+  <link href="/assets/css/styles.min.css" rel="stylesheet">
+  <link rel="canonical" href="http://localhost:4000/">
 </head>
-<body>
-  <header role="banner">
-    <div class="container">
-      <h1 class="brand">Coming <b>Together</b> <small>in Skokie and Niles Township</small></h1>
+
+
+<body class="homepage">
+
+  <!--header-->
+  <header class="site-header" role="banner" >
+  <div class="row">
+    <div class="medium-12 columns">
+    <a href="/" class="brand notranslate">Coming <b>Together</b> <small> in Skokie & Niles Township</small></a>
+    <!--navigation-->
+    <nav class="site-nav" role="navigation" >
+      <ul class="nav">
+        <li><a href="/books">Books</a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/about">About</a></li>
+        <li>
+          <button class="translate" id="translate" onclick="ga('send', 'event', 'Translate', 'click', 'Toggle');">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve"><g><path d="M46.4,52.6c-4.2-4.1-7.9-7.7-10-16h14.7v-6.2H36.5v-8.2h-6.3v8.3H15.5v6.2h15c0,0-0.1,1.2-0.3,2.1   c-2.1,8.2-4.6,13.4-14.7,18.5l2.1,6.2c9.6-5.1,14.6-11.5,16.8-18.6c2.1,5.4,5.7,9.8,9.8,13.8L46.4,52.6z"></path><path d="M65.8,32.5h-8.4L42.7,73.8H49l4.2-12.4H70l4.2,12.4h6.3L65.8,32.5z M55.3,55.2l6.3-16.5l6.3,16.6L55.3,55.2L55.3,55.2z"></path></g></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <!--end of navigation-->
+    <div class="translate-widget" aria-hidden="true">
+      <div id="google_translate_element"></div>
     </div>
-  </header>
-  <main role="main">
-    <div class="container">
-      <h1>Coming Together Celebrates Polish Culture Thru April</h1>
-      <h3>Opening Ceremony Slated for January 27 at Niles West High School</h3>
-
-      <p>Celebrating its 10th anniversary, Coming Together brings life to the cultural diversity of Niles Township by celebrating a different culture every year.  Supported by institutions throughout Skokie, Niles, Morton Grove and Lincolnwood, which are among the most diverse communities in the country, the local group Coming Together has celebrated the multitude of cultures that call these communities home.</p>
-
-      <p>Coinciding with the 2018 centennial of Poland’s independence and also marking 30 years since the collapse of communism in Poland, Coming Together has announced that it will celebrate Polish culture in 2019.</p>
-
-      <p>The opening ceremony is scheduled for Sunday, January 27, 1 p.m., at Niles West High School, 5701 Oakton St., Skokie. Free and open to the public, festivities will feature Polish art, music, theatre, and food to whet attendees’ appetites for programs that will follow over the next several months.</p>
-
-      <p>Emcee for this year’s opening ceremony will be ABC7 Chicago News Anchor <a href="https://abc7chicago.com/about/newsteam/alan-krashesky/">Alan Krashesky</a>, whose reporting in Chicago and abroad has earned high praise. He is considered one of the top reporters in the market to cover major domestic and international stories, and is a 1997 recipient of the Heritage Media Award from the Polish American Congress.</p>
-
-      <p>The goal of Coming Together is to study a different culture each year for 12 to 16 weeks with an emphasis on literacy. More than 50 free activities and programs will be offered January thru April, including book discussions, film screenings, craft demonstrations, and other events highlighting the culture’s contributions to society in the fields of science, literature, arts, and education.</p>
-
-      <p>Past cultures that have been celebrated by Coming Together include Asian-Indians, Filipinos, Assyrians, Greeks, Koreans, “Voices of Race,” Latinos/Hispanics, Chinese, and in 2018, Muslim American Cultures.</p>
+    </div>
+  </div>
+</header>
 
 
+  <main class="page-group" role="main">
+    <div class="page-header">
+  <div class="page-title">
+    
+    <h1 class="home-title">Celebrating Polish American Culture</h1>
+    <p>January to March 2019</p>
+  
+  </div>
+</div>
+<!--<div class="alert">
+  <p>This is an archived program. Go back to <a href="/">this year's program.</a></p>
+</div>-->
 
-      <p>An important educational component that Coming Together focuses on is literacy, with a variety of books selected each year to help develop a deeper understanding of the featured culture. This year’s books include:</p>
-      <li><em>The Best Polish Restaurant in Buffalo</em> by William Kowalski <strong>(Adults)</strong></li>
-      <li><em>Anna and the Swallow Man</em> by Gavriel Savit  <strong>(Adults & High School)</strong></li>
-      <li><em>The Weight of Water</em> by Sarah Crossan  <strong>(Grades 6-8)</strong></li>
-      <li><em>The Glass Mountain: Tales from Poland</em> by David Walser (Author), Jan Pienkowski (Illustrator) <strong>(Grades 3-5)</strong></li>
-      <li><em>Ignas - The Boy with the Colorful Head</em> (English & Polish) by Anna Mycek-Wodecki  <strong>(Grades K-2)</strong></li>
-
-      <p>Among the featured events this year will be a very special visit and book discussion by <a href="https://www.amazon.com/William-Kowalski/e/B000APKD0C/ref=dp_byline_cont_book_1">William Kowalski</a>, author of The Best Polish Restaurant in Buffalo, on Monday, March 18, 7 p.m., at the Niles-Maine District Library, 6960 W. Oakton St., Skokie.</p>
-
-      <p>“We hope that Niles Township residents take advantage of the opportunity to participate in this unique and educational program that has something to offer to everyone and help make it a success,” said Coming Together chairperson Susan Van Dusen.</p>
-
-      <p>Coming Together is comprised of volunteers who form a large committee that meets once a month, as well as smaller committees working diligently to put together a variety of programs.</p>
-
-      <p>As soon as the activities are finalized, we will put them up on this website, and you will be able to see this year’s complete offerings. Until then, please explore our programs from previous years.</p>
-      <br><br>
-      <h2>Past programs</h2>
-<ul class="past-programs-list medium-block-grid-3">
-  <li>
-    <a href="/assets/programs/2018/CTIS-2018-program.pdf" target="_blank">
-      <img src="/assets/programs/2018/ctis-cover-2018.jpeg">
-      <span class="program-label"><i class="program-year">2018</i> Celebrating Muslim American CultureS</span>
-    </a>
-  </li>
-  <li>
-    <a href="/assets/programs/2017/CTIS-2017-program.pdf" target="_blank">
-      <img src="/assets/programs/2017/ctis-cover-2017.jpg">
-      <span class="program-label"><i class="program-year">2017</i> Celebrating Chinese Culture</span>
-    </a>
-  </li>
-  <li>
-    <a href="/assets/programs/2016/CTIS-2016-program.pdf" target="_blank">
-      <img src="/assets/programs/2016/ctis-cover-2016.jpg">
-      <span class="program-label"><i class="program-year">2016</i> ¡Viva!</span>
-    </a>
-  </li>
-  <li>
-    <a href="/assets/programs/2015/CTIS-2015-program.pdf" target="_blank">
-      <img src="/assets/programs/2015/ctis-cover-2015.jpg">
-      <span class="program-label"><i class="program-year">2015</i> Voices of Race</span>
-    </a>
-  </li>
-  <li>
-    <a href="/assets/programs/2014/CTIS-2014-program.pdf" target="_blank">
-      <img src="/assets/programs/2014/ctis-cover-2014.jpg">
-      <span class="program-label"><i class="program-year">2014</i> Korean culture</span>
-
-    </a>
-  </li>
-  <li>
-    <a href="/assets/programs/2013/CTIS-2013-program.pdf" target="_blank">
-      <img src="/assets/programs/2013/ctis-cover-2013.jpg">
-      <span class="program-label"><i class="program-year">2013</i> Greek culture</span>
-
-    </a>
-  </li>
-  <li>
-    <a href="/assets/programs/2012/CTIS-2012-program.pdf" target="_blank">
-      <img src="/assets/programs/2012/ctis-cover-2012.jpg">
-      <span class="program-label"><i class="program-year">2012</i> Assyrian culture</span>
-
-    </a>
-  </li>
-  <li>
-    <a href="/assets/programs/2011/CTIS-2011-program.pdf" target="_blank">
-      <img src="/assets/programs/2011/ctis-cover-2011.jpg">
-      <span class="program-label"><i class="program-year">2011</i> Filipino culture</span>
-
-    </a>
-  </li>
-  <li>
-    <a href="/assets/programs/2010/CTIS-2010-program.pdf" target="_blank">
-      <img src="/assets/programs/2010/ctis-cover-2010.jpg">
-      <span class="program-label"><i class="program-year">2010</i> Asian Indian culture</span>
-    </a>
-  </li>
-</ul>
+    <div class="page-content">
+      <div class="feature-section events-section">
+  <div class="row">
+    <div class="medium-7 small-centered columns">
+      <h2><small>COMING TOGETHER <em>in</em></small> Events</h2>
+      <p>Attend a variety of discussions, presentations, performances and films that explore Polish American identity and culture.</p>
+      <a href="/events" class="button line-button">Learn more</a>
+    </div>
+  </div>
+</div>
+<div class="feature-section books-section">
+  <div class="row">
+    <div class="medium-7 small-centered columns">
+      <h2><small>COMING TOGETHER <em>in</em></small> Books</h2>
+      <p>Three carefully selected books that tell important stories about the Polish American experience. Read on your own or with a group and attend our book discussions.</p>
+      <a href="/books" class="button line-button">Learn more</a>
+    </div>
+  </div>
+</div>
+<div class="feature-section quote-section">
+  <div class="row">
+    <div class="medium-7 medium-centered columns">
+      <blockquote class="featured-quote">
+        <p>Download the <a href="/assets/programs/2019/CTIS-2019-program.pdf" target="_blank">program book</a></p>
+      </blockquote>
+    </div>
+  </div>
+</div>
 
     </div>
   </main>
-  <footer role="contentinfo">
-    <div class="container">
-      <p>Questions? <a href="mailto:rosbha@d219.org?subject=Coming+Together+2019"> Get in touch with us</a></p>
+
+  <div class="social-cta">
+  <p>
+    <a href="https://www.facebook.com/ComingTogetherSkokie" onclick="ga('send', 'event', 'Social Media', 'click', 'Facebook');">
+      <i class="facebook-icon">
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+        <path d="M8,0C3.582,0,0,3.582,0,8s3.582,8,8,8s8-3.582,8-8C16,3.581,12.418,0,8,0z M10.068,7.999L8.757,8l-0.001,4.8H6.957V8h-1.2
+        	V6.346l1.2-0.001L6.955,5.371c0-1.35,0.366-2.171,1.955-2.171h1.324v1.655H9.406c-0.619,0-0.649,0.231-0.649,0.662L8.755,6.345
+        	h1.488L10.068,7.999z"/>
+        </svg>
+      </i>
+      Keep the conversation going. Join us on Facebook.
+    </a>
+  </p>
+</div>
+<footer class="site-footer" role="contentinfo">
+  <div class="row">
+    <div class="medium-6 columns">
+      <a href=" /" class="brand notranslate">Coming Together in Skokie & Niles Township</a>
+      <p class="event-dates">January to March 2019</p>
     </div>
-  </footer>
+    <div class="medium-6 columns contact-info">
+      <p>Questions? <a href="mailto:rosbha@d219.org?subject=Coming Together 2019"> Get in touch with us</a>.</p>
+    </div>
+  </div>
+  <div class="supporting-orgs notranslate">
+    <div class="row">
+      <div class="small-12 columns">
+        <h3>Supporting Organizations</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium-12 columns">
+        <ul>
+          <li><strong>The Polish American Community:</strong></li>
+          <li>Artorium</li>
+          <li>Delightful Pastry </li>
+          <li>Dzika</li>
+          <li>Lajkonik Polish Song & Dance Ensemble</li>
+          <li>Lone Tree Manor Restaurant, Niles</li>
+          <li>Paderewski Symphony Orchestra</li>
+          <li>Polish Museum of America</li>
+          <li>Polonia Ensemble</li>
+          <li> Qulinarnia</li>
+          <li>Ridgewood Gardens, Niles </li>
+          <li>Warsztaty Teatralne "Little Stars"</li>
+          <li>Whispers Center for Artistic Expression</li>
+          <li>Esperanto Society of Chicago</li>
+          <li>Art Painting & Decorating Inc.</li>
+          <li>PatriciaArt Studio</li>
+
+          <li><strong>Past Participating Cultures:</strong></li>
+          <li>Assyrian Community</li>
+          <li>Chinese Community</li>
+          <li>Filipino Community</li>
+          <li>Greek Community</li>
+          <li>Indian Community of Niles Township</li>
+          <li>Korean Community</li>
+          <li>Latino and Hispanic Community</li>
+          <li>Muslim American Community</li>
+          <li>Voices of Race</li>
+
+          <li><strong>Libraries:</strong></li>
+          <li>Lincolnwood Public Library</li>
+          <li>Morton Grove Public Library</li>
+          <li>Niles-Maine District Library</li>
+          <li>Skokie Public Library</li>
+          <li>Oakton Community College Library</li>
+
+          <li><strong>School Districts / Educational Institutions:</strong></li>
+          <li>Oakton Community College</li>
+          <li>Niles Township High School District 219</li>
+          <li>Niles Township Schools’ ELL Parent Center</li>
+          <li>Golf School District 67</li>
+          <li>Skokie School District 68</li>
+          <li>Skokie School District 69</li>
+          <li>Morton Grove School District 70</li>
+          <li>Muslim Community Center Academy</li>
+          <li>Niles Elementary School District 71</li>
+          <li>Fairview South School District 72</li>
+          <li>Skokie School District 73</li>
+          <li>Skokie School District 73.5</li>
+          <li>Lincolnwood School District 74</li>
+          <li>Ignacy Paderewski Polish School</li>
+          <li>Mikolaj Kopernik Polish School</li>
+          <li>Maria Curie-Sklodowska Polish School</li>
+
+
+          <li><strong>Community / Business Partners:</strong></li>
+          <li>Child Care and Development Center, Lincolnwood</li>
+          <li>Holiday Inn Chicago North Shore (Skokie)</li>
+          <li>Lincolnwood Multi-Cultural Task Force</li>
+          <li>Lincolnwood Parks & Recreation</li>
+          <li>Village of Lincolnwood</li>
+          <li>Village of Niles</li>
+          <li>Village of Skokie</li>
+          <li>Village of Morton Grove</li>
+          <li>Muslim Community Center</li>
+          <li>Skokie Park District</li>
+          <li>Diversity Advisory Committee, Skokie Park District</li>
+          <li>Niles Township Government</li>
+          <li>Illinois Holocaust Museum & Education Center</li>
+          <li>North Shore Center for the Performing Arts in Skokie</li>
+          <li>Turkish American Society of Chicago</li>
+          <li>Skokie Human Relations Commission</li>
+          <li>Skokie Valley Symphony Orchestra</li>
+          <li>Morton Grove Human Relations Commission</li>
+          <li>The Carrington, Lincolnwood </li>
+          <li>Niles Arts & Culture Council</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-12 columns">
+        <p>&copy; 2019</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="/assets/js/scripts.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57792737-1', 'auto');
+  ga('send', 'pageview');
+
+  $(function(){
+
+  $('#translate').click(function(){
+    var widget = $('.translate-widget')
+    widget.toggleClass('show');
+
+    if (widget.hasClass('show')){
+      widget.attr('aria-hidden', 'false');
+    }
+    else{
+      widget.attr('aria-hidden', 'true');
+    }
+  })
+
+  
+
+  
+
+  });
+
+  // scroll to top when clicking a filter
+  $('.filter').click(function(){
+    $("html, body").animate({ scrollTop: 400 }, 600);
+    return false;
+ });
+</script>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,de,es,fr,gu,hi,iw,ja,ko,ru,ur,vi,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-57792737-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
 </body>
+
+</html>
