@@ -5,8 +5,8 @@
     <description>A cultural and literary series exploring Polish culture and experience in our community.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Feb 2019 15:38:46 -0600</pubDate>
-    <lastBuildDate>Fri, 15 Feb 2019 15:38:46 -0600</lastBuildDate>
+    <pubDate>Thu, 28 Feb 2019 16:41:36 -0600</pubDate>
+    <lastBuildDate>Thu, 28 Feb 2019 16:41:36 -0600</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -91,7 +91,7 @@
         <title>Film: Ida</title>
         <description>&lt;p&gt;Ida won the 2015 Academy Award for Best Foreign Language film, and was the first Polish film to ever win an Oscar.   Ida was directed by Pawel Pawlikowski and written by Pawlikowski and Rebecca Lenkiewicz.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 28 Mar 2019 19:00:00 -0500</pubDate>
+        <pubDate>Thu, 28 Mar 2019 20:00:00 -0500</pubDate>
         <link>http://localhost:4000/events/2019/03/28/film-ida</link>
         <guid isPermaLink="true">http://localhost:4000/events/2019/03/28/film-ida</guid>
         
