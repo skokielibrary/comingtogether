@@ -1,0 +1,465 @@
+[
+
+	{
+		"title": "Cicha Noc (Silent Night)",
+		"start": "2019-01-20T14:00:00-06:00",
+		"url": "/2019/events/2019/01/20/cicha-noc-silent-night",
+		"className": "film"
+	},
+
+	{
+		"title": "Opening Ceremony: Celebrating Polish Culture",
+		"start": "2019-01-27T13:00:00-06:00",
+		"url": "/2019/events/2019/01/27/opening-ceremony-celebrating-polish-culture",
+		"className": "performance"
+	},
+
+	{
+		"title": "Ashes and Diamonds",
+		"start": "2019-02-03T14:00:00-06:00",
+		"url": "/2019/events/2019/02/03/ashes-and-diamonds",
+		"className": "film"
+	},
+
+	{
+		"title": "Book Talk: Spotlight on Polish Culture",
+		"start": "2019-02-06T13:00:00-06:00",
+		"url": "/2019/events/2019/02/06/book-talk-spotlight-on-polish-culture",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Family Reads Bookclub",
+		"start": "2019-02-06T18:30:00-06:00",
+		"url": "/2019/events/2019/02/06/family-reads-bookclub",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Polish Folk Art Painting",
+		"start": "2019-02-10T13:30:00-06:00",
+		"url": "/2019/events/2019/02/10/polish-folk-art-painting",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Lajkonik Song and Dance Ensemble",
+		"start": "2019-02-10T14:00:00-06:00",
+		"url": "/2019/events/2019/02/10/lajkonik-song-and-dance-ensemble",
+		"className": "performance"
+	},
+
+	{
+		"title": "Modern Polish Cooking from Qulinarnia",
+		"start": "2019-02-11T19:00:00-06:00",
+		"url": "/2019/events/2019/02/11/modern-polish-cooking-from-qulinarnia",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Mother-Daughter Bookclub (Grades 3-5)",
+		"start": "2019-02-13T19:00:00-06:00",
+		"url": "/2019/events/2019/02/13/mother-daughter-bookclub-grades-3-5",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Between the Lines: The Best Polish Restaurant in Buffalo",
+		"start": "2019-02-14T10:00:00-06:00",
+		"url": "/2019/events/2019/02/14/between-the-lines-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "World Language Storytime in Polish",
+		"start": "2019-02-14T18:30:00-06:00",
+		"url": "/2019/events/2019/02/14/world-language-storytime-in-polish",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Book Discussion: The Lullaby of Polish Girls",
+		"start": "2019-02-14T19:00:00-06:00",
+		"url": "/2019/events/2019/02/14/book-discussion-the-lullaby-of-polish-girls",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "The Zookeeper's Wife Film and Discussion",
+		"start": "2019-02-17T14:00:00-06:00",
+		"url": "/2019/events/2019/02/17/the-zookeepers-wife-film-and-discussion",
+		"className": "film"
+	},
+
+	{
+		"title": "Chopin in Jazz Styling",
+		"start": "2019-02-17T15:00:00-06:00",
+		"url": "/2019/events/2019/02/17/chopin-in-jazz-styling",
+		"className": "performance"
+	},
+
+	{
+		"title": "Be the Artist",
+		"start": "2019-02-18T18:00:00-06:00",
+		"url": "/2019/events/2019/02/18/be-the-artist",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Film: A Year in the Quiet Sun",
+		"start": "2019-02-19T11:30:00-06:00",
+		"url": "/2019/events/2019/02/19/film-a-year-in-the-quiet-sun",
+		"className": "film"
+	},
+
+	{
+		"title": "Between the Lines: The Best Polish Restaurant in Buffalo",
+		"start": "2019-02-19T19:00:00-06:00",
+		"url": "/2019/events/2019/02/19/between-the-lines-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
+		"start": "2019-02-19T19:00:00-06:00",
+		"url": "/2019/events/2019/02/19/book-discussion-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
+		"start": "2019-02-20T10:00:00-06:00",
+		"url": "/2019/events/2019/02/20/book-discussion-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Mother-Daughter Bookclub (Grades 5-7)",
+		"start": "2019-02-20T19:00:00-06:00",
+		"url": "/2019/events/2019/02/20/mother-daughter-bookclub-grades-5-7",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Polish Storytime",
+		"start": "2019-02-21T18:30:00-06:00",
+		"url": "/2019/events/2019/02/21/polish-storytime",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Guys Read Bookclub",
+		"start": "2019-02-21T19:00:00-06:00",
+		"url": "/2019/events/2019/02/21/guys-read-bookclub",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Art: Step-by-Step",
+		"start": "2019-02-22T16:30:00-06:00",
+		"url": "/2019/events/2019/02/22/art-step-by-step",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Dzika Fitness Workout",
+		"start": "2019-02-22T17:30:00-06:00",
+		"url": "/2019/events/2019/02/22/dzika-fitness-workout",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Polish Folk Tales and Paper Cutting",
+		"start": "2019-02-22T18:30:00-06:00",
+		"url": "/2019/events/2019/02/22/polish-folk-tales-and-paper-cutting",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Craftin' Around",
+		"start": "2019-02-26T19:00:00-06:00",
+		"url": "/2019/events/2019/02/26/craftin-around",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "YA Book Club: Anna and the Swallow Man",
+		"start": "2019-02-27T19:00:00-06:00",
+		"url": "/2019/events/2019/02/27/ya-book-club-anna-and-the-swallow-man",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Freedom of Press in Poland",
+		"start": "2019-02-28T19:00:00-06:00",
+		"url": "/2019/events/2019/02/28/freedom-of-press-in-poland",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Kopytka & Kimchi: Connecting & Celebrating the Diaspora ",
+		"start": "2019-02-28T19:00:00-06:00",
+		"url": "/2019/events/2019/02/28/kopytka-kimchi-connecting-celebrating-the-diaspora",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
+		"start": "2019-03-01T13:00:00-06:00",
+		"url": "/2019/events/2019/03/01/book-discussion-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Think Art Photography ",
+		"start": "2019-03-02T10:00:00-06:00",
+		"url": "/2019/events/2019/03/02/think-art-photography",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Warsztaty Teatralne Little Stars Theater Workshop: 'The Legend of Vavel's Dragon' ",
+		"start": "2019-03-02T15:00:00-06:00",
+		"url": "/2019/events/2019/03/02/warsztaty-teatralne-little-stars-theater-workshop-the-legend-of-vavels-dragon",
+		"className": "performance"
+	},
+
+	{
+		"title": "Polish Presence In American Screen Images",
+		"start": "2019-03-03T14:00:00-06:00",
+		"url": "/2019/events/2019/03/03/polish-presence-in-american-screen-images",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Movie Monday - Ida",
+		"start": "2019-03-04T19:00:00-06:00",
+		"url": "/2019/events/2019/03/04/movie-monday-ida",
+		"className": "film"
+	},
+
+	{
+		"title": "Polish Chicago: Immigrant Group to Middle Class",
+		"start": "2019-03-04T19:00:00-06:00",
+		"url": "/2019/events/2019/03/04/polish-chicago-immigrant-group-to-middle-class",
+		"className": "lecture"
+	},
+
+	{
+		"title": "From Independence to Independence",
+		"start": "2019-03-05T18:30:00-06:00",
+		"url": "/2019/events/2019/03/05/from-independence-to-independence",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
+		"start": "2019-03-07T11:00:00-06:00",
+		"url": "/2019/events/2019/03/07/book-discussion-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "1-2-3 Painting: Poppies!",
+		"start": "2019-03-07T16:30:00-06:00",
+		"url": "/2019/events/2019/03/07/1-2-3-painting-poppies",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Behind-the-Scenes of a Lifestyle Blogger",
+		"start": "2019-03-07T19:00:00-06:00",
+		"url": "/2019/events/2019/03/07/behind-the-scenes-of-a-lifestyle-blogger",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Gwiazdy Paper Craft",
+		"start": "2019-03-08T15:30:00-06:00",
+		"url": "/2019/events/2019/03/08/gwiazdy-paper-craft",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Let's Make Kolaczki!",
+		"start": "2019-03-08T17:00:00-06:00",
+		"url": "/2019/events/2019/03/08/lets-make-kolaczki",
+		"className": "workshop"
+	},
+
+	{
+		"title": "The Zookeeper’s Wife",
+		"start": "2019-03-09T14:00:00-06:00",
+		"url": "/2019/events/2019/03/09/the-zookeepers-wife",
+		"className": "film"
+	},
+
+	{
+		"title": "The Polish Immigrant Experience",
+		"start": "2019-03-11T17:00:00-05:00",
+		"url": "/2019/events/2019/03/11/the-polish-immigrant-experience",
+		"className": "lecture"
+	},
+
+	{
+		"title": "World Exploration: Poland",
+		"start": "2019-03-11T20:00:00-05:00",
+		"url": "/2019/events/2019/03/11/world-exploration-poland",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Festival of Polish Culture",
+		"start": "2019-03-14T13:00:00-05:00",
+		"url": "/2019/events/2019/03/14/festival-of-polish-culture",
+		"className": "performance"
+	},
+
+	{
+		"title": "World Language Storytime in Polish",
+		"start": "2019-03-14T19:30:00-05:00",
+		"url": "/2019/events/2019/03/14/world-language-storytime-in-polish",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Hearty and Healthy Polish Cooking for Teens and Adults",
+		"start": "2019-03-14T20:00:00-05:00",
+		"url": "/2019/events/2019/03/14/hearty-and-healthy-polish-cooking-for-teens-and-adults",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Book Discussion: Anna and the Swallow Man",
+		"start": "2019-03-15T18:30:00-05:00",
+		"url": "/2019/events/2019/03/15/book-discussion-anna-and-the-swallow-man",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Coming Together - Paint Your Story",
+		"start": "2019-03-16T12:00:00-05:00",
+		"url": "/2019/events/2019/03/16/coming-together-paint-your-story",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Polish Wedding",
+		"start": "2019-03-16T14:00:00-05:00",
+		"url": "/2019/events/2019/03/16/polish-wedding",
+		"className": "film"
+	},
+
+	{
+		"title": "The Fourth Partition",
+		"start": "2019-03-17T14:30:00-05:00",
+		"url": "/2019/events/2019/03/17/the-fourth-partition",
+		"className": "film"
+	},
+
+	{
+		"title": "The Best Polish Restaurant in Buffalo with author William Kowalski",
+		"start": "2019-03-18T12:30:00-05:00",
+		"url": "/2019/events/2019/03/18/the-best-polish-restaurant-in-buffalo-with-author-william-kowalski",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "An Evening with William Kowalski: Coming Together Featured Author",
+		"start": "2019-03-18T20:00:00-05:00",
+		"url": "/2019/events/2019/03/18/an-evening-with-william-kowalski-coming-together-featured-author",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "William Kowalski, Coming Together Featured Author",
+		"start": "2019-03-19T14:45:00-05:00",
+		"url": "/2019/events/2019/03/19/william-kowalski-coming-together-featured-author",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
+		"start": "2019-03-21T20:00:00-05:00",
+		"url": "/2019/events/2019/03/21/book-discussion-the-best-polish-restaurant-in-buffalo",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Chat and Chomp The Weight of Water",
+		"start": "2019-03-25T12:45:00-05:00",
+		"url": "/2019/events/2019/03/25/chat-and-chomp-the-weight-of-water",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Film: Ida",
+		"start": "2019-03-25T19:00:00-05:00",
+		"url": "/2019/events/2019/03/25/film-ida",
+		"className": "film"
+	},
+
+	{
+		"title": "Art Activities Open House at Artorium",
+		"start": "2019-03-26T11:00:00-05:00",
+		"url": "/2019/events/2019/03/26/art-activities-open-house-at-artorium",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Storytime with the Author",
+		"start": "2019-03-28T15:00:00-05:00",
+		"url": "/2019/events/2019/03/28/storytime-with-the-author",
+		"className": "books-authors"
+	},
+
+	{
+		"title": "Film: Ida",
+		"start": "2019-03-28T20:00:00-05:00",
+		"url": "/2019/events/2019/03/28/film-ida",
+		"className": "film"
+	},
+
+	{
+		"title": "Polish Youth Showcase",
+		"start": "2019-03-30T10:30:00-05:00",
+		"url": "/2019/events/2019/03/30/polish-youth-showcase",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Book Craft",
+		"start": "2019-03-31T15:00:00-05:00",
+		"url": "/2019/events/2019/03/31/book-craft",
+		"className": "kids-family"
+	},
+
+	{
+		"title": "Pisanka Galore",
+		"start": "2019-03-31T15:00:00-05:00",
+		"url": "/2019/events/2019/03/31/pisanka-galore",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Celebrating 10 Years of Coming Together: Panel Discussion, Collaborative Pop-up Museum, Collaborative Art Workshop",
+		"start": "2019-04-03T19:30:00-05:00",
+		"url": "/2019/events/2019/04/03/celebrating-10-years-of-coming-together-panel-discussion-collabortive-pop-up-museum-collaborative-art-workshop",
+		"className": "lecture"
+	},
+
+	{
+		"title": "Polish Cusine",
+		"start": "2019-04-06T14:00:00-05:00",
+		"url": "/2019/events/2019/04/06/polish-cusine",
+		"className": "workshop"
+	},
+
+	{
+		"title": "Polish Legends and the Art of Cut-Outs",
+		"start": "2019-04-07T15:00:00-05:00",
+		"url": "/2019/events/2019/04/07/polish-legends-and-the-art-of-cut-outs",
+		"className": "books-authors"
+	}
+
+]
