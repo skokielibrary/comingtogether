@@ -5,17 +5,17 @@
     <description>A cultural and literary series exploring culture and experience in our community.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 Jul 2019 10:58:38 -0500</pubDate>
-    <lastBuildDate>Fri, 26 Jul 2019 10:58:38 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Tue, 17 Dec 2019 18:48:49 -0600</pubDate>
+    <lastBuildDate>Tue, 17 Dec 2019 18:48:49 -0600</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>Polish Legends and the Art of Cut-Outs</title>
-        <description>&lt;p&gt;Please join us for an afternoon of Polish folk stories. Each region in Poland brings something different and unique. Just like it’s landscape from meadows through rivers and mountains, the legends of Poland are sweet, scary or simply entertaining. From the tale about “Dragon in Vavel”, “Torun’s Gingerbread” to “Interrupted sound of Krakowski’s trumpet-call”, the audience will travel not only through small, picturesque villages but also through time. We will see some folk art as well as traditional cut outs in paper.Agnieszka Rynkiewicz-Sarrafian is a story teller, fairy tale writer, poet and translator. Sponsored by the Lincolnwood Multi-Cultural Task Force.&lt;/p&gt;
+        <title>International Night Celebration</title>
+        <description>&lt;p&gt;You are invited to a special night of free entertainment! International Night is taking place on Saturday, April 18. This biyearly tradition is an opportunity to find unity in what seems like a divided world. Our students remind us that we are a special community made up of cultural traditions and richness of identities. Let’s be proud this year more than ever to showcase what makes this school such an incredible place to work and play. Come out and enjoy an evening of cultural food, traditional dancing and performances from various student cultural clubs. All are welcome to attend–bring your family and friends for a night of fun! Food will be sold for an additional cost.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 07 Apr 2019 15:00:00 -0500</pubDate>
-        <link>http://localhost:4000/events/2019/04/07/polish-legends-and-the-art-of-cut-outs</link>
-        <guid isPermaLink="true">http://localhost:4000/events/2019/04/07/polish-legends-and-the-art-of-cut-outs</guid>
+        <pubDate>Sat, 18 Apr 2020 19:00:00 -0500</pubDate>
+        <link>http://localhost:4000/events/2020/04/18/international-night-celebration</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2020/04/18/international-night-celebration</guid>
         
         
         <category>events</category>
@@ -23,12 +23,12 @@
       </item>
     
       <item>
-        <title>Polish Cusine</title>
-        <description>&lt;p&gt;Learn the secret to making authentic Polish food as we explore the Polish culture. Join Chef Sam in creating a side dish, a main dish and a dessert. Instructor: Samantha Foreman.For Age: 9+. Registration is through the Skokie Park District starting 2/15/18. Registration code: 111154-01. Register online or at any Skokie Park District facility.&lt;/p&gt;
+        <title>Chat and Chomp Book Discussion with Front Desk</title>
+        <description>&lt;p&gt;Copies of the book will be available at the KidSpace Desk to check out beginning February 1. For grades 4-6.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 06 Apr 2019 14:00:00 -0500</pubDate>
-        <link>http://localhost:4000/events/2019/04/06/polish-cusine</link>
-        <guid isPermaLink="true">http://localhost:4000/events/2019/04/06/polish-cusine</guid>
+        <pubDate>Tue, 24 Mar 2020 13:00:00 -0500</pubDate>
+        <link>http://localhost:4000/events/2020/03/24/chat-and-chomp-book-discussion-with-front-desk</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2020/03/24/chat-and-chomp-book-discussion-with-front-desk</guid>
         
         
         <category>events</category>
@@ -36,20 +36,12 @@
       </item>
     
       <item>
-        <title>Celebrating 10 Years of Coming Together: Panel Discussion, Collaborative Pop-up Museum, Collaborative Art Workshop</title>
-        <description>&lt;p&gt;A beautiful evening of discussion and art with the 10 participating Cultures of Coming Together from 2010-2019 celebrate the 10th anniversary of the program.  Representatives of the Asian Indian, Filipino, Assyrian, Greek, Korean, “Voices of Race”, Latino/Hispanic, Chinese, Muslim American and Polish cultures will discuss their experiences participating in this award winning program, accompanied with pop-up stalls displaying arts and crafts from each culture and a collaborative art project with audience participation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The location of the program is South Commons.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Parking:&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Enter the south parking lot of the school (by the rear of the school) from the entrance on Gross Point Road. Use Door 13B to enter.&lt;/p&gt;
-
-&lt;p&gt;Please note that anyone parking in the front, in the lots facing Oakton, will be asked to instead drive around to the back of the building. They will not be permitted to enter through the main entrance and go through the building.&lt;/p&gt;
+        <title>Coming Together Teen Storytime</title>
+        <description>&lt;p&gt;Gather together in the Teen Underground to share stories about coming to and living in America, featuring excerpts from American Like Me by America Ferrera and They Called Us Enemy by George Takei.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 03 Apr 2019 19:30:00 -0500</pubDate>
-        <link>http://localhost:4000/events/2019/04/03/celebrating-10-years-of-coming-together-panel-discussion-collabortive-pop-up-museum-collaborative-art-workshop</link>
-        <guid isPermaLink="true">http://localhost:4000/events/2019/04/03/celebrating-10-years-of-coming-together-panel-discussion-collabortive-pop-up-museum-collaborative-art-workshop</guid>
+        <pubDate>Fri, 13 Mar 2020 17:00:00 -0500</pubDate>
+        <link>http://localhost:4000/events/2020/03/13/coming-together-teen-storytime</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2020/03/13/coming-together-teen-storytime</guid>
         
         
         <category>events</category>
@@ -57,12 +49,12 @@
       </item>
     
       <item>
-        <title>Pisanka Galore</title>
-        <description>&lt;p&gt;Learn to decorate Easter eggs using the popular wax resist technique. This technique involves applying hot beeswax and staining the egg. Participants will use a bi-color style.&lt;/p&gt;
+        <title>Oakton Fesival of Cultures</title>
+        <description>&lt;p&gt;Join Oakton’s student clubs and community members for a festival celebrating the diverse cultures of our community with food, music, and fun! This program is a collaboration between Oakton Community College Library and Oakton’s Office of Student Life and Campus Inclusion.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 31 Mar 2019 15:00:00 -0500</pubDate>
-        <link>http://localhost:4000/events/2019/03/31/pisanka-galore</link>
-        <guid isPermaLink="true">http://localhost:4000/events/2019/03/31/pisanka-galore</guid>
+        <pubDate>Thu, 12 Mar 2020 19:30:00 -0500</pubDate>
+        <link>http://localhost:4000/events/2020/03/12/oakton-fesival-of-cultures</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2020/03/12/oakton-fesival-of-cultures</guid>
         
         
         <category>events</category>
@@ -70,12 +62,12 @@
       </item>
     
       <item>
-        <title>Book Craft</title>
-        <description>&lt;p&gt;The Glass Mountain: Tales from Poland by David Walser and illustrated by Jan Pienkowski is an engaging collection of tall tales decorated with colorful paper cutouts. Join us to discuss the tales, learn about Polish wycinanki, and create your own pieces of colorful art. Registration required.&lt;/p&gt;
+        <title>Human Library</title>
+        <description>&lt;p&gt;Check out a ‘human book’ and have a conversation with your ‘books’ to learn about their journey to Niles and Maine Townships. We hope to have a wide variety of ‘books’ to check out. The Human Library concept was designed to create an atmosphere where an honest conversation can be had in a safe environment. Learn from our community members about their journeys, their triumphs, and their challenges. Stop by the libraries at each campus to check out your ‘book.’ This program is a collaboration between Oakton Community College Library and Oakton’s Office of Student Life and Campus Inclusion.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 31 Mar 2019 15:00:00 -0500</pubDate>
-        <link>http://localhost:4000/events/2019/03/31/book-craft</link>
-        <guid isPermaLink="true">http://localhost:4000/events/2019/03/31/book-craft</guid>
+        <pubDate>Thu, 12 Mar 2020 14:00:00 -0500</pubDate>
+        <link>http://localhost:4000/events/2020/03/12/human-libary</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2020/03/12/human-libary</guid>
         
         
         <category>events</category>
@@ -83,12 +75,12 @@
       </item>
     
       <item>
-        <title>Polish Youth Showcase</title>
-        <description>&lt;p&gt;Join us to watch area Polish students put on a talent show showcasing their studies. Students from Ignacy Paderewski, Mikolaj Kopernik and Maria Curie-Sklodowska Polish Schools will take the stage to share about the culture and history of Poland. Crafts and snacks will round out the morning.&lt;/p&gt;
+        <title>Human Library</title>
+        <description>&lt;p&gt;Check out a ‘human book’ and have a conversation with your ‘books’ to learn about their journey to Niles and Maine Townships. We hope to have a wide variety of ‘books’ to check out. The Human Library concept was designed to create an atmosphere where an honest conversation can be had in a safe environment. Learn from our community members about their journeys, their triumphs, and their challenges. Stop by the libraries at each campus to check out your ‘book.’ This program is a collaboration between Oakton Community College Library and Oakton’s Office of Student Life and Campus Inclusion.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 30 Mar 2019 10:30:00 -0500</pubDate>
-        <link>http://localhost:4000/events/2019/03/30/polish-youth-showcase</link>
-        <guid isPermaLink="true">http://localhost:4000/events/2019/03/30/polish-youth-showcase</guid>
+        <pubDate>Thu, 12 Mar 2020 11:00:00 -0500</pubDate>
+        <link>http://localhost:4000/events/2020/03/12/human-library2</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2020/03/12/human-library2</guid>
         
         
         <category>events</category>
@@ -96,12 +88,12 @@
       </item>
     
       <item>
-        <title>Film: Ida</title>
-        <description>&lt;p&gt;Ida won the 2015 Academy Award for Best Foreign Language film, and was the first Polish film to ever win an Oscar.   Ida was directed by Pawel Pawlikowski and written by Pawlikowski and Rebecca Lenkiewicz.&lt;/p&gt;
+        <title>Human Library</title>
+        <description>&lt;p&gt;Check out a ‘human book’ and have a conversation with your ‘books’ to learn about their journey to Niles and Maine Townships. We hope to have a wide variety of ‘books’ to check out. The Human Library concept was designed to create an atmosphere where an honest conversation can be had in a safe environment. Learn from our community members about their journeys, their triumphs, and their challenges. Stop by the libraries at each campus to check out your ‘book.’ This program is a collaboration between Oakton Community College Library and Oakton’s Office of Student Life and Campus Inclusion.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 28 Mar 2019 20:00:00 -0500</pubDate>
-        <link>http://localhost:4000/events/2019/03/28/film-ida</link>
-        <guid isPermaLink="true">http://localhost:4000/events/2019/03/28/film-ida</guid>
+        <pubDate>Wed, 11 Mar 2020 14:00:00 -0500</pubDate>
+        <link>http://localhost:4000/events/2020/03/11/human-library1</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2020/03/11/human-library1</guid>
         
         
         <category>events</category>
@@ -109,14 +101,12 @@
       </item>
     
       <item>
-        <title>Storytime with the Author</title>
-        <description>&lt;p&gt;Join author Anna Mycek-Wodecki to read her biographic picture book book Igna_ - The Boy with the Colorful Head - IGNAS Chlopiec z Kolorowa Glowa. This will be an interactive storytime with drawing.&lt;/p&gt;
-
-&lt;p&gt;Registration required.&lt;/p&gt;
+        <title>Human Library</title>
+        <description>&lt;p&gt;Check out a ‘human book’ and have a conversation with your ‘books’ to learn about their journey to Niles and Maine Townships. We hope to have a wide variety of ‘books’ to check out. The Human Library concept was designed to create an atmosphere where an honest conversation can be had in a safe environment. Learn from our community members about their journeys, their triumphs, and their challenges. Stop by the libraries at each campus to check out your ‘book.’ This program is a collaboration between Oakton Community College Library and Oakton’s Office of Student Life and Campus Inclusion.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 28 Mar 2019 15:00:00 -0500</pubDate>
-        <link>http://localhost:4000/events/2019/03/28/storytime-with-the-author</link>
-        <guid isPermaLink="true">http://localhost:4000/events/2019/03/28/storytime-with-the-author</guid>
+        <pubDate>Wed, 11 Mar 2020 11:00:00 -0500</pubDate>
+        <link>http://localhost:4000/events/2020/03/11/human-library2</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2020/03/11/human-library2</guid>
         
         
         <category>events</category>
@@ -124,14 +114,12 @@
       </item>
     
       <item>
-        <title>Art Activities Open House at Artorium</title>
-        <description>&lt;p&gt;Artorium Inc. is a private family-run arts center in Chicago. It is open to everyone ages 5 and up , regardless of any previous art experience. The focus of Artorium is to help students develop their artistic and creative skills through hands on interactions with a multitude of art mediums. Each student is approached with a personalized instruction plan that is customized towards their  age, experience and the ability to handle tools and materials. Students are taught: painting, drawing, sculpture, printmaking, weaving, digital arts and crafts.&lt;/p&gt;
-
-&lt;p&gt;Each student works at their own pace and advances into new techniques and mediums based on their interests and abilities. The center has been established over 10 years ago and is continuing to encourage future artists to fulfill their own aspirations. Each lesson is closely supervised by professionals to ensure a safe and productive learning environment.&lt;/p&gt;
+        <title>Evening Family Stortime with Dreamers</title>
+        <description>&lt;p&gt;For ages 2-6 with a caregiver.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 26 Mar 2019 11:00:00 -0500</pubDate>
-        <link>http://localhost:4000/events/2019/03/26/art-activities-open-house-at-artorium</link>
-        <guid isPermaLink="true">http://localhost:4000/events/2019/03/26/art-activities-open-house-at-artorium</guid>
+        <pubDate>Tue, 10 Mar 2020 20:00:00 -0500</pubDate>
+        <link>http://localhost:4000/events/2020/03/10/evening-family-stortime-with-dreamers</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2020/03/10/evening-family-stortime-with-dreamers</guid>
         
         
         <category>events</category>
@@ -139,12 +127,12 @@
       </item>
     
       <item>
-        <title>Film: Ida</title>
-        <description>&lt;p&gt;Ida won the 2015 Academy Award for Best Foreign Language film, and was the first Polish film to ever win an Oscar. Ida was directed by Pawel Pawlikowski and written by Pawlikowski and Rebecca Lenkiewicz.&lt;/p&gt;
+        <title>Human Library</title>
+        <description>&lt;p&gt;Check out a ‘human book’ and have a conversation with your ‘books’ to learn about their journey to Niles and Maine Townships. We hope to have a wide variety of ‘books’ to check out. The Human Library concept was designed to create an atmosphere where an honest conversation can be had in a safe environment. Learn from our community members about their journeys, their triumphs, and their challenges. Stop by the libraries at each campus to check out your ‘book.’ This program is a collaboration between Oakton Community College Library and Oakton’s Office of Student Life and Campus Inclusion.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 25 Mar 2019 19:00:00 -0500</pubDate>
-        <link>http://localhost:4000/events/2019/03/25/film-ida</link>
-        <guid isPermaLink="true">http://localhost:4000/events/2019/03/25/film-ida</guid>
+        <pubDate>Tue, 10 Mar 2020 14:00:00 -0500</pubDate>
+        <link>http://localhost:4000/events/2020/03/10/human-library-2</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2020/03/10/human-library-2</guid>
         
         
         <category>events</category>

@@ -4310,7 +4310,7 @@ be a descendant of the grid when it is being dragged.
 body {
   background: #fff url("../img/header.jpg") no-repeat top center fixed;
   background-size: cover;
-  font: 400 16px/1.4 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #222; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -4318,11 +4318,11 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase; }
 
 h1, .feature-section h2 {
-  font-family: 'Abril Fatface', cursive; }
+  font-family: 'Roboto', sans-serif; }
 
 h2 {
   font-size: 1.5rem;
-  color: #e57b16; }
+  color: #00a7e6; }
 
 h3 {
   font-size: 1.1rem; }
@@ -4332,11 +4332,11 @@ h4 {
   margin-bottom: 2px; }
 
 a {
-  color: #e57b16;
+  color: #00a7e6;
   transition: opacity .2s ease; }
 
 a:hover {
-  color: #b66212;
+  color: #0082b3;
   opacity: .6; }
 
 button, .button, .registration-button, .fc button {
@@ -4344,18 +4344,18 @@ button, .button, .registration-button, .fc button {
   font-weight: 700; }
 
 button:focus, .button:focus, .registration-button:focus, .fc button:focus {
-  background-color: #e57b16; }
+  background-color: #00a7e6; }
 
 .button, .registration-button, .fc button {
   text-transform: uppercase; }
 
 .line-button {
   background: transparent;
-  border: 2px solid #e57b16;
-  color: #e57b16; }
+  border: 2px solid #00a7e6;
+  color: #00a7e6; }
   .line-button:hover {
     background: transparent;
-    color: #e57b16; }
+    color: #00a7e6; }
 
 .video figcaption {
   margin: .5rem 0 1rem;
@@ -4417,7 +4417,7 @@ img.portrait {
   padding-top: .7rem;
   color: #222;
   text-align: center; }
-  @media only screen and (min-width: 64.063em) {
+  @media only screen and (min-width: 1024px) {
     .site-header .brand {
       float: left;
       text-align: left; } }
@@ -4432,7 +4432,7 @@ img.portrait {
   margin-top: 1rem;
   text-align: center;
   clear: both; }
-  @media only screen and (min-width: 64.063em) {
+  @media only screen and (min-width: 1024px) {
     .site-nav {
       float: right;
       width: auto;
@@ -4453,7 +4453,7 @@ img.portrait {
   align-items: flex-start;
   padding: .5rem;
   color: #222; }
-  @media only screen and (min-width: 64.063em) {
+  @media only screen and (min-width: 1024px) {
     .nav li a {
       padding: 1rem; } }
 
@@ -4462,13 +4462,13 @@ img.portrait {
   position: relative;
   padding: 4rem 0;
   text-align: center; }
-  @media only screen and (min-width: 64.063em) {
+  @media only screen and (min-width: 1024px) {
     .page-header {
       padding: 6rem 0; } }
 
 .page-title h1, .page-title p {
   margin: 0 0 .5rem;
-  color: #fff; }
+  color: #00a7e6; }
 
 .page-title h1 {
   font-size: 2.5rem; }
@@ -4476,19 +4476,22 @@ img.portrait {
 .sub-page-title h1 {
   margin: 0 0 .5rem;
   font-size: 2.5rem;
-  color: #486d1c;
+  color: #a7b113;
   letter-spacing: 1px; }
 
 h1.home-title {
   padding-top: 0;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1;
   text-shadow: 2px 2px 5px #000000;
   animation: focus 1s ease-out;
   letter-spacing: 2px; }
-  @media only screen and (min-width: 64.063em) {
+  @media only screen and (min-width: 1024px) {
     h1.home-title {
-      font-size: 3em; } }
+      font-size: 4em; } }
+
+p.home-title {
+  font-size: 3rem !important; }
 
 .page-title p {
   font-size: 1.5rem;
@@ -4504,7 +4507,7 @@ h1.home-title {
   padding: .25rem;
   background: transparent;
   transition: opacity .2s ease; }
-  @media only screen and (min-width: 64.063em) {
+  @media only screen and (min-width: 1024px) {
     .translate {
       padding: 0.75rem; } }
   .translate:focus {
@@ -4526,7 +4529,7 @@ h1.home-title {
   z-index: 9999;
   opacity: 0;
   transition: opacity .2s ease; }
-  @media only screen and (min-width: 64.063em) {
+  @media only screen and (min-width: 1024px) {
     .translate-widget {
       right: .875rem; } }
   .translate-widget.show {
@@ -4535,14 +4538,14 @@ h1.home-title {
     width: 100%;
     border: 0 !important;
     padding: .75rem; }
-    @media only screen and (min-width: 64.063em) {
+    @media only screen and (min-width: 1024px) {
       .translate-widget .goog-te-gadget-simple {
         width: auto; } }
 
 /*footer styles*/
 .social-cta {
   padding: 20px;
-  background: #486d1c;
+  background: #a7b113;
   text-align: center; }
 
 .social-cta a {
@@ -4599,7 +4602,7 @@ h1.home-title {
   padding: 0;
   columns: 12rem 2;
   column-gap: 3rem; }
-  @media only screen and (min-width: 64.063em) {
+  @media only screen and (min-width: 1024px) {
     .supporting-orgs ul {
       columns: 10rem 3; } }
 
@@ -4608,7 +4611,7 @@ h1.home-title {
   line-height: 1.2;
   break-inside: avoid; }
 
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 1024px) {
   .contact-info {
     text-align: right; }
 
@@ -4619,26 +4622,32 @@ h1.home-title {
     display: inline-block;
     margin-top: -4px;
     margin-right: 1rem; } }
+#logo_footer {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 /*homepage styles*/
 .feature-section {
   padding: 80px 20px; }
   .feature-section h2 {
     margin-top: .4rem;
     font-size: 2.5rem;
-    color: #e57b16; }
+    color: #00a7e6; }
     .feature-section h2 > small {
       display: block;
       margin-bottom: .325rem;
       font-family: 'Lato', sans-serif;
       font-size: .8rem;
-      color: #e57b16;
+      color: #00a7e6;
       letter-spacing: .5px; }
       .feature-section h2 > small > em {
         font-style: normal;
         text-transform: none; }
     .feature-section h2 p {
       font-size: 1.2rem; }
-  @media only screen and (min-width: 64.063em) {
+  @media only screen and (min-width: 1024px) {
     .feature-section {
       padding: 80px 120px; } }
 
@@ -4648,7 +4657,7 @@ h1.home-title {
     margin-bottom: 2rem; }
 
 .books-section {
-  background: #e57b16; }
+  background: #00a7e6; }
   .books-section h2 {
     color: #fff; }
     .books-section h2 > small {
@@ -4667,7 +4676,7 @@ h1.home-title {
   .quote-section a:hover {
     text-decoration: underline;
     opacity: 1; }
-  @media only screen and (min-width: 64.063em) {
+  @media only screen and (min-width: 1024px) {
     .quote-section {
       max-height: 400px; } }
   .quote-section .featured-quote {
@@ -4684,6 +4693,9 @@ h1.home-title {
   .quote-section .featured-quote cite {
     font-style: normal;
     color: #fff; }
+
+#download_link {
+  color: #00a7e6; }
 
 /*about page styles*/
 .past-programs-list a {
@@ -4777,7 +4789,7 @@ h1.home-title {
   font-weight: 400;
   font-size: 1.6rem;
   text-transform: none;
-  color: #e57b16; }
+  color: #00a7e6; }
 
 .event {
   margin-bottom: 2rem;
@@ -4885,25 +4897,25 @@ h1.home-title {
   padding: .375rem 1rem;
   background: #fff;
   font-family: inherit;
-  color: #e57b16;
+  color: #00a7e6;
   text-align: left;
   font-weight: 400;
   transition: opacity .2s ease; }
   .filter:hover {
     opacity: .5;
     background: #fff;
-    color: #e57b16; }
+    color: #00a7e6; }
   @media only screen and (min-width: 40.063em) {
     .filter {
-      border: 1px solid #e57b16; } }
+      border: 1px solid #00a7e6; } }
 
 .filter:focus {
   background-color: #fcfcfc;
-  color: #e57b16;
+  color: #00a7e6;
   outline: 0; }
 
 .filter.active {
-  background-color: #e57b16;
+  background-color: #00a7e6;
   outline: 0;
   color: #fff; }
 
@@ -4926,16 +4938,16 @@ h1.home-title {
   display: block; }
 
 .registration-button {
-  background: #e57b16;
+  background: #00a7e6;
   margin-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: .875rem;
   font-weight: 400; }
   .registration-button:hover {
-    background: #e57b16; }
+    background: #00a7e6; }
   .registration-button:active {
-    background: #e57b16; }
+    background: #00a7e6; }
 
 .locations-section {
   background-color: #ebebeb; }
@@ -5015,7 +5027,7 @@ h1.home-title {
   margin: 0 .5rem 0 0 !important; }
 
 .fc-state-default {
-  background: #e57b16; }
+  background: #00a7e6; }
 
 .fc th {
   text-transform: uppercase;
@@ -5047,7 +5059,7 @@ h1.home-title {
     border: 1px solid #8DC63F !important; }
 
 .fc-unthemed .fc-today {
-  background-color: #f6c99e; }
+  background-color: #80dcff; }
 
 /*resources styles*/
 .video figcaption {
@@ -5120,21 +5132,21 @@ h1.home-title {
 
 .notable-people {
   padding-bottom: 2rem; }
-  @media only screen and (min-width: 64.063em) {
+  @media only screen and (min-width: 1024px) {
     .notable-people {
       display: table;
       width: 100%; } }
   .notable-people .person {
     padding: 1rem 0;
     border-bottom: 1px solid #bbbbbb; }
-    @media only screen and (min-width: 64.063em) {
+    @media only screen and (min-width: 1024px) {
       .notable-people .person {
         display: table-row;
         padding: 0;
         border-bottom: 0; } }
   .notable-people dt, .notable-people dd {
     margin: 0; }
-    @media only screen and (min-width: 64.063em) {
+    @media only screen and (min-width: 1024px) {
       .notable-people dt, .notable-people dd {
         display: table-cell;
         width: 33%;

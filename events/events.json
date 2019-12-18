@@ -1,465 +1,339 @@
 [
 
 	{
-		"title": "Cicha Noc (Silent Night)",
-		"start": "2019-01-20T14:00:00-06:00",
-		"url": "/events/2019/01/20/cicha-noc-silent-night",
-		"className": "film"
+		"title": "Journeys to Niles Township Opening Ceremony",
+		"start": "2020-01-26T13:00:00-06:00",
+		"url": "/events/2020/01/26/journeys-to-niles-township-opening-ceremony",
+		"className": 
 	},
 
 	{
-		"title": "Opening Ceremony: Celebrating Polish Culture",
-		"start": "2019-01-27T13:00:00-06:00",
-		"url": "/events/2019/01/27/opening-ceremony-celebrating-polish-culture",
-		"className": "performance"
+		"title": "Book Discussion: Other Words for Home",
+		"start": "2020-01-30T17:45:00-06:00",
+		"url": "/events/2020/01/30/book-discussion-other-words-for-home",
+		"className": 
 	},
 
 	{
-		"title": "Ashes and Diamonds",
-		"start": "2019-02-03T14:00:00-06:00",
-		"url": "/events/2019/02/03/ashes-and-diamonds",
-		"className": "film"
+		"title": "Mini-Makers: Story Discs",
+		"start": "2020-02-01T11:30:00-06:00",
+		"url": "/events/2020/02/01/mini-makers-story-discs",
+		"className": 
 	},
 
 	{
-		"title": "Book Talk: Spotlight on Polish Culture",
-		"start": "2019-02-06T13:00:00-06:00",
-		"url": "/events/2019/02/06/book-talk-spotlight-on-polish-culture",
-		"className": "books-authors"
+		"title": "Coming Together: Family Journeys Storytime",
+		"start": "2020-02-01T14:00:00-06:00",
+		"url": "/events/2020/02/01/coming-together-family-journeys-storytime",
+		"className": 
 	},
 
 	{
-		"title": "Family Reads Bookclub",
-		"start": "2019-02-06T18:30:00-06:00",
-		"url": "/events/2019/02/06/family-reads-bookclub",
-		"className": "kids-family"
+		"title": "URLife Storytelling with Lily Be",
+		"start": "2020-02-03T18:30:00-06:00",
+		"url": "/events/2020/02/03/urlife-storytelling-with-lily-be",
+		"className": 
 	},
 
 	{
-		"title": "Polish Folk Art Painting",
-		"start": "2019-02-10T13:30:00-06:00",
-		"url": "/events/2019/02/10/polish-folk-art-painting",
-		"className": "workshop"
+		"title": "An Evening with Jasmine Warga",
+		"start": "2020-02-05T19:00:00-06:00",
+		"url": "/events/2020/02/05/an-evening-with-jasmine-warga",
+		"className": 
 	},
 
 	{
-		"title": "Lajkonik Song and Dance Ensemble",
-		"start": "2019-02-10T14:00:00-06:00",
-		"url": "/events/2019/02/10/lajkonik-song-and-dance-ensemble",
-		"className": "performance"
+		"title": "Mother-Daughter Book Club: Front Desk by Kelly Yang",
+		"start": "2020-02-05T19:00:00-06:00",
+		"url": "/events/2020/02/05/mother-daughter-book-club",
+		"className": 
 	},
 
 	{
-		"title": "Modern Polish Cooking from Qulinarnia",
-		"start": "2019-02-11T19:00:00-06:00",
-		"url": "/events/2019/02/11/modern-polish-cooking-from-qulinarnia",
-		"className": "workshop"
+		"title": "When Home Won't Let You Stay Multimedia Community Event",
+		"start": "2020-02-05T19:00:00-06:00",
+		"url": "/events/2020/02/05/when-home-wont-let-you-stay-multimedia-community-event",
+		"className": 
 	},
 
 	{
-		"title": "Mother-Daughter Bookclub (Grades 3-5)",
-		"start": "2019-02-13T19:00:00-06:00",
-		"url": "/events/2019/02/13/mother-daughter-bookclub-grades-3-5",
-		"className": "kids-family"
+		"title": "Second Sunday with Mama Edie Armstrong",
+		"start": "2020-02-09T14:00:00-06:00",
+		"url": "/events/2020/02/09/second-sunday-with-mama-edie-armstrong",
+		"className": 
 	},
 
 	{
-		"title": "Between the Lines: The Best Polish Restaurant in Buffalo",
-		"start": "2019-02-14T10:00:00-06:00",
-		"url": "/events/2019/02/14/between-the-lines-the-best-polish-restaurant-in-buffalo",
-		"className": "books-authors"
+		"title": "Faithfully Feminist: Christian, Jewish, and Muslim Perspectives",
+		"start": "2020-02-09T14:30:00-06:00",
+		"url": "/events/2020/02/09/faithfully-feminist-christian-jewish-and-muslim-perspectives",
+		"className": 
 	},
 
 	{
-		"title": "World Language Storytime in Polish",
-		"start": "2019-02-14T18:30:00-06:00",
-		"url": "/events/2019/02/14/world-language-storytime-in-polish",
-		"className": "kids-family"
+		"title": "URLife Storytelling with Lily Be",
+		"start": "2020-02-10T18:30:00-06:00",
+		"url": "/events/2020/02/10/urlife-storytelling-with-lily-be",
+		"className": 
 	},
 
 	{
-		"title": "Book Discussion: The Lullaby of Polish Girls",
-		"start": "2019-02-14T19:00:00-06:00",
-		"url": "/events/2019/02/14/book-discussion-the-lullaby-of-polish-girls",
-		"className": "books-authors"
+		"title": "Mother-Daughter Book Club: Other Words for Home by Jasmine Warga",
+		"start": "2020-02-12T19:00:00-06:00",
+		"url": "/events/2020/02/12/mother-daughter-book-club",
+		"className": 
 	},
 
 	{
-		"title": "The Zookeeper's Wife Film and Discussion",
-		"start": "2019-02-17T14:00:00-06:00",
-		"url": "/events/2019/02/17/the-zookeepers-wife-film-and-discussion",
-		"className": "film"
+		"title": "LitLounge: They Called Us Enemy",
+		"start": "2020-02-12T19:30:00-06:00",
+		"url": "/events/2020/02/12/litlounge-they-called-us-enemy",
+		"className": 
 	},
 
 	{
-		"title": "Chopin in Jazz Styling",
-		"start": "2019-02-17T15:00:00-06:00",
-		"url": "/events/2019/02/17/chopin-in-jazz-styling",
-		"className": "performance"
+		"title": "Family Book Club: The Undefeated",
+		"start": "2020-02-13T18:30:00-06:00",
+		"url": "/events/2020/02/13/family-book-club-the-undefeated",
+		"className": 
 	},
 
 	{
-		"title": "Be the Artist",
-		"start": "2019-02-18T18:00:00-06:00",
-		"url": "/events/2019/02/18/be-the-artist",
-		"className": "kids-family"
+		"title": "Book Discussion: They Called Us Enemy",
+		"start": "2020-02-13T19:00:00-06:00",
+		"url": "/events/2020/02/13/book-discussion-they-called-us-enemy",
+		"className": 
 	},
 
 	{
-		"title": "Film: A Year in the Quiet Sun",
-		"start": "2019-02-19T11:30:00-06:00",
-		"url": "/events/2019/02/19/film-a-year-in-the-quiet-sun",
-		"className": "film"
+		"title": "Love is All Around Storytime and Craft with The Little Red Stroller",
+		"start": "2020-02-14T16:30:00-06:00",
+		"url": "/events/2020/02/14/love-is-all-around-storytime-and-craft-with-the-little-red-stroller",
+		"className": 
 	},
 
 	{
-		"title": "Between the Lines: The Best Polish Restaurant in Buffalo",
-		"start": "2019-02-19T19:00:00-06:00",
-		"url": "/events/2019/02/19/between-the-lines-the-best-polish-restaurant-in-buffalo",
-		"className": "books-authors"
+		"title": "The World of Dough with Chef Maddox",
+		"start": "2020-02-15T14:00:00-06:00",
+		"url": "/events/2020/02/15/the-world-of-dough-with-chef-maddox",
+		"className": 
 	},
 
 	{
-		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
-		"start": "2019-02-19T19:00:00-06:00",
-		"url": "/events/2019/02/19/book-discussion-the-best-polish-restaurant-in-buffalo",
-		"className": "books-authors"
+		"title": "Explore Glass Calligraphy",
+		"start": "2020-02-16T14:00:00-06:00",
+		"url": "/events/2020/02/16/explore-glass-calligraphy",
+		"className": 
 	},
 
 	{
-		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
-		"start": "2019-02-20T10:00:00-06:00",
-		"url": "/events/2019/02/20/book-discussion-the-best-polish-restaurant-in-buffalo",
-		"className": "books-authors"
+		"title": "How Niles Township Supports New Residents",
+		"start": "2020-02-18T18:00:00-06:00",
+		"url": "/events/2020/02/18/how-niles-township-supports-new-residents",
+		"className": 
 	},
 
 	{
-		"title": "Mother-Daughter Bookclub (Grades 5-7)",
-		"start": "2019-02-20T19:00:00-06:00",
-		"url": "/events/2019/02/20/mother-daughter-bookclub-grades-5-7",
-		"className": "kids-family"
+		"title": "Adult Book Dicussion: American Like Me",
+		"start": "2020-02-18T19:00:00-06:00",
+		"url": "/events/2020/02/18/adult-book-dicussion-american-like-me",
+		"className": 
 	},
 
 	{
-		"title": "Polish Storytime",
-		"start": "2019-02-21T18:30:00-06:00",
-		"url": "/events/2019/02/21/polish-storytime",
-		"className": "kids-family"
+		"title": "Guys Read",
+		"start": "2020-02-18T19:00:00-06:00",
+		"url": "/events/2020/02/18/guys-read",
+		"className": 
 	},
 
 	{
-		"title": "Guys Read Bookclub",
-		"start": "2019-02-21T19:00:00-06:00",
-		"url": "/events/2019/02/21/guys-read-bookclub",
-		"className": "kids-family"
+		"title": "Book Discussion: They Called Us Enemy by George Takei",
+		"start": "2020-02-19T14:00:00-06:00",
+		"url": "/events/2020/02/19/book-discussion-they-called-us-enemy-by-george-takei",
+		"className": 
 	},
 
 	{
-		"title": "Art: Step-by-Step",
-		"start": "2019-02-22T16:30:00-06:00",
-		"url": "/events/2019/02/22/art-step-by-step",
-		"className": "kids-family"
+		"title": "Big Kid Storytime with The Undefeated",
+		"start": "2020-02-19T16:00:00-06:00",
+		"url": "/events/2020/02/19/big-kid-storytime-with-the-undefeated",
+		"className": 
 	},
 
 	{
-		"title": "Dzika Fitness Workout",
-		"start": "2019-02-22T17:30:00-06:00",
-		"url": "/events/2019/02/22/dzika-fitness-workout",
-		"className": "workshop"
+		"title": "Between the Lines Book Discussion: American Like Me",
+		"start": "2020-02-20T10:00:00-06:00",
+		"url": "/events/2020/02/20/between-the-lines-book-discussion-american-like-me",
+		"className": 
 	},
 
 	{
-		"title": "Polish Folk Tales and Paper Cutting",
-		"start": "2019-02-22T18:30:00-06:00",
-		"url": "/events/2019/02/22/polish-folk-tales-and-paper-cutting",
-		"className": "kids-family"
+		"title": "The World of Paper Art",
+		"start": "2020-02-22T10:00:00-06:00",
+		"url": "/events/2020/02/22/the-world-of-paper-art",
+		"className": 
 	},
 
 	{
-		"title": "Craftin' Around",
-		"start": "2019-02-26T19:00:00-06:00",
-		"url": "/events/2019/02/26/craftin-around",
-		"className": "kids-family"
+		"title": "Bulgarian Dance Ensemble HORO",
+		"start": "2020-02-23T14:00:00-06:00",
+		"url": "/events/2020/02/23/bulgarian-dance-ensemble-horo",
+		"className": 
 	},
 
 	{
-		"title": "YA Book Club: Anna and the Swallow Man",
-		"start": "2019-02-27T19:00:00-06:00",
-		"url": "/events/2019/02/27/ya-book-club-anna-and-the-swallow-man",
-		"className": "books-authors"
+		"title": "Family Heirlooms Photography Project",
+		"start": "2020-02-23T14:00:00-06:00",
+		"url": "/events/2020/02/23/family-heirlooms-photography-project",
+		"className": 
 	},
 
 	{
-		"title": "Freedom of Press in Poland",
-		"start": "2019-02-28T19:00:00-06:00",
-		"url": "/events/2019/02/28/freedom-of-press-in-poland",
-		"className": "lecture"
+		"title": "When We Arrived",
+		"start": "2020-02-23T14:00:00-06:00",
+		"url": "/events/2020/02/23/when-we-arrived",
+		"className": 
 	},
 
 	{
-		"title": "Kopytka & Kimchi: Connecting & Celebrating the Diaspora ",
-		"start": "2019-02-28T19:00:00-06:00",
-		"url": "/events/2019/02/28/kopytka-kimchi-connecting-celebrating-the-diaspora",
-		"className": "workshop"
+		"title": "Between the Lines Book Discussion: American Like Me",
+		"start": "2020-02-25T19:00:00-06:00",
+		"url": "/events/2020/02/25/between-the-lines-book-discussion-american-like-me",
+		"className": 
 	},
 
 	{
-		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
-		"start": "2019-03-01T13:00:00-06:00",
-		"url": "/events/2019/03/01/book-discussion-the-best-polish-restaurant-in-buffalo",
-		"className": "books-authors"
+		"title": "Journeys to Niles Township Poetry Jam",
+		"start": "2020-02-26T19:00:00-06:00",
+		"url": "/events/2020/02/26/journeys-to-niles-township-poetry-jam",
+		"className": 
 	},
 
 	{
-		"title": "Think Art Photography ",
-		"start": "2019-03-02T10:00:00-06:00",
-		"url": "/events/2019/03/02/think-art-photography",
-		"className": "workshop"
+		"title": "Lap Into Games from Different Cultures",
+		"start": "2020-02-29T10:00:00-06:00",
+		"url": "/events/2020/02/29/lap-into-games-from-different-cultures",
+		"className": 
 	},
 
 	{
-		"title": "Warsztaty Teatralne Little Stars Theater Workshop: 'The Legend of Vavel's Dragon' ",
-		"start": "2019-03-02T15:00:00-06:00",
-		"url": "/events/2019/03/02/warsztaty-teatralne-little-stars-theater-workshop-the-legend-of-vavels-dragon",
-		"className": "performance"
+		"title": "Book Discussion American Like Me",
+		"start": "2020-03-03T19:00:00-06:00",
+		"url": "/events/2020/03/03/book-discussion-american-like-me",
+		"className": 
 	},
 
 	{
-		"title": "Polish Presence In American Screen Images",
-		"start": "2019-03-03T14:00:00-06:00",
-		"url": "/events/2019/03/03/polish-presence-in-american-screen-images",
-		"className": "lecture"
+		"title": "Share Your Story Neighbor Panel",
+		"start": "2020-03-04T19:00:00-06:00",
+		"url": "/events/2020/03/04/share-your-story-neighbor-panel",
+		"className": 
 	},
 
 	{
-		"title": "Movie Monday - Ida",
-		"start": "2019-03-04T19:00:00-06:00",
-		"url": "/events/2019/03/04/movie-monday-ida",
-		"className": "film"
+		"title": "Journeys to D219",
+		"start": "2020-03-07T13:00:00-06:00",
+		"url": "/events/2020/03/07/journeys-to-d219",
+		"className": 
 	},
 
 	{
-		"title": "Polish Chicago: Immigrant Group to Middle Class",
-		"start": "2019-03-04T19:00:00-06:00",
-		"url": "/events/2019/03/04/polish-chicago-immigrant-group-to-middle-class",
-		"className": "lecture"
+		"title": "80 Minutes Around the World",
+		"start": "2020-03-08T15:00:00-05:00",
+		"url": "/events/2020/03/08/80-minutes-around-the-world",
+		"className": 
 	},
 
 	{
-		"title": "From Independence to Independence",
-		"start": "2019-03-05T18:30:00-06:00",
-		"url": "/events/2019/03/05/from-independence-to-independence",
-		"className": "lecture"
+		"title": "Human Library",
+		"start": "2020-03-09T11:00:00-05:00",
+		"url": "/events/2020/03/09/human-library2",
+		"className": 
 	},
 
 	{
-		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
-		"start": "2019-03-07T11:00:00-06:00",
-		"url": "/events/2019/03/07/book-discussion-the-best-polish-restaurant-in-buffalo",
-		"className": "books-authors"
+		"title": "Human Library",
+		"start": "2020-03-09T14:00:00-05:00",
+		"url": "/events/2020/03/09/human-library",
+		"className": 
 	},
 
 	{
-		"title": "1-2-3 Painting: Poppies!",
-		"start": "2019-03-07T16:30:00-06:00",
-		"url": "/events/2019/03/07/1-2-3-painting-poppies",
-		"className": "kids-family"
+		"title": "Human Library",
+		"start": "2020-03-10T11:00:00-05:00",
+		"url": "/events/2020/03/10/human-library3",
+		"className": 
 	},
 
 	{
-		"title": "Behind-the-Scenes of a Lifestyle Blogger",
-		"start": "2019-03-07T19:00:00-06:00",
-		"url": "/events/2019/03/07/behind-the-scenes-of-a-lifestyle-blogger",
-		"className": "lecture"
+		"title": "Human Library",
+		"start": "2020-03-10T14:00:00-05:00",
+		"url": "/events/2020/03/10/human-library-2",
+		"className": 
 	},
 
 	{
-		"title": "Gwiazdy Paper Craft",
-		"start": "2019-03-08T15:30:00-06:00",
-		"url": "/events/2019/03/08/gwiazdy-paper-craft",
-		"className": "kids-family"
+		"title": "Evening Family Stortime with Dreamers",
+		"start": "2020-03-10T20:00:00-05:00",
+		"url": "/events/2020/03/10/evening-family-stortime-with-dreamers",
+		"className": 
 	},
 
 	{
-		"title": "Let's Make Kolaczki!",
-		"start": "2019-03-08T17:00:00-06:00",
-		"url": "/events/2019/03/08/lets-make-kolaczki",
-		"className": "workshop"
+		"title": "Human Library",
+		"start": "2020-03-11T11:00:00-05:00",
+		"url": "/events/2020/03/11/human-library2",
+		"className": 
 	},
 
 	{
-		"title": "The Zookeeper’s Wife",
-		"start": "2019-03-09T14:00:00-06:00",
-		"url": "/events/2019/03/09/the-zookeepers-wife",
-		"className": "film"
+		"title": "Human Library",
+		"start": "2020-03-11T14:00:00-05:00",
+		"url": "/events/2020/03/11/human-library1",
+		"className": 
 	},
 
 	{
-		"title": "The Polish Immigrant Experience",
-		"start": "2019-03-11T17:00:00-05:00",
-		"url": "/events/2019/03/11/the-polish-immigrant-experience",
-		"className": "lecture"
+		"title": "Human Library",
+		"start": "2020-03-12T11:00:00-05:00",
+		"url": "/events/2020/03/12/human-library2",
+		"className": 
 	},
 
 	{
-		"title": "World Exploration: Poland",
-		"start": "2019-03-11T20:00:00-05:00",
-		"url": "/events/2019/03/11/world-exploration-poland",
-		"className": "kids-family"
+		"title": "Human Library",
+		"start": "2020-03-12T14:00:00-05:00",
+		"url": "/events/2020/03/12/human-libary",
+		"className": 
 	},
 
 	{
-		"title": "Festival of Polish Culture",
-		"start": "2019-03-14T13:00:00-05:00",
-		"url": "/events/2019/03/14/festival-of-polish-culture",
-		"className": "performance"
+		"title": "Oakton Fesival of Cultures",
+		"start": "2020-03-12T19:30:00-05:00",
+		"url": "/events/2020/03/12/oakton-fesival-of-cultures",
+		"className": 
 	},
 
 	{
-		"title": "World Language Storytime in Polish",
-		"start": "2019-03-14T19:30:00-05:00",
-		"url": "/events/2019/03/14/world-language-storytime-in-polish",
-		"className": "kids-family"
+		"title": "Coming Together Teen Storytime",
+		"start": "2020-03-13T17:00:00-05:00",
+		"url": "/events/2020/03/13/coming-together-teen-storytime",
+		"className": 
 	},
 
 	{
-		"title": "Hearty and Healthy Polish Cooking for Teens and Adults",
-		"start": "2019-03-14T20:00:00-05:00",
-		"url": "/events/2019/03/14/hearty-and-healthy-polish-cooking-for-teens-and-adults",
-		"className": "workshop"
+		"title": "Chat and Chomp Book Discussion with Front Desk",
+		"start": "2020-03-24T13:00:00-05:00",
+		"url": "/events/2020/03/24/chat-and-chomp-book-discussion-with-front-desk",
+		"className": 
 	},
 
 	{
-		"title": "Book Discussion: Anna and the Swallow Man",
-		"start": "2019-03-15T18:30:00-05:00",
-		"url": "/events/2019/03/15/book-discussion-anna-and-the-swallow-man",
-		"className": "books-authors"
-	},
-
-	{
-		"title": "Coming Together - Paint Your Story",
-		"start": "2019-03-16T12:00:00-05:00",
-		"url": "/events/2019/03/16/coming-together-paint-your-story",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "Polish Wedding",
-		"start": "2019-03-16T14:00:00-05:00",
-		"url": "/events/2019/03/16/polish-wedding",
-		"className": "film"
-	},
-
-	{
-		"title": "The Fourth Partition",
-		"start": "2019-03-17T14:30:00-05:00",
-		"url": "/events/2019/03/17/the-fourth-partition",
-		"className": "film"
-	},
-
-	{
-		"title": "The Best Polish Restaurant in Buffalo with author William Kowalski",
-		"start": "2019-03-18T12:30:00-05:00",
-		"url": "/events/2019/03/18/the-best-polish-restaurant-in-buffalo-with-author-william-kowalski",
-		"className": "books-authors"
-	},
-
-	{
-		"title": "An Evening with William Kowalski: Coming Together Featured Author",
-		"start": "2019-03-18T20:00:00-05:00",
-		"url": "/events/2019/03/18/an-evening-with-william-kowalski-coming-together-featured-author",
-		"className": "books-authors"
-	},
-
-	{
-		"title": "William Kowalski, Coming Together Featured Author",
-		"start": "2019-03-19T14:45:00-05:00",
-		"url": "/events/2019/03/19/william-kowalski-coming-together-featured-author",
-		"className": "books-authors"
-	},
-
-	{
-		"title": "Book Discussion: The Best Polish Restaurant in Buffalo",
-		"start": "2019-03-21T20:00:00-05:00",
-		"url": "/events/2019/03/21/book-discussion-the-best-polish-restaurant-in-buffalo",
-		"className": "books-authors"
-	},
-
-	{
-		"title": "Chat and Chomp The Weight of Water",
-		"start": "2019-03-25T12:45:00-05:00",
-		"url": "/events/2019/03/25/chat-and-chomp-the-weight-of-water",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "Film: Ida",
-		"start": "2019-03-25T19:00:00-05:00",
-		"url": "/events/2019/03/25/film-ida",
-		"className": "film"
-	},
-
-	{
-		"title": "Art Activities Open House at Artorium",
-		"start": "2019-03-26T11:00:00-05:00",
-		"url": "/events/2019/03/26/art-activities-open-house-at-artorium",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "Storytime with the Author",
-		"start": "2019-03-28T15:00:00-05:00",
-		"url": "/events/2019/03/28/storytime-with-the-author",
-		"className": "books-authors"
-	},
-
-	{
-		"title": "Film: Ida",
-		"start": "2019-03-28T20:00:00-05:00",
-		"url": "/events/2019/03/28/film-ida",
-		"className": "film"
-	},
-
-	{
-		"title": "Polish Youth Showcase",
-		"start": "2019-03-30T10:30:00-05:00",
-		"url": "/events/2019/03/30/polish-youth-showcase",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "Book Craft",
-		"start": "2019-03-31T15:00:00-05:00",
-		"url": "/events/2019/03/31/book-craft",
-		"className": "kids-family"
-	},
-
-	{
-		"title": "Pisanka Galore",
-		"start": "2019-03-31T15:00:00-05:00",
-		"url": "/events/2019/03/31/pisanka-galore",
-		"className": "workshop"
-	},
-
-	{
-		"title": "Celebrating 10 Years of Coming Together: Panel Discussion, Collaborative Pop-up Museum, Collaborative Art Workshop",
-		"start": "2019-04-03T19:30:00-05:00",
-		"url": "/events/2019/04/03/celebrating-10-years-of-coming-together-panel-discussion-collabortive-pop-up-museum-collaborative-art-workshop",
-		"className": "lecture"
-	},
-
-	{
-		"title": "Polish Cusine",
-		"start": "2019-04-06T14:00:00-05:00",
-		"url": "/events/2019/04/06/polish-cusine",
-		"className": "workshop"
-	},
-
-	{
-		"title": "Polish Legends and the Art of Cut-Outs",
-		"start": "2019-04-07T15:00:00-05:00",
-		"url": "/events/2019/04/07/polish-legends-and-the-art-of-cut-outs",
-		"className": "books-authors"
+		"title": "International Night Celebration",
+		"start": "2020-04-18T19:00:00-05:00",
+		"url": "/events/2020/04/18/international-night-celebration",
+		"className": 
 	}
 
 ]
