@@ -4483,7 +4483,7 @@ h1.home-title {
   padding-top: 0;
   font-size: 3rem;
   line-height: 1;
-  text-shadow: 2px 2px 5px #000000;
+  text-shadow: 5px 5px 5px #000000;
   animation: focus 1s ease-out;
   letter-spacing: 2px; }
   @media only screen and (min-width: 1024px) {
@@ -4695,7 +4695,11 @@ p.home-title {
     color: #fff; }
 
 #download_link {
-  color: #00a7e6; }
+  color: #00a7e6;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  text-shadow: 5px 5px 5px #000000;
+  text-align: center; }
 
 /*about page styles*/
 .past-programs-list a {
@@ -4783,6 +4787,13 @@ p.home-title {
   max-width: 8.125rem;
   float: right;
   margin: 0 0 2rem 2rem; }
+
+.resources-section {
+  background: #00a7e6; }
+  .resources-section h2 {
+    color: #fff; }
+  .resources-section a, .resources-section a:visited, .resources-section a:active, .resources-section a:hover {
+    color: #fff; }
 
 /*events styles*/
 .events-list h2 {
