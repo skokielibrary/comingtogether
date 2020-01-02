@@ -4553,9 +4553,13 @@ p.home-title {
   text-decoration: none;
   color: #fff; }
 
+.social_link a:hover {
+  text-decoration: underline !important; }
+
 .social-cta p {
   margin: 0;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  color: #fff; }
 
 .social-cta em {
   display: block;
@@ -4696,7 +4700,6 @@ p.home-title {
 
 #download_link {
   color: #00a7e6;
-  background: rgba(0, 0, 0, 0.5);
   padding: 1em;
   text-shadow: 5px 5px 5px #000000;
   text-align: center; }
